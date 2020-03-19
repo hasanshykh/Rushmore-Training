@@ -1,0 +1,62 @@
+@import '../00-settings/colors';
+
+$msv-rating-count-border: 1px solid $msv-black;
+
+.msc-rating {
+
+    &__range {
+        @include vfi();
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        overflow: visible;
+        color: transparent;
+        background: transparent;
+        border: 0 none;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    &__star {
+        @include add-icon($msv-FavoriteStarFill);
+        color: $msv-gray-160;
+    }
+
+    &__half-star {
+        @include add-icon($msv-FavoriteStarFill);
+        @include add-icon($msv-half-star, after);
+        color: $msv-gray-60;
+        position: relative;
+
+        &:after {
+            color: $msv-gray-160;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+        }
+    }
+
+    &__empty-star {
+        @include add-icon($msv-FavoriteStarFill);
+        color: $msv-gray-60;
+    }
+
+    &__star,
+    &__half-star,
+    &__empty-star {
+        margin-right: 8px;
+    }
+
+    &__count {
+        display: inline;
+        
+        &:hover {
+            border-bottom: $msv-rating-count-border;
+        }
+    }
+    &__group {
+        display: inline-block;       
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/contoso/home",
+        "modules": {
+            "primary": [{
+                "modules": {
+                    "content": [{
+                            "id": "partnerHero__0",
+                            "typeName": "partner-hero"
+                        }
+                    ]
+                },
+                "id": "primaryRegion__0",
+                "typeName": "default-container"
+            }]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "default-container"
+        },
+        "partnerHero__0": {
+            "data": {            
+                "image": {
+                    "$type": "image",
+                    "altText": "Hero_electronics",
+                    "title": "Hero_electronics",
+                    "description": "",
+                    "imageStyle": "photo",
+                    "orientation": "horizontal",
+                    "isLocalizable": false,
+                    "copyright": "",
+                    "fileName": "Hero_electronics",
+                    "href": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d8",
+                    "quality": 80,
+                    "fileSize": 373528,
+                    "width": 5009,
+                    "height": 2355,
+                    "binaryHash": "DZQZeY5fIjYapQlAvk+8Dg=="
+                },
+                "heading": {"text": "Our hottest deals" },
+                "paragraph": {"text": "<p>Save on top-rated devices.</p>\n" },
+                "actionLinks": [{
+                    "$type": "actionLink",
+                    "title": "Shop Now",
+                    "openInNewTab": false,
+                    "queryStringBehavior": "Default",
+                    "typeOfLinkAction": "CallToAction",
+                    "link": {
+                        "destinationUrl": {
+                            "href": "/en-us/contoso/department?categoryId=22565423010"
+                        },
+                        "type": "externalUrl"
+                    }
+                }]            
+            },
+            "id": "partnerHero__0",
+            "config": {
+                "size": "Medium",
+                "isprimary": true
+            },
+            "typeName": "partner-hero"
+        }
+    },
+    "renderingContext": {
+        "requestUrl": "rushmore.microsoft.com/contoso/home",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": null,
+            "isAuthenticated": false,
+            "signInUrl": "https://rushmore.dev.microsoft.com:443/contoso/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://rushmore.dev.microsoft.com:443/contoso/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+            "ratingsReviewsEndpoint": ""
+        },
+        "locale": "en-us",
+        "site": "contoso"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

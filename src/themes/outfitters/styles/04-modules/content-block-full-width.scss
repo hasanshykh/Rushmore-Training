@@ -1,0 +1,141 @@
+$content-block-min-height: 150px;
+$hero-body-color: $msv-black;
+$hero-body-font-size: 16px;
+$hero-body-line-height: 21px;
+$hero-body-font-weight: normal;
+$hero-body-max-length: 30em;
+$hero-body-top-margin: 8px;
+$hero-content-text-margin-top: 16px;
+$hero-content-button-margin-top: 32px;
+$hero-heading-color: $black;
+$hero-heading-font-size: 32px;
+$hero-heading-line-height: 43px;
+$hero-heading-font-weight: normal;
+$hero-heading-max-length: 30em;
+$hero-link-to-link-spacing: 16px;
+$hero-links-top-margin: 32px;
+$hero-module-reflow-breakpoint: $msv-breakpoint-l;
+
+@mixin overlay-text-on-image {
+  .ms-content-block__details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+  }
+}
+.ms-content-block
+{
+  min-height: $content-block-min-height;
+
+  &[data-m-layout='full-width'] {
+  position: relative;
+
+  .ms-content-block__image,
+  .ms-content-block__image img
+   {
+    width: 100%;
+  }
+
+  .ms-content-block__details,
+  &.textplacement__left .ms-content-block__details {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  &.textplacement__center .ms-content-block__details {
+    align-items: center;
+    text-align: center;
+  }
+
+  &.textplacement__right .ms-content-block__details {
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  .ms-content-block__title {
+    color: $hero-heading-color;
+    font-weight: $hero-heading-font-weight;
+    font-size: $hero-heading-font-size;
+    max-width: $hero-heading-max-length;
+    line-height: $hero-heading-line-height;
+  }
+
+  .ms-content-block__text {
+    color: $hero-body-color;
+    font-weight: $hero-body-font-weight;
+    font-size: $hero-body-font-size;
+    max-width: $hero-body-max-length;
+    line-height: $hero-body-line-height;
+  }
+
+  &.texttheme__light .ms-content-block__title, &.texttheme__light .ms-content-block__text {
+    color: $msv-gray-60;
+  }
+
+  &.texttheme__dark .ms-content-block__title, &.texttheme__dark .ms-content-block__text  {
+    color: $msv-black;
+  }
+
+  /* body should have top margin only when there's something above it */
+  * + .ms-content-block__text {
+    margin-top: $hero-content-text-margin-top;
+  }
+
+  .ms-content-block__cta {
+    background: $msv-primary;
+    border-radius: 2px;
+    min-width: 164px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: $hero-link-to-link-spacing;
+    padding-left: $hero-link-to-link-spacing;
+  }
+
+  /* links should have top margin only when there's something above it */
+  * + .ms-content-block__cta {
+    margin-top: $hero-content-button-margin-top;
+  }
+
+  .ms-content-block__details {
+    @include msv-layout-page-side-padding;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+
+    .msc-cta__primary {
+      margin: $hero-link-to-link-spacing / 2;
+      color: $msv-white;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .msc-cta__secondary {
+      margin: $hero-link-to-link-spacing / 2;
+    }
+  }
+
+  /**
+   * Text over image by default only in modern browsers.
+   * We must reflow the text to bottom in IE 11 because it doesn't support srcset and the image will be too short to put text over it.
+   */
+  @supports (object-fit: cover) {
+    .ms-content-block__image {
+      object-fit: cover;
+    }
+
+    @include overlay-text-on-image;
+  }
+
+  /**
+   * When the image is tall enough for IE 11 to display text on top of it. 
+   */
+  @media screen and (min-width: $msv-breakpoint-l) {
+    @include overlay-text-on-image;
+  }
+}
+}

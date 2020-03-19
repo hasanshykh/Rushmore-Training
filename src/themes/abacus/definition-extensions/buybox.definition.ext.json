@@ -1,0 +1,12 @@
+{
+    "$type": "definitionExtension",
+    "slots": {
+        "content": {
+            "friendlyName": "content slot",
+            "description": "This is the content slot",
+            "max": 100,
+            "min": 0,
+            "allowedTypes": "*"
+        }
+    }
+}

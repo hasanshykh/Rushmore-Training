@@ -1,0 +1,1385 @@
+{
+  "exception": null,
+  "pageRoot": {
+    "typeName": "core-root",
+    "id": "core-root_ngeo45x",
+    "friendlyName": "Core root 1",
+    "config": {},
+    "modules": {
+      "body": [{
+        "typeName": "default-page",
+        "id": "default-page",
+        "friendlyName": "Default Page",
+        "config": {
+          "skipToMainText": "Skip to main content",
+          "pageTheme": "venedor"
+        },
+        "modules": {
+          "header": [{
+            "typeName": "default-container",
+            "id": "IDNSAapm_u19oafu",
+            "friendlyName": "Default container",
+            "config": {
+              "containerType": "fluid",
+              "layout": "stacked",
+              "heading": {},
+              "childrenWidth": "four"
+            },
+            "modules": {
+              "content": [{
+                "typeName": "cookie-compliance",
+                "id": "IDNSAapm_u19oafu-cookie-compliance",
+                "friendlyName": "Cookie compliance",
+                "config": {
+                  "content": "<p>This site uses cookies for analytics and personalized content. Accept to continue.&nbsp;</p>\n",
+                  "actionLinks": [{
+                    "linkText": "Learn more",
+                    "linkUrl": {
+                      "destinationUrl": "https://go.microsoft.com/fwlink/?linkid=845480",
+                      "type": "externalLink"
+                    },
+                    "ariaLabel": "Learn more about cookie compliance"
+                  }],
+                  "renderWithContainer": true
+                }
+              }, {
+                "typeName": "promo-banner",
+                "id": "IDNSAapm_u19oafu-promo-banner",
+                "friendlyName": "Promo banner",
+                "config": {
+                  "bannerMessages": [{
+                    "text": "Shop for Thanksgiving SALE!!"
+                  }],
+                  "autoplay": true,
+                  "interval": 1000.0,
+                  "dismissEnabled": true,
+                  "hideFlipper": true
+                }
+              }, {
+                "typeName": "header",
+                "id": "IDNSAapm_u19oafu-header",
+                "friendlyName": "Header",
+                "config": {
+                  "logoImage": {
+                    "$type": "image",
+                    "_id": "SAapd",
+                    "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAapj",
+                    "altText": "No Data Available",
+                    "copyright": "",
+                    "quality": 100,
+                    "width": 160,
+                    "height": 48,
+                    "binaryHash": "zsDVVIqCDbkGaw7eITavoA==",
+                    "title": "",
+                    "imageSettings": {
+                      "quality": 80
+                    }
+                  },
+                  "logoLink": {
+                    "linkText": "Fabrikam",
+                    "linkUrl": {
+                      "destinationUrl": "/visionet-demo/home",
+                      "type": "internalLink"
+                    },
+                    "ariaLabel": "Fabrikam"
+                  },
+                  "myAccountLinks": [{
+                    "linkText": "My account",
+                    "linkUrl": {},
+                    "ariaLabel": "My account"
+                  }, {
+                    "linkText": "Order history",
+                    "linkUrl": {},
+                    "ariaLabel": "Order history"
+                  }]
+                },
+                "data": {},
+                "modules": {
+                  "menuBar": [{
+                    "typeName": "navigation-menu",
+                    "id": "IDNSAapm_u19oafu-navigation-menu",
+                    "friendlyName": "Navigation menu",
+                    "config": {
+                      "navigationMenuSource": "all",
+                      "cmsNavItems": [{
+                        "linkText": "Explore Fabrikam",
+                        "linkUrl": {},
+                        "imageLink": {},
+                        "ariaLabel": "Explore Fabrikam",
+                        "subMenus": [{
+                          "linkText": "Contact Us",
+                          "linkUrl": {},
+                          "ariaLabel": "Contact Us",
+                          "imageLink": {}
+                        }]
+                      }]
+                    }
+                  }],
+                  "search": [{
+                    "typeName": "search",
+                    "id": "IDNSAapm_u19oafu-search",
+                    "friendlyName": "Search",
+                    "config": {
+                      "topResultsCount": 5.0,
+                      "imageSettings": {}
+                    }
+                  }]
+                }
+              }]
+            }
+          }],
+          "footer": [{
+            "typeName": "default-container",
+            "id": "IDNSAapo_jnf7duh",
+            "friendlyName": "Default container",
+            "config": {
+              "containerType": "container",
+              "layout": "stacked",
+              "heading": {},
+              "childrenWidth": "four",
+              "className": "ms-footer"
+            },
+            "modules": {
+              "content": [{
+                "typeName": "footer-category",
+                "id": "IDNSAapo_jnf7duh-footer-category",
+                "friendlyName": "Footer category",
+                "config": {
+                  "categoryClassName": "nav-item"
+                },
+                "modules": {
+                  "content": [{
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item",
+                    "friendlyName": "Footer item",
+                    "config": {
+                      "heading": {
+                        "text": "Customer Service",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Link text ",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__0",
+                    "friendlyName": "Footer item 1",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Contact",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__1",
+                    "friendlyName": "Footer item 2",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "FAQ",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__3",
+                    "friendlyName": "Footer item 4",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Delivery & Returns",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__2",
+                    "friendlyName": "Footer item 3",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Privacy Policy",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__4",
+                    "friendlyName": "Footer item 5",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Terms and conditions",
+                        "linkUrl": {}
+                      }
+                    }
+                  }]
+                }
+              }, {
+                "typeName": "footer-category",
+                "id": "IDNSAapo_jnf7duh-footer-category__0",
+                "friendlyName": "Footer category 1",
+                "config": {
+                  "categoryClassName": "nav-item"
+                },
+                "modules": {
+                  "content": [{
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__5",
+                    "friendlyName": "Footer item 6",
+                    "config": {
+                      "heading": {
+                        "text": "Our Stores",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Link text ",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__6",
+                    "friendlyName": "Footer item 7",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Stores & Services",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__7",
+                    "friendlyName": "Footer item 8",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Stores & Hours",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__8",
+                    "friendlyName": "Footer item 9",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Store Events",
+                        "linkUrl": {}
+                      }
+                    }
+                  }]
+                }
+              }, {
+                "typeName": "footer-category",
+                "id": "IDNSAapo_jnf7duh-footer-category__1",
+                "friendlyName": "Footer category 2",
+                "config": {
+                  "categoryClassName": "nav-item"
+                },
+                "modules": {
+                  "content": [{
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__9",
+                    "friendlyName": "Footer item 10",
+                    "config": {
+                      "heading": {
+                        "text": "Store & Support",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Link text ",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__10",
+                    "friendlyName": "Footer item 11",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Your accounts",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__11",
+                    "friendlyName": "Footer item 12",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Your orders",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__12",
+                    "friendlyName": "Footer item 13",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Shipping rates",
+                        "linkUrl": {}
+                      }
+                    }
+                  }]
+                }
+              }, {
+                "typeName": "footer-category",
+                "id": "IDNSAapo_jnf7duh-footer-category__2",
+                "friendlyName": "Footer category 3",
+                "config": {
+                  "categoryClassName": "nav-item social-items"
+                },
+                "modules": {
+                  "content": [{
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__13",
+                    "friendlyName": "Footer item 14",
+                    "config": {
+                      "heading": {
+                        "text": "Follow us",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "Link text ",
+                        "linkUrl": {}
+                      }
+                    }
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__14",
+                    "friendlyName": "Footer item 15",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "",
+                        "linkUrl": {
+                          "destinationUrl": "www.facebook.com",
+                          "type": "externalLink"
+                        },
+                        "ariaLabel": "www.facebook.com"
+                      },
+                      "image": {
+                        "$type": "image",
+                        "_id": "SAfBL",
+                        "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAfBO",
+                        "altText": "No Data Available",
+                        "copyright": "",
+                        "quality": 99,
+                        "width": 48,
+                        "height": 48,
+                        "binaryHash": "eSssNLV3QebTU/R0wA1ZQA==",
+                        "title": "",
+                        "imageSettings": {
+                          "quality": 80
+                        }
+                      }
+                    },
+                    "data": {}
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__15",
+                    "friendlyName": "Footer item 16",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "",
+                        "linkUrl": {
+                          "destinationUrl": "www.twitter.com",
+                          "type": "externalLink"
+                        },
+                        "ariaLabel": "twitter"
+                      },
+                      "image": {
+                        "$type": "image",
+                        "_id": "SAaps",
+                        "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAapt",
+                        "altText": "No Data Available",
+                        "copyright": "",
+                        "quality": 99,
+                        "width": 48,
+                        "height": 48,
+                        "binaryHash": "x/thwGAjcoA078mylVnrig==",
+                        "title": "",
+                        "imageSettings": {
+                          "quality": 80
+                        }
+                      }
+                    },
+                    "data": {}
+                  }, {
+                    "typeName": "footer-item",
+                    "id": "IDNSAapo_jnf7duh-footer-item__16",
+                    "friendlyName": "Footer item 17",
+                    "config": {
+                      "heading": {
+                        "text": "",
+                        "tag": "h2"
+                      },
+                      "link": {
+                        "linkText": "",
+                        "linkUrl": {
+                          "destinationUrl": "www.instagram.com",
+                          "type": "externalLink"
+                        },
+                        "ariaLabel": "instragram"
+                      },
+                      "image": {
+                        "$type": "image",
+                        "_id": "SAd0G",
+                        "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAd0H",
+                        "altText": "No Data Available",
+                        "copyright": "",
+                        "quality": 99,
+                        "width": 48,
+                        "height": 48,
+                        "binaryHash": "GyWvoIQDWXVgg2Z+eTu9kQ==",
+                        "title": "",
+                        "imageSettings": {
+                          "quality": 80
+                        }
+                      }
+                    },
+                    "data": {}
+                  }]
+                }
+              }, {
+                "typeName": "footer-category",
+                "id": "IDNSAapo_jnf7duh-footer-category__3",
+                "friendlyName": "Footer category 4",
+                "config": {},
+                "modules": {
+                  "content": [{
+                    "typeName": "back-top-footer",
+                    "id": "IDNSAapo_jnf7duh-back-top-footer",
+                    "friendlyName": "Back to top",
+                    "config": {
+                      "destination": "#",
+                      "ariaLabel": "Back to top"
+                    }
+                  }]
+                }
+              }]
+            }
+          }],
+          "primary": [{
+            "typeName": "default-container",
+            "id": "default-container",
+            "friendlyName": "Container",
+            "config": {
+              "containerType": "fluid",
+              "layout": "stacked",
+              "heading": {},
+              "childrenWidth": "four"
+            },
+            "modules": {
+              "content": [{
+                "typeName": "carousel",
+                "id": "carousel",
+                "friendlyName": "Carousel",
+                "config": {
+                  "keyboard": true,
+                  "pauseOnHover": true,
+                  "autoplay": true,
+                  "interval": 10000.0,
+                  "containerType": "fluid",
+                  "transitionType": "slide"
+                },
+                "modules": {
+                  "content": [{
+                    "typeName": "content-block",
+                    "id": "content-block",
+                    "friendlyName": "Content block",
+                    "platform": {
+                      "layout": "full-width"
+                    },
+                    "config": {
+                      "msdyn365__moduleLayout": "full-width",
+                      "heading": {
+                        "text": "NEW ARRIVAL",
+                        "tag": "h1"
+                      },
+                      "paragraph": "<p>Into the summer breeze with all new designer dresses</p>\n",
+                      "image": {
+                        "$type": "image",
+                        "_id": "SA2Bx",
+                        "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SA2By",
+                        "altText": "Hero Image",
+                        "copyright": "",
+                        "binaryHash": "c+ZYz2gwOWSpZ7t+ES86gA==",
+                        "title": "Hero Image",
+                        "imageSettings": {
+                          "quality": 80,
+                          "lazyload": true,
+                          "viewports": {
+                            "xs": {
+                              "w": 800,
+                              "h": 600,
+                              "q": "w=800&h=600&q=80&m=6&o=t&x=1339&y=391&f=jpg"
+                            },
+                            "sm": {
+                              "w": 1200,
+                              "h": 900,
+                              "q": "w=1200&h=900&q=80&m=6&o=t&x=1339&y=391&f=jpg"
+                            },
+                            "md": {
+                              "w": 1600,
+                              "h": 900,
+                              "q": "w=1600&h=900&q=80&m=6&o=t&x=1339&y=391&f=jpg"
+                            },
+                            "lg": {
+                              "w": 1600,
+                              "h": 700,
+                              "q": "w=1600&h=700&q=80&m=6&o=t&x=1339&y=391&f=jpg"
+                            },
+                            "xl": {
+                              "w": 1600,
+                              "h": 700,
+                              "q": "w=1600&h=700&q=80&m=6&o=t&x=1339&y=391&f=jpg"
+                            }
+                          }
+                        }
+                      },
+                      "className": "textplacement__left texttheme__dark"
+                    },
+                    "data": {}
+                  }, {
+                    "typeName": "content-block",
+                    "id": "content-block__0",
+                    "friendlyName": "Content block 1",
+                    "platform": {
+                      "layout": "full-width"
+                    },
+                    "config": {
+                      "msdyn365__moduleLayout": "full-width",
+                      "heading": {
+                        "text": "New Arrival",
+                        "tag": "h2"
+                      },
+                      "paragraph": "<p>Tasteful accessories walking a fine line between vintage and modern</p>\n",
+                      "image": {
+                        "$type": "image",
+                        "_id": "SAapx",
+                        "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAapB",
+                        "altText": "No Data Available",
+                        "copyright": "",
+                        "binaryHash": "BvOA0MpXDqR7wRrlwHaw3A==",
+                        "title": "",
+                        "imageSettings": {
+                          "quality": 80,
+                          "lazyload": true,
+                          "viewports": {
+                            "xs": {
+                              "w": 800,
+                              "h": 600,
+                              "q": "w=800&h=600&q=80&m=6&f=jpg"
+                            },
+                            "sm": {
+                              "w": 1200,
+                              "h": 900,
+                              "q": "w=1200&h=900&q=80&m=6&f=jpg"
+                            },
+                            "md": {
+                              "w": 1600,
+                              "h": 900,
+                              "q": "w=1600&h=900&q=80&m=6&f=jpg"
+                            },
+                            "lg": {
+                              "w": 1600,
+                              "h": 700,
+                              "q": "w=1600&h=700&q=80&m=6&f=jpg"
+                            },
+                            "xl": {
+                              "w": 1600,
+                              "h": 700,
+                              "q": "w=1600&h=700&q=80&m=6&f=jpg"
+                            }
+                          }
+                        }
+                      },
+                      "className": "textplacement__center texttheme__light"
+                    },
+                    "data": {}
+                  }, {
+                    "typeName": "content-block",
+                    "id": "content-block__1",
+                    "friendlyName": "Content block 2",
+                    "platform": {
+                      "layout": "full-width"
+                    },
+                    "config": {
+                      "msdyn365__moduleLayout": "full-width",
+                      "heading": {
+                        "text": "New Arrival",
+                        "tag": "h2"
+                      },
+                      "paragraph": "<p>Ethically sourced ultra-comfortable knitwear</p>\n",
+                      "image": {
+                        "$type": "image",
+                        "_id": "SAd0v",
+                        "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAd0A",
+                        "altText": "No Data Available",
+                        "copyright": "",
+                        "binaryHash": "irfBfSrxvVI+0lCnmXicRA==",
+                        "title": "",
+                        "imageSettings": {
+                          "quality": 80,
+                          "lazyload": true,
+                          "viewports": {
+                            "xs": {
+                              "w": 800,
+                              "h": 600,
+                              "q": "w=800&h=600&q=80&m=6&o=t&x=763&y=95&f=jpg"
+                            },
+                            "sm": {
+                              "w": 1200,
+                              "h": 900,
+                              "q": "w=1200&h=900&q=80&m=6&o=t&x=763&y=95&f=jpg"
+                            },
+                            "md": {
+                              "w": 1600,
+                              "h": 900,
+                              "q": "w=1600&h=900&q=80&m=6&o=t&x=763&y=95&f=jpg"
+                            },
+                            "lg": {
+                              "w": 1600,
+                              "h": 700,
+                              "q": "w=1600&h=700&q=80&m=6&o=t&x=763&y=95&f=jpg"
+                            },
+                            "xl": {
+                              "w": 1600,
+                              "h": 700,
+                              "q": "w=1600&h=700&q=80&m=6&o=t&x=763&y=95&f=jpg"
+                            }
+                          }
+                        }
+                      },
+                      "className": "textplacement__right"
+                    },
+                    "data": {}
+                  }]
+                }
+              }, {
+                "typeName": "spacer",
+                "id": "spacer",
+                "friendlyName": "Spacer",
+                "config": {}
+              }]
+            }
+          }, {
+            "typeName": "default-container",
+            "id": "default-container__0",
+            "friendlyName": "Container 2",
+            "config": {
+              "containerType": "container",
+              "layout": "stacked",
+              "heading": {},
+              "childrenWidth": "four"
+            },
+            "modules": {
+              "content": [{
+                "typeName": "text-block",
+                "id": "text-block",
+                "friendlyName": "Text Block",
+                "config": {
+                  "paragraph": "<p>Explore our new season with soft fabrics as if it&#39;s embracing a subtle forest breeze.</p>\n",
+                  "className": "alignment__center fontsize__medium"
+                }
+              }, {
+                "typeName": "spacer",
+                "id": "spacer__0",
+                "friendlyName": "Spacer 1",
+                "config": {}
+              }, {
+                "typeName": "content-block",
+                "id": "content-block__2",
+                "friendlyName": "Content block 3",
+                "platform": {
+                  "layout": "left-right"
+                },
+                "config": {
+                  "msdyn365__moduleLayout": "left-right",
+                  "heading": {
+                    "text": "Materials",
+                    "tag": "h2"
+                  },
+                  "paragraph": "<p>From classic leather jackets to high polish dress shoes, Fabrikam leather products only use the finest calf leather from Bivigliano, Italy. To ensure quality, we import directly from the farms and inspect every shipment by hand.</p>\n",
+                  "image": {
+                    "$type": "image",
+                    "_id": "SAapv",
+                    "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAapA",
+                    "altText": "No Data Available",
+                    "copyright": "",
+                    "binaryHash": "dEbtrOdniyAgKc3sYVmndw==",
+                    "title": "",
+                    "imageSettings": {
+                      "quality": 80,
+                      "lazyload": true,
+                      "viewports": {
+                        "xs": {
+                          "w": 509,
+                          "h": 303,
+                          "q": "w=509&h=303&q=80&m=6&f=jpg"
+                        },
+                        "sm": {
+                          "w": 762,
+                          "h": 471,
+                          "q": "w=762&h=471&q=80&m=6&f=jpg"
+                        },
+                        "md": {
+                          "w": 1110,
+                          "h": 557,
+                          "q": "w=1110&h=557&q=80&m=6&f=jpg"
+                        },
+                        "lg": {
+                          "w": 935,
+                          "h": 471,
+                          "q": "w=935&h=471&q=80&m=6&f=jpg"
+                        },
+                        "xl": {
+                          "w": 935,
+                          "h": 471,
+                          "q": "w=935&h=471&q=80&m=6&f=jpg"
+                        }
+                      }
+                    }
+                  },
+                  "className": "textplacement__left imageplacement__right"
+                },
+                "data": {}
+              }, {
+                "typeName": "spacer",
+                "id": "spacer__1",
+                "friendlyName": "Spacer 2",
+                "config": {}
+              }]
+            }
+          }, {
+            "typeName": "default-container",
+            "id": "default-container__1",
+            "friendlyName": "Container 2 1",
+            "config": {
+              "containerType": "container",
+              "layout": "flow",
+              "heading": {},
+              "childrenWidth": "auto"
+            },
+            "modules": {
+              "content": [{
+                "typeName": "content-block",
+                "id": "content-block__3",
+                "friendlyName": "Content block 4",
+                "platform": {
+                  "layout": "tile"
+                },
+                "config": {
+                  "msdyn365__moduleLayout": "tile",
+                  "heading": {
+                    "text": "",
+                    "tag": "h2"
+                  },
+                  "image": {
+                    "$type": "image",
+                    "_id": "SAd0y",
+                    "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAd0D",
+                    "altText": "No Data Available",
+                    "copyright": "",
+                    "binaryHash": "rhBGsjzTlZSazflPXxVdjg==",
+                    "title": "",
+                    "imageSettings": {
+                      "quality": 80,
+                      "lazyload": true,
+                      "viewports": {
+                        "xs": {
+                          "w": 343,
+                          "h": 457,
+                          "q": "w=343&h=457&q=80&m=6&f=jpg"
+                        },
+                        "md": {
+                          "w": 427,
+                          "h": 569,
+                          "q": "w=427&h=569&q=80&m=6&f=jpg"
+                        },
+                        "xl": {
+                          "w": 427,
+                          "h": 569,
+                          "q": "w=427&h=569&q=80&m=6&f=jpg"
+                        }
+                      }
+                    }
+                  },
+                  "links": [{
+                    "linkText": "Shop Men",
+                    "linkUrl": {}
+                  }],
+                  "className": "textplacement__left"
+                },
+                "data": {}
+              }, {
+                "typeName": "content-block",
+                "id": "content-block__4",
+                "friendlyName": "Content block 5",
+                "platform": {
+                  "layout": "tile"
+                },
+                "config": {
+                  "msdyn365__moduleLayout": "tile",
+                  "heading": {
+                    "text": "",
+                    "tag": "h2"
+                  },
+                  "image": {
+                    "$type": "image",
+                    "_id": "SAfC1",
+                    "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAfC2",
+                    "altText": "Category-Womenswear",
+                    "copyright": "",
+                    "binaryHash": "P3X0lj2LbdIXGf+WfOntWw==",
+                    "title": "Category-Womenswear",
+                    "imageSettings": {
+                      "quality": 80,
+                      "lazyload": true,
+                      "viewports": {
+                        "xs": {
+                          "w": 343,
+                          "h": 457,
+                          "q": "w=343&h=457&q=80&m=6&f=jpg"
+                        },
+                        "md": {
+                          "w": 427,
+                          "h": 569,
+                          "q": "w=427&h=569&q=80&m=6&f=jpg"
+                        },
+                        "xl": {
+                          "w": 427,
+                          "h": 569,
+                          "q": "w=427&h=569&q=80&m=6&f=jpg"
+                        }
+                      }
+                    }
+                  },
+                  "links": [{
+                    "linkText": "Shop Women",
+                    "linkUrl": {}
+                  }],
+                  "className": "textplacement__left"
+                },
+                "data": {}
+              }, {
+                "typeName": "content-block",
+                "id": "content-block__5",
+                "friendlyName": "Content block 6",
+                "platform": {
+                  "layout": "tile"
+                },
+                "config": {
+                  "msdyn365__moduleLayout": "tile",
+                  "heading": {
+                    "text": "",
+                    "tag": "h2"
+                  },
+                  "image": {
+                    "$type": "image",
+                    "_id": "SAfBW",
+                    "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAfBY",
+                    "altText": "No Data Available",
+                    "copyright": "",
+                    "binaryHash": "OWJx+mPy6zdVoqyfJMYsvA==",
+                    "title": "",
+                    "imageSettings": {
+                      "quality": 80,
+                      "lazyload": true,
+                      "viewports": {
+                        "xs": {
+                          "w": 343,
+                          "h": 457,
+                          "q": "w=343&h=457&q=80&m=6&f=jpg"
+                        },
+                        "md": {
+                          "w": 427,
+                          "h": 569,
+                          "q": "w=427&h=569&q=80&m=6&f=jpg"
+                        },
+                        "xl": {
+                          "w": 427,
+                          "h": 569,
+                          "q": "w=427&h=569&q=80&m=6&f=jpg"
+                        }
+                      }
+                    }
+                  },
+                  "links": [{
+                    "linkText": "Shop Shoes",
+                    "linkUrl": {}
+                  }],
+                  "className": "textplacement__left"
+                },
+                "data": {}
+              }]
+            }
+          }, {
+            "typeName": "default-container",
+            "id": "default-container__2",
+            "friendlyName": "Container 2 2",
+            "config": {
+              "containerType": "container",
+              "layout": "stacked",
+              "heading": {},
+              "childrenWidth": "four"
+            },
+            "modules": {
+              "content": [{
+                "typeName": "spacer",
+                "id": "spacer__2",
+                "friendlyName": "Spacer 3",
+                "config": {}
+              }, {
+                "typeName": "video-player",
+                "id": "video-player",
+                "friendlyName": "Video player",
+                "config": {
+                  "video": {
+                    "$type": "video",
+                    "_id": "SAapE",
+                    "_links": {
+                      "binaryReferences": [{
+                        "$type": "videoBinaryReference",
+                        "alias": "1001",
+                        "contentType": "video/mp4",
+                        "extension": ".mp4",
+                        "sizeInBytes": 1295878,
+                        "sourceHref": "https://streaming-west-sb.cms.commerce.dynamics.com/daf609f8-4001-4c49-aabb-9135dc54661b/5c43eb9f-4802-468c-9e2e-5dcc70e4bafd.mp4",
+                        "href": "cms/api/qvngfvszcl/binary/SAapF-1001",
+                        "format": "1001",
+                        "clientHref": "https://streaming-west-sb.cms.commerce.dynamics.com/daf609f8-4001-4c49-aabb-9135dc54661b/5c43eb9f-4802-468c-9e2e-5dcc70e4bafd.mp4",
+                        "processingStatus": {
+                          "message": "Skipping Caption as requested or there is no audio tracks in source video.",
+                          "lastUpdateTime": "2019-12-20T02:31:56Z",
+                          "status": "Complete"
+                        },
+                        "_lastModifiedDateTime": "2019-12-20T02:31:56Z"
+                      }, {
+                        "$type": "videoBinaryReference",
+                        "alias": "1004",
+                        "sizeInBytes": 0,
+                        "sourceHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4.ism/manifest",
+                        "href": "cms/api/qvngfvszcl/binary/SAapF-1004unsupported",
+                        "format": "1004",
+                        "height": 360,
+                        "width": 640,
+                        "clientHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4.ism/manifest",
+                        "processingStatus": {
+                          "message": "",
+                          "lastUpdateTime": "2019-12-20T02:32:31Z",
+                          "status": "Complete"
+                        },
+                        "_lastModifiedDateTime": "2019-12-20T02:32:33Z"
+                      }, {
+                        "$type": "videoBinaryReference",
+                        "alias": "1006",
+                        "sizeInBytes": 0,
+                        "sourceHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4.ism/manifest(format=m3u8-aapl)",
+                        "href": "cms/api/qvngfvszcl/binary/SAapF-1006unsupported",
+                        "format": "1006",
+                        "height": 360,
+                        "width": 640,
+                        "clientHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4.ism/manifest(format=m3u8-aapl)",
+                        "processingStatus": {
+                          "message": "",
+                          "lastUpdateTime": "2019-12-20T02:32:31Z",
+                          "status": "Complete"
+                        },
+                        "_lastModifiedDateTime": "2019-12-20T02:32:33Z"
+                      }, {
+                        "$type": "videoBinaryReference",
+                        "alias": "1007",
+                        "sizeInBytes": 0,
+                        "sourceHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4.ism/manifest(format=mpd-time-csf)",
+                        "href": "cms/api/qvngfvszcl/binary/SAapF-1007unsupported",
+                        "format": "1007",
+                        "height": 360,
+                        "width": 640,
+                        "clientHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4.ism/manifest(format=mpd-time-csf)",
+                        "processingStatus": {
+                          "message": "",
+                          "lastUpdateTime": "2019-12-20T02:32:31Z",
+                          "status": "Complete"
+                        },
+                        "_lastModifiedDateTime": "2019-12-20T02:32:33Z"
+                      }, {
+                        "$type": "videoBinaryReference",
+                        "alias": "101",
+                        "sizeInBytes": 1256451,
+                        "sourceHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4_650.mp4",
+                        "href": "cms/api/qvngfvszcl/binary/SAapF-101unsupported",
+                        "format": "101",
+                        "height": 360,
+                        "width": 640,
+                        "clientHref": "https://streaming-west-sb.cms.commerce.dynamics.com/485e3776-1011-4c80-89be-d3b62c1141d0/5c43eb9f-4802-468c-9e2e-5dcc70e4_650.mp4",
+                        "processingStatus": {
+                          "message": "",
+                          "lastUpdateTime": "2019-12-20T02:32:33Z",
+                          "status": "Complete"
+                        },
+                        "_lastModifiedDateTime": "2019-12-20T02:32:33Z"
+                      }]
+                    },
+                    "title": "Video1",
+                    "minimumAge": 0,
+                    "tasks": {
+                      "closedCaptions": "skip"
+                    },
+                    "copyright": "",
+                    "description": "",
+                    "fileName": "b56dffb8-8bc7-4dc8-95c2-d45e06844b67.mp4",
+                    "playtime": 13,
+                    "thumbnail": {
+                      "$type": "image",
+                      "_id": "SAfBZ",
+                      "src": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAfBZ",
+                      "title": "Video1 Thumbnail",
+                      "quality": 70,
+                      "width": 640,
+                      "height": 360,
+                      "binaryHash": "U2UWK6j8Amh16dh6hU6yeA==",
+                      "focalRegion": {
+                        "x1": 269,
+                        "y1": 38,
+                        "x2": 332,
+                        "y2": 101
+                      }
+                    },
+                    "headlines": [{
+                      "image": {
+                        "$type": "imageFileData",
+                        "_id": "SAfBZ",
+                        "_lastPublishedSequence": 2,
+                        "_name": "b56dffb8-8bc7-4dc8-95c2-d45e06844b67.mp4",
+                        "_links": {
+                          "self": [{
+                            "href": "cms/api/qvngfvszcl/imageFileData/SAfBZ"
+                          }],
+                          "parent": [{
+                            "href": "cms/api/qvngfvszcl/section/SA2Bi"
+                          }],
+                          "binaryReferences": [{
+                            "$type": "BinaryReference",
+                            "contentType": "image/jpeg",
+                            "description": "Video1 Thumbnail",
+                            "sizeInBytes": 35707,
+                            "href": "cms/api/qvngfvszcl/binary/SAfBZ",
+                            "_lastModifiedDateTime": "2019-12-20T02:32:34Z"
+                          }]
+                        },
+                        "_lastPublishedDateTime": "2019-12-20T05:10:08+00:00",
+                        "_lastEditedDateTime": "2019-12-20T02:32:36+00:00",
+                        "title": "Video1 Thumbnail",
+                        "description": "Video1 Thumbnail",
+                        "href": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAfBZ?ver=4464",
+                        "quality": 70,
+                        "fileSize": 35707,
+                        "width": 640,
+                        "height": 360,
+                        "binaryHash": "U2UWK6j8Amh16dh6hU6yeA==",
+                        "focalRegion": {
+                          "x1": 269,
+                          "y1": 38,
+                          "x2": 332,
+                          "y2": 101
+                        },
+                        "_qualityProcessingStatus": {
+                          "status": "Complete",
+                          "message": ""
+                        },
+                        "_optimizationProcessingStatus": {
+                          "status": "Complete",
+                          "message": "",
+                          "wasOptimized": "False"
+                        },
+                        "_face2dProcessingStatus": {
+                          "status": "Complete",
+                          "message": ""
+                        },
+                        "_processingStatus": {
+                          "status": "Complete",
+                          "message": ""
+                        },
+                        "_createdDateTime": "2019-12-20T02:32:34Z",
+                        "_sourceMetering": {
+                          "isMetered": false
+                        }
+                      }
+                    }],
+                    "interactiveTriggersEnabled": false
+                  },
+                  "controls": true,
+                  "trigger": true,
+                  "maskLevel": 40.0,
+                  "lazyLoad": true
+                },
+                "data": {}
+              }, {
+                "typeName": "spacer",
+                "id": "spacer__3",
+                "friendlyName": "Spacer 4",
+                "config": {}
+              }]
+            }
+          }, {
+            "typeName": "default-container",
+            "id": "default-container__3",
+            "friendlyName": "Container 2 3",
+            "config": {
+              "containerType": "container",
+              "layout": "stacked",
+              "heading": {},
+              "childrenWidth": "four"
+            },
+            "modules": {
+              "content": [{
+                "typeName": "product-collection",
+                "id": "product-collection",
+                "friendlyName": "Product collection",
+                "config": {
+                  "productCollection": {
+                    "recommendationListId": "new",
+                    "pageSize": 10,
+                    "listType": "recommendation"
+                  },
+                  "heading": {
+                    "text": "New",
+                    "tag": "h2"
+                  },
+                  "layout": "carousel",
+                  "imageSettings": {
+                    "quality": 80,
+                    "lazyload": true,
+                    "viewports": {
+                      "xs": {
+                        "w": 315,
+                        "h": 315,
+                        "q": "w=315&h=315&q=80&m=6&f=jpg"
+                      },
+                      "lg": {
+                        "w": 315,
+                        "h": 315,
+                        "q": "w=315&h=315&q=80&m=6&f=jpg"
+                      },
+                      "xl": {
+                        "w": 315,
+                        "h": 315,
+                        "q": "w=315&h=315&q=80&m=6&f=jpg"
+                      }
+                    }
+                  }
+                }
+              }, {
+                "typeName": "product-collection",
+                "id": "product-collection__0",
+                "friendlyName": "Product collection 1",
+                "config": {
+                  "productCollection": {
+                    "recommendationListId": "trending",
+                    "pageSize": 10,
+                    "listType": "recommendation"
+                  },
+                  "heading": {
+                    "text": "Trending",
+                    "tag": "h2"
+                  },
+                  "layout": "carousel",
+                  "imageSettings": {
+                    "quality": 80,
+                    "lazyload": true,
+                    "viewports": {
+                      "xs": {
+                        "w": 315,
+                        "h": 315,
+                        "q": "w=315&h=315&q=80&m=6&f=jpg"
+                      },
+                      "lg": {
+                        "w": 315,
+                        "h": 315,
+                        "q": "w=315&h=315&q=80&m=6&f=jpg"
+                      },
+                      "xl": {
+                        "w": 315,
+                        "h": 315,
+                        "q": "w=315&h=315&q=80&m=6&f=jpg"
+                      }
+                    }
+                  }
+                }
+              }]
+            }
+          }]
+        }
+      }],
+      "htmlHead": [{
+        "typeName": "default-page-summary",
+        "id": "default-page-summary",
+        "friendlyName": "Default page summary",
+        "config": {}
+      }]
+    }
+  },
+  "renderingContext": {
+    "requestUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/home",
+    "sitePath": "/visionet-demo",
+    "clientContext": {
+      "deviceType": "Pc"
+    },
+    "staticContext": {
+      "staticCdnUrl": "/_scnr/",
+      "staticCdnUrlWithLocale": "/en-us/_msdyn365/_scnr/"
+    },
+    "user": {
+      "token": null,
+      "isAuthenticated": false,
+      "signInUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/signin",
+      "signOutUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/signout",
+      "signUpUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/signup",
+      "editProfileUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/editprofile",
+      "signinName": null,
+      "firstName": null,
+      "lastName": null,
+      "optOutWebActivityTracking": null,
+      "tenantId": "",
+      "customerAccountNumber": null,
+      "name": null,
+      "emailAddress": null
+    },
+    "previewContext": null,
+    "locale": "en-us",
+    "textDirection": "ltr",
+    "suggestedMarket": null,
+    "urlTokens": {},
+    "apiSettings": {
+      "baseUrl": "https://vsicommerceeval5efcca299aa7c8e7ret.cloud.retail.dynamics.com/",
+      "channelId": 68719478279,
+      "catalogId": 0,
+      "oun": "128",
+      "baseImageUrl": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/search?fileName=/",
+      "ratingsReviewsEndpoint": "https://71fee24e-b456-4375-aba5-2505ff229944.rnr.ms",
+      "rnr": {
+        "id": "71fee24e-b456-4375-aba5-2505ff229944",
+        "url": "https://71fee24e-b456-4375-aba5-2505ff229944.rnr.ms"
+      }
+    },
+    "gridSettings": {
+      "xs": {
+        "w": 767
+      },
+      "sm": {
+        "w": 991
+      },
+      "md": {
+        "w": 1199
+      },
+      "lg": {
+        "w": 1599
+      },
+      "xl": {
+        "w": 1600
+      }
+    },
+    "debugMode": 0,
+    "operationId": "031f889fb92b184ea5f7145618d7dbe3",
+    "sameSiteRequired": true,
+    "features": {
+      "scnr_blob": true,
+      "legacy_getactiveprices": true,
+      "disable_cors": true
+    },
+    "telemetrySettings": {
+      "doNotCollectBiData": false,
+      "eventHubEndPoint": "",
+      "eventHubAuthToken": "",
+      "operationId": "031f889fb92b184ea5f7145618d7dbe3"
+    }
+  },
+  "statusCode": 200,
+  "redirectUrl": null,
+  "appContext": {
+    "config": {
+      "outOfStockThreshold": 0.0,
+      "maxQuantityForCartLineItem": 10.0,
+      "enableStockCheck": false,
+      "reviewTextMaxLength": 500.0,
+      "reviewTitleMaxLength": 50.0,
+      "disableTooltip": false,
+      "disableBopis": false,
+      "searchQueryStringParameter": "q",
+      "searchInputMaxLength": 50.0
+    },
+    "routes": {},
+    "platform": {
+      "disableCookieCompliance": false,
+      "cartSessionExpiration": 0.0,
+      "imageQuality": 80.0,
+      "skipToMainText": "Skip to main content"
+    },
+    "contentSecurityPolicy": {
+      "disableContentSecurityPolicy": false,
+      "default-src": ["'self'", "https://*.commerce.dynamics.com"],
+      "base-uri": ["'self'"],
+      "child-src": ["'self'"],
+      "connect-src": ["'self'", "https://login.microsoftonline.com", "https://*.commerce.dynamics.com", "https://dc.services.visualstudio.com", "https://images-us-sb.cms.commerce.dynamics.com", "https://images-us-sb.cms.commerce.dynamics.com", "https://vsicommerceeval-eval.commerce.dynamics.com", "https://vsicommerceeval5efcca299aa7c8e7ret.cloud.retail.dynamics.com/", "https://71fee24e-b456-4375-aba5-2505ff229944.rnr.ms"],
+      "font-src": ["'self'", "https://*.commerce.dynamics.com", "https://use.fontawesome.com", "data:"],
+      "object-src": ["'self'"],
+      "script-src": ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://*.commerce.dynamics.com", "https://*.vo.msecnd.net", "https://dc.services.visualstudio.com", "https://dev.virtualearth.net", "https://vsicommerceeval-eval.commerce.dynamics.com"],
+      "img-src": ["'self'", "data:", "https://*.commerce.dynamics.com", "https://images-us-sb.cms.commerce.dynamics.com", "https://images-us-sb.cms.commerce.dynamics.com"],
+      "style-src": ["'self'", "'unsafe-inline'", "https://*.commerce.dynamics.com", "https://vsicommerceeval-eval.commerce.dynamics.com", ""],
+      "media-src": ["'self'", "https://ppe-streaming-video-mr-microsoft-com.akamaized.net", "https://*.streaming.media.azure.net", "https://*.commerce.dynamics.com", "https://images-us-sb.cms.commerce.dynamics.com", "https://images-us-sb.cms.commerce.dynamics.com"]
+    }
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "exception": null,
+  "pageRoot": {
+      "pageLayout": null,
+      "title": null,
+      "faviconUrl": null,
+      "bodyClass": "this should be body class",
+      "pageDescription": null,
+      "pageKeywords": null,
+      "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+      "modules": {
+          "footer":[  
+            {  
+              "typeName":"footer",
+              "id":"IDNMAiex_p148wc4",
+              "friendlyName":"Footer",
+              "config":{  
+    
+              },
+              "modules":{  
+                "content":[  
+                  {  
+                    "typeName":"footer-item",
+                    "id":"IDNMAiex_p148wc4-footer-item__0",
+                    "friendlyName":"Footer item 1",
+                    "config":{  
+    
+                    },
+                    "data":{  
+                      "links":[  
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"kv6r6ng5smf",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Contact"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"vg015ip3w7m",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"FAQ"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"rb6l4cglalq",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Delivery & returns"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"jra8ldp9x7y",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Click & Collect"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"sm9g1rk6ggi",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Terms & Conditions"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"vb1otx1jd6k",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Privacy Policy"
+                        }
+                      ],
+                      "heading":{  
+                        "$type":"heading",
+                        "_id":"cuofv6zupc2",
+                        "parent":[  
+                          {  
+                            "href":"cms/api/fabrikam/section/MAidw"
+                          }
+                        ],
+                        "headingTag":"h6",
+                        "text":"Customer Service"
+                      }
+                    }
+                  },
+                  {  
+                    "typeName":"footer-item",
+                    "id":"IDNMAiex_p148wc4-footer-item__1",
+                    "friendlyName":"Footer item 2",
+                    "config":{  
+    
+                    },
+                    "data":{  
+                      "heading":{  
+                        "$type":"heading",
+                        "_id":"ccmscxbin7e",
+                        "parent":[  
+                          {  
+                            "href":"cms/api/fabrikam/section/MAidw"
+                          }
+                        ],
+                        "headingTag":"h6",
+                        "text":"Fabrikam"
+                      },
+                      "links":[  
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"hyqlcsc14dc",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "text":"About us",
+                          "destinationUrl":"#"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"qdvizofns1w",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Design team"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"hg5do3ens07",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Design inspiration"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"vd43a5p4nue",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Gift cards"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"jev9f3t5s84",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Careers"
+                        }
+                      ]
+                    }
+                  },
+                  {  
+                    "typeName":"footer-item",
+                    "id":"IDNMAiex_p148wc4-footer-item__2",
+                    "friendlyName":"Footer item 3",
+                    "config":{  
+    
+                    },
+                    "data":{  
+                      "heading":{  
+                        "$type":"heading",
+                        "_id":"aje416wdww3",
+                        "parent":[  
+                          {  
+                            "href":"cms/api/fabrikam/section/MAidw"
+                          }
+                        ],
+                        "headingTag":"h6",
+                        "text":"Our Stores"
+                      },
+                      "links":[  
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"qx1fgpzpb2t",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "text":"Store & Services",
+                          "destinationUrl":"#"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"emgwaydn4k4",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Store & Hours"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"zlku82erm5e",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Store events"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"lo86c4pfiru",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "ariaLabel":"#",
+                          "text":"Catalogs"
+                        }
+                      ]
+                    }
+                  },
+                  {  
+                    "typeName":"footer-item",
+                    "id":"IDNMAiex_p148wc4-footer-item__3",
+                    "friendlyName":"Footer item 4",
+                    "config":{  
+    
+                    },
+                    "data":{  
+                      "heading":{  
+                        "$type":"heading",
+                        "_id":"vjn1yhi6mnt",
+                        "parent":[  
+                          {  
+                            "href":"cms/api/fabrikam/section/MAidw"
+                          }
+                        ],
+                        "headingTag":"h6",
+                        "text":"Store & Support"
+                      },
+                      "links":[  
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"pcosq6uecqg",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "text":"Your account",
+                          "destinationUrl":"#"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"uz827x7aydd",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Your orders"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"qlmxi265ay9",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Shipping rates"
+                        },
+                        {  
+                          "$type":"simpleLink",
+                          "_id":"fbm5y4cf92b",
+                          "parent":[  
+                            {  
+                              "href":"cms/api/fabrikam/section/MAidw"
+                            }
+                          ],
+                          "destinationUrl":"#",
+                          "text":"Returns & replacements"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "backToTop": [
+                  {
+                    "id": "backToTop__1",
+                    "typeName": "back-top-footer"
+                  }                                              
+                ]
+              }
+            }
+          ],
+          "primary": [
+              {
+                  "modules": {
+                    "content": [
+                      {
+                        "id": "header__0",
+                        "typeName": "header",
+                        "modules": {
+                          "alertMessages": [
+                            {
+                              "id": "alert_0",
+                              "typeName": "alert",
+                              "mockId": "alert"
+                            }
+                          ],
+                          "logo": [
+                            {
+                              "id": "logo__0",
+                              "typeName": "logo",
+                              "mockId": "R1Module1"
+                            }
+                          ],
+                          "menuBar": [
+                            {
+                              "id": "main-menu_0",
+                              "typeName": "navigation-menu",
+                              "mockId": "navigation-menu"
+                            }
+                          ],
+                          "search": [
+                            {
+                              "id": "search__0",
+                              "typeName": "search",
+                              "mockId": "R1Module1"
+                            }
+                          ],
+                          "cart": [
+                            {
+                              "id": "cart__0",
+                              "typeName": "cart-icon",
+                              "mockId": "R1Module1"
+                            }
+                          ],
+                          "signin": [
+                            {
+                              "id": "signin-info__0",
+                              "typeName": "signin-info",
+                              "mockId": "R1Module1"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "alert_0",
+                        "typeName": "alert",
+                        "mockId": "alert"
+                      },                      
+                      {
+                          "id": "search__0",
+                          "typeName": "search",
+                          "mockId": "R1Module1"
+                      },
+                      {
+                        "id": "main-menu_0",
+                        "typeName": "navigation-menu",
+                        "mockId": "navigation-menu"
+                      },
+                      {
+                        "id": "feature_0",
+                        "typeName": "feature",
+                        "mockId": "feature"
+                      },
+                      {
+                        "id": "carousel__0",
+                        "typeName": "carousel",
+                        "config": {
+                        },
+                        "modules": {
+                          "content": [
+                            {
+                              "id": "hero__0",
+                              "typeName": "hero",
+                              "mockId": "hero"
+                            },
+                            {
+                              "id": "hero__1",
+                              "typeName": "hero",
+                              "mockId": "hero1"
+                            },
+                            {
+                              "id": "feature__0",
+                              "typeName": "feature",
+                              "mockId": "feature"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "contentplacement__0",
+                        "typeName": "content-placement",
+                        "config": {
+                          "layout": "threeItemsInRow"
+                        },
+                        "modules": {
+                          "content": [
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            }
+                          ]
+                        }
+                      }                        
+                    ]
+                  },
+                  "id": "primaryRegion__0",
+                  "typeName": "default-container"
+              }
+          ]
+      },
+      "id": "page",
+      "config": {},
+      "typeName": "default-page"
+  },
+  "modules": {
+      "page": {
+          "id": "page",
+          "typeName": "default-page"
+      },
+      "signin-info__0":{
+        "id": "signin-info__0",
+        "typeName": "signin-info",
+        "config": {
+          "showText": "Example Config Value"
+        },
+        "data": {
+          "signInLink": {
+            "text": "Sign In",
+            "destinationUrl": "/en-us/onerf/signin?EEL=True&amp;pcexp=True"
+          },
+          "signOutLink": {
+            "text": "Sign out",
+            "destinationUrl": "/en-us/signout"
+          },
+          "myAccount": {
+            "text": "Order History",
+            "destinationUrl": "/en-us/orderhistory"
+          },
+          "orderHistory": {
+            "text": "My account",
+            "destinationUrl": "/en-us/myaccount"
+          }
+        }
+      },
+      "logo__0":{
+        "id": "logo__0",
+        "typeName": "logo",
+        "config": {    
+        },
+        "data": {
+          "logo": {
+            "destinationUrl": "http://www.microsoft.com",
+            "image": {
+              "title": "microsoft",
+              "href": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d5",
+              "alttext": "microsoft"
+          }
+          }      
+        }
+      },
+      "search__0":{
+        "id": "search__0",
+        "typeName": "search",
+        "config": {
+          "hideSearchLabel": false,
+          "defaultSearchUrl": "https://www.microsoft.com/en-us/search",
+          "searchPlaceholderText": "Search Microsoft.com",
+          "searchQueryStringParameter": "q",
+          "searchText": "Search",
+          "cancelText": "Cancel" 
+        },
+        "data": {               
+        }
+      },
+      "cart__0":{
+        "id": "cart__0",
+        "typeName": "cart-icon",
+        "config": {
+        },
+        "data": {
+          "cartItemCount": 5,
+          "cartLink": {
+            "destinationUrl": "http://www.microsoft.com"
+          }
+        }
+      },
+      "primaryRegion__0": {
+          "id": "primaryRegion__0",
+          "typeName": "default-container"
+      },
+      
+      "contentplacement__0": {
+          "id": "contentplacement__0",
+          "typeName": "content-placement"
+      },
+
+      "header__0": {
+        "id": "header__0",
+        "typeName": "header",
+        "config": {
+          "renderWithContainer": true
+        }
+    },
+      
+      "carousel__0": {
+          "id": "carousel__0",
+          "typeName": "carousel"
+      },
+      "AlertModule": {
+        "id": "AlertModule",
+        "typeName": "alert"
+    },
+    "R1Module1": {
+      "id": "R1Module1",
+      "typeName": "hero"
+  }
+  },
+  "renderingContext": {
+    "flightIds": ["feature.xboxcontentondesktop", "feature.sfwaa_control"],
+    "requestUrl": "store-int.fabrikam.com/en-us/cart",
+    "clientContext": {
+        "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+        "deviceType": "Pc"
+    },
+    "staticContext": {
+        "staticCdnUrl": "/",
+        "staticCdnUrlWithLocale": "/"
+    },
+    "userContext": {
+        "token": null,
+        "isAuthenticated": false,
+        "signInUrl": "",
+        "signOutUrl": "",
+        "signUpUrl": "",
+        "signinName": null,
+        "name": null,
+        "emailAddress": null
+    },
+    "apiSettings": {
+      "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+      "channelId": 5637145359,
+      "catalogId": 0,
+      "oun": "077",
+      "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+      "ratingsReviewsEndpoint": ""
+  },
+      "locale": "en-us",
+      "site": "fabrikam"
+  },
+  "statusCode": 200,
+  "redirectUrl": null
+}

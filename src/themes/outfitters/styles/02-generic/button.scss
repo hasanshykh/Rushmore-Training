@@ -1,0 +1,65 @@
+$msv-secondary-btn-background-color: $msv-white;
+$msv-secondary-btn-color: #000;
+$msv-secondary-btn-border-color: #000;
+$msv-secondary-btn-background-color-hover: #000;
+$msv-secondary-btn-color-hover: #fff;
+$msv-secondary-btn-border-color-hover: #000;
+
+$msv-primary-btn-background-color: #000;
+$msv-primary-btn-color: $msv-white;
+$msv-primary-btn-border-color: #000;
+$msv-primary-btn-background-color-hover: #222;
+$msv-primary-btn-color-hover: $msv-white;
+$msv-primary-btn-border-color-hover: #222;
+
+@mixin button-link($color: $msv-link-color) {
+  border-color: transparent;
+  background-color: transparent;
+  color: $msv-link-color;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@mixin primary-button() {
+  background-color: $msv-primary-btn-background-color;
+  border: 1px solid $msv-primary-btn-border-color;
+  color: $msv-primary-btn-color;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    border-color: $msv-gray-60;
+    background-color: $msv-gray-60;
+    color: $msv-text-color;
+  }
+
+  &:hover, &:focus, &:active{
+    background-color:$msv-primary-btn-background-color-hover;
+    color:$msv-primary-btn-color-hover;
+    border-color: $msv-primary-btn-border-color-hover;
+  }
+}
+
+@mixin secondary-button() {
+  background-color: $msv-secondary-btn-background-color;
+  border: 1px solid $msv-secondary-btn-border-color;
+  color: $msv-secondary-btn-color;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    border-color: $msv-gray-60;
+    background-color: $msv-gray-60;
+    color: $msv-text-color;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $msv-secondary-btn-background-color-hover;
+    color: $msv-secondary-btn-color-hover;
+    border-color: $msv-secondary-btn-border-color-hover;
+  }
+}

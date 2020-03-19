@@ -1,0 +1,34 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "khaadi-landing",
+    "name": "khaadi-landing",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["khaadi-landing"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {        
+    },    
+    "config": {
+        "imageUrl": {
+            "friendlyName": "Background image",
+            "description": "background image",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "required": true
+        },
+        "btnText": {
+            "friendlyName": "button text",
+            "description": "button text",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "showText": "Example Config Value",
+    "productIds": "68719498121"
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response"
+    }
+  },
+  "typeName": "product-list"
+}

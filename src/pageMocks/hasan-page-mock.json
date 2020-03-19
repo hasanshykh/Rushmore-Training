@@ -1,0 +1,53 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "id": "core-root_0",
+        "typeName": "core-root",
+        "modules": {
+            "body": [
+                {
+                    "id": "default-page_0",
+                    "typeName": "product-container",
+                    "modules": {
+                        "slot1": [
+                            {
+                                "id": "ProductFeature__0",
+                                "typeName": "product-list",
+                                "config": {
+                                    "imageUrl": "https://pk.khaadi.com/media/promobanners//p/r/pretcategory10032020.jpg",
+                                    "heading": "PRET",
+                                    "description": "Revel in joy this season with our exquisitely pret collection, featuring a rich color palette.",
+                                    "productIds": "68719498121"
+                                }
+                            }
+                        ],
+                        "slot2": [
+                            {
+                                "id": "ProductFeature__1",
+                                "typeName": "product-list",
+                                "config": {
+                                    "imageUrl": "https://pk.khaadi.com/media/promobanners//k/h/khaadi-spring-29-02-2020.jpg",
+                                    "heading": "UNSTITCHED",
+                                    "description": "Enter a world of lively colours, delicate motifs, bold prints and embrace joy with Khaadi’s latest winter unstitched collection.",
+                                    "productIds": "68719498121"
+                                }
+                            }
+                        ],
+                        "slot3": [
+                            {
+                                "id": "ProductFeature__2",
+                                "typeName": "product-list",
+                                "config": {
+                                    "imageUrl": "https://pk.khaadi.com/media/promobanners//k/h/khaadi-khaas-29-02-2020.jpg",
+                                    "heading": "KHAAS",
+                                    "description": "Make the perfect addition to your wardrobe and drape yourself in luxurious ensembles.",
+                                    "productIds": "68719498121"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

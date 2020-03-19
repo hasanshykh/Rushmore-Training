@@ -1,0 +1,17 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "buttonText": "Women's Shoes",
+    "categoryImage": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAd0D",
+    "linkURL": "visionet-demo/fabrikam-fashion/womenswear/womens-shoes/68719478058.c",
+    "linkText": "Go to Page",
+    "categoryLink": {
+      "linkText": "Women's",
+      "linkUrl": {
+          "type": "categoryLink",
+          "categoryId": 68719478055
+      }
+  }
+  },
+  "typeName": "featured-category"
+}

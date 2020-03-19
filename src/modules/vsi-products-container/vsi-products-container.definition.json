@@ -1,0 +1,17 @@
+{
+    "$type": "containerModule",
+    "friendlyName": "vsi-products-container",
+    "name": "vsi-products-container",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["vsi-products-container"],
+    "tags": ["Additional tags go here"],
+    "slots": {
+        "content": {
+            "friendlyName": "Content Slot",
+            "description": "Content to be rendered in container. Max 3",
+            "allowedTypes": "*",
+            "max": 3,
+            "min": 0
+        }
+    }
+}

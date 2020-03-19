@@ -1,0 +1,103 @@
+@import "../00-settings/colors";
+@import '../00-settings/responsive-breakpoints';
+
+// font
+$promo-banner-font-size: 14px;
+$promo-banner-line-height: 1.5;
+$promo-banner-bottom-padding: 8px;
+$promo-banner-top-padding: 8px;
+$promo-background: $primary-color;
+$promo-color: $white;
+
+
+
+.ms-promo-banner {
+    background-color: $promo-background;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: $promo-banner-bottom-padding;
+    padding-top: $promo-banner-top-padding;
+    width: 100%;
+    border: none;
+    font-weight: $msv-font-weight-normal;
+    line-height: 1.5;
+    font-family: $msv-primary-font-family;
+    color: $promo-color;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+    .active{
+        text-decoration: none;
+    }
+    &.alignment__center {
+      text-align: center;
+    }
+    &.alignment__left {
+        text-align: left;
+    }
+    &.alignment__right {
+        text-align: right;
+    }
+
+    .ms-promo-banner__text {
+        color: $promo-color;
+        font-size: $promo-banner-font-size;
+        font-style: normal;
+        font-weight: $msv-font-weight-normal;
+        line-height: $promo-banner-line-height;
+    }
+
+    .ms-promo-banner__carousel {
+        width: calc(100% - 30px);
+        display: inline-flex;
+    }
+
+    .msc-carousel__inner {
+        color: $msv-black;
+    }
+
+    .ms-promo-banner__close-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        float: right;
+        color: $promo-color;
+        &:after {
+            @include msv-icon();
+            content: $msv-x-shape;
+        }
+        .ms-promo-banner__close-button__label {
+            display: none;
+        }
+    }
+    .ms-promo-banner__content {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: $msv-breakpoint-m) {
+    .ms-promo-banner .ms-promo-banner__carousel {
+        width: calc(100% - 30px);
+    }
+    .ms-promo-banner {
+        height: auto;
+    }
+}
+.fa-contact {
+    @include add-icon($msv-Contact, after, $msv-solid-icon-weight);
+}
+
+.fa-wishlist {
+    @include add-icon($msv-Heart, after, $msv-solid-icon-weight);
+}
+
+.fa-cart {
+    @include add-icon($msv-ShoppingCart, after, $msv-solid-icon-weight);
+}
+.promo-span{
+ margin-right: 20px;
+ i{
+     margin-right: 5px;
+ }
+}

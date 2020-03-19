@@ -1,0 +1,1885 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "typeName": "core-root",
+        "id": "core-root_r28yfuv",
+        "friendlyName": "Core root 1",
+        "config": {},
+        "modules": {
+            "htmlHead": [
+                {
+                    "typeName": "default-metatags",
+                    "id": "default-metatags",
+                    "friendlyName": "Default metatags",
+                    "config": {}
+                },
+                {
+                    "typeName": "default-page-summary",
+                    "id": "default-page-summary",
+                    "friendlyName": "Default page summary",
+                    "config": {
+                        "title": "Fabrikam Home page",
+                        "disableTwitterTags": false,
+                        "disableOgTags": false
+                    }
+                },
+                {
+                    "typeName": "script-injector",
+                    "id": "script-injector",
+                    "friendlyName": "External Script",
+                    "config": {
+                        "async": false,
+                        "defer": false
+                    }
+                },
+                {
+                    "typeName": "default-metatags",
+                    "id": "IDNMAjqza_rkkcj9n",
+                    "friendlyName": "Default metatags",
+                    "config": {}
+                }
+            ],
+            "body": [
+                {
+                    "typeName": "default-page",
+                    "id": "default-page",
+                    "friendlyName": "Default Page",
+                    "config": {
+                        "skipToMainText": "Skip to main content",
+                        "pageTheme": "fabrikam"
+                    },
+                    "modules": {
+                        "header": [
+                            {
+                                "typeName": "header",
+                                "id": "IDNMAiFGD_851azwo",
+                                "friendlyName": "Header",
+                                "config": {
+                                    "width": "container"
+                                },
+                                "modules": {
+                                    "logo": [
+                                        {
+                                            "typeName": "logo",
+                                            "id": "IDNMAiFGD_851azwo-logo",
+                                            "friendlyName": "Logo",
+                                            "config": {
+                                                "link": {
+                                                    "linkUrl": {
+                                                        "destinationUrl": "/fedev",
+                                                        "type": "externalLink"
+                                                    }
+                                                },
+                                                "image": {
+                                                    "$type": "image",
+                                                    "_id": "MAiIhU",
+                                                    "altText": "fabrikam",
+                                                    "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiIhV?ver=ddea",
+                                                    "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiIhV?ver=ddea",
+                                                    "copyright": "",
+                                                    "binaryHash": "zsDVVIqCDbkGaw7eITavoA==",
+                                                    "title": "Fbarikam logo",
+                                                    "imageSettings": {
+                                                        "quality": 80,
+                                                        "lazyload": true,
+                                                        "viewports": {
+                                                            "xs": {
+                                                                "w": 132,
+                                                                "h": 40,
+                                                                "q": "w=132&h=40&q=80&m=6&f=jpg"
+                                                            },
+                                                            "lg": {
+                                                                "w": 160,
+                                                                "h": 48,
+                                                                "q": "w=160&h=48&q=80&m=6&f=jpg"
+                                                            },
+                                                            "xl": {
+                                                                "w": 160,
+                                                                "h": 48,
+                                                                "q": "w=160&h=48&q=80&m=6&f=jpg"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "data": {}
+                                        }
+                                    ],
+                                    "menuBar": [
+                                        {
+                                            "typeName": "navigation-menu",
+                                            "id": "IDNMAiFGD_851azwo-navigation-menu",
+                                            "friendlyName": "Navigation menu",
+                                            "config": {
+                                                "cmsNavItems": [
+                                                    {
+                                                        "linkText": "Contact",
+                                                        "linkUrl": {
+                                                            "destinationUrl": "/fedev",
+                                                            "type": "externalLink"
+                                                        },
+                                                        "ariaLabel": "Contact",
+                                                        "openInNewTab": true
+                                                    }
+                                                ],
+                                                "alignment": "left",
+                                                "overFlowMenuText": "More",
+                                                "initialOverFlowMenuCount": 0.0,
+                                                "navigationMenuSource": "all"
+                                            }
+                                        }
+                                    ],
+                                    "search": [
+                                        {
+                                            "typeName": "search",
+                                            "id": "IDNMAiFGD_851azwo-search",
+                                            "friendlyName": "Search",
+                                            "config": {
+                                                "hideSearchLabel": false,
+                                                "defaultSearchUrl": "/fedev/search",
+                                                "searchplaceholderText": "Search in Fabrikam"
+                                            },
+                                            "modules": {
+                                                "autosuggest": [
+                                                    {
+                                                        "typeName": "autosuggest",
+                                                        "id": "IDNMAiFGD_851azwo-autosuggest",
+                                                        "friendlyName": "Autosuggest",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "autosuggetionType": "basic",
+                                                            "suggetionTypeCriterion": [],
+                                                            "topResultsCount": 5.0,
+                                                            "imageSettings": {
+                                                                "quality": 80,
+                                                                "lazyload": true,
+                                                                "viewports": {
+                                                                    "xs": {
+                                                                        "w": 40,
+                                                                        "h": 40,
+                                                                        "q": "w=40&h=40&q=80&m=6&f=jpg"
+                                                                    },
+                                                                    "lg": {
+                                                                        "w": 40,
+                                                                        "h": 40,
+                                                                        "q": "w=40&h=40&q=80&m=6&f=jpg"
+                                                                    },
+                                                                    "xl": {
+                                                                        "w": 40,
+                                                                        "h": 40,
+                                                                        "q": "w=40&h=40&q=80&m=6&f=jpg"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "cart": [
+                                        {
+                                            "typeName": "cart-icon",
+                                            "id": "IDNMAiFGD_851azwo-cart-icon",
+                                            "friendlyName": "Cart icon",
+                                            "config": {}
+                                        }
+                                    ],
+                                    "wishlist": [
+                                        {
+                                            "typeName": "wishlist-icon",
+                                            "id": "IDNMAiFGD_851azwo-wishlist-icon",
+                                            "friendlyName": "Wishlist icon",
+                                            "config": {}
+                                        }
+                                    ],
+                                    "signin": [
+                                        {
+                                            "typeName": "signin-info",
+                                            "id": "IDNMAiFGD_851azwo-signin-info",
+                                            "friendlyName": "Signin info",
+                                            "config": {
+                                                "myAccountLinks": [
+                                                    {
+                                                        "linkText": "My account",
+                                                        "linkUrl": {
+                                                            "destinationUrl": "/fedev/myaccount",
+                                                            "type": "externalLink"
+                                                        },
+                                                        "ariaLabel": "My account"
+                                                    },
+                                                    {
+                                                        "linkText": "Order history",
+                                                        "linkUrl": {
+                                                            "destinationUrl": "/fedev/orderhistory",
+                                                            "type": "externalLink"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "alertMessages": [
+                                        {
+                                            "typeName": "cookie-compliance",
+                                            "id": "IDNMAiFGD_851azwo-cookie-compliance",
+                                            "friendlyName": "Cookie compliance",
+                                            "config": {
+                                                "content": "<p><span>This site uses cookies for analytics and personalized content. Accept to continue</span>.&nbsp;</p>\n",
+                                                "actionLinks": [
+                                                    {
+                                                        "linkText": "Learn more",
+                                                        "linkUrl": {
+                                                            "destinationUrl": "https://go.microsoft.com/fwlink/?linkid=845480",
+                                                            "type": "externalLink"
+                                                        },
+                                                        "ariaLabel": "Learn more about cookie compliance",
+                                                        "openInNewTab": true
+                                                    }
+                                                ],
+                                                "renderWithContainer": true
+                                            }
+                                        },
+                                        {
+                                            "typeName": "alert",
+                                            "id": "IDNMAiFGD_851azwo-alert",
+                                            "friendlyName": "Alert",
+                                            "config": {
+                                                "text": "Summer 2019 collection online now!",
+                                                "dismissEnabled": false,
+                                                "textAlignment": "center"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "footer": [
+                            {
+                                "typeName": "footer",
+                                "id": "IDNMAiFGF_6o0tc3h",
+                                "friendlyName": "Footer",
+                                "config": {
+                                    "width": "container"
+                                },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "footer-category",
+                                            "id": "IDNMAiFGF_6o0tc3h-footer-category",
+                                            "friendlyName": "Footer category",
+                                            "config": {
+                                                "categoryClassName": "nav-item"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item",
+                                                        "friendlyName": "Footer item",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "Customer Service",
+                                                                "tag": "h6"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "",
+                                                                "linkUrl": {},
+                                                                "ariaLabel": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__0",
+                                                        "friendlyName": "Footer item 1",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Contact",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Contact",
+                                                                "openInNewTab": true
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__1",
+                                                        "friendlyName": "Footer item 2",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "FAQ",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "FAQ"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__2",
+                                                        "friendlyName": "Footer item 3",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Delivery & Returns",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Delivery & Returns"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__3",
+                                                        "friendlyName": "Footer item 4",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Click & Collect",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Click & Collect"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__4",
+                                                        "friendlyName": "Footer item 5",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Terms & Conditions",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Terms & Conditions"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__5",
+                                                        "friendlyName": "Footer item 6",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Privacy policy",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Privacy policy"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "footer-category",
+                                            "id": "IDNMAiFGF_6o0tc3h-footer-category__0",
+                                            "friendlyName": "Footer category 1",
+                                            "config": {
+                                                "categoryClassName": "nav-item"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__6",
+                                                        "friendlyName": "Footer item 7",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "Our Stores",
+                                                                "tag": "h6"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "",
+                                                                "linkUrl": {},
+                                                                "ariaLabel": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__7",
+                                                        "friendlyName": "Footer item 8",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Store & Services",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Store & Services"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__8",
+                                                        "friendlyName": "Footer item 9",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Store & Hours",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Store & Hours"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__9",
+                                                        "friendlyName": "Footer item 10",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Store events",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Store events"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__10",
+                                                        "friendlyName": "Footer item 11",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Catalogs",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Catalogs"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "footer-category",
+                                            "id": "IDNMAiFGF_6o0tc3h-footer-category__1",
+                                            "friendlyName": "Footer category 2",
+                                            "config": {
+                                                "categoryClassName": "nav-item"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__11",
+                                                        "friendlyName": "Footer item 12",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "Store & Support",
+                                                                "tag": "h6"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "",
+                                                                "linkUrl": {},
+                                                                "ariaLabel": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__12",
+                                                        "friendlyName": "Footer item 13",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Your account",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Your account"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__13",
+                                                        "friendlyName": "Footer item 14",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Your orders",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Your orders"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__14",
+                                                        "friendlyName": "Footer item 15",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Shipping rates",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Shipping rates"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__15",
+                                                        "friendlyName": "Footer item 16",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Returns & Replacements",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Returns & Replacements"
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "footer-category",
+                                            "id": "IDNMAiFGF_6o0tc3h-footer-category__2",
+                                            "friendlyName": "Footer category 3",
+                                            "config": {
+                                                "categoryClassName": "nav-item social-items"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__19",
+                                                        "friendlyName": "Footer item 20",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "Follow us",
+                                                                "tag": "h6"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "",
+                                                                "linkUrl": {},
+                                                                "ariaLabel": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__16",
+                                                        "friendlyName": "Footer item 17",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Facebook",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Facebook"
+                                                            },
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiNtS",
+                                                                "altText": "Facebook",
+                                                                "copyright": "",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAr1lh",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAr1lh",
+                                                                "binaryHash": "iXiFJeO7/I65UWZyxMszmA==",
+                                                                "title": "Facebook",
+                                                                "imageSettings": {
+                                                                    "quality": 74,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 48,
+                                                                            "h": 48,
+                                                                            "q": "w=48&h=48&q=74&m=6&f=jpg"
+                                                                        },
+                                                                        "lg": {
+                                                                            "w": 24,
+                                                                            "h": 24,
+                                                                            "q": "w=48&h=48&q=74&m=6&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 24,
+                                                                            "h": 24,
+                                                                            "q": "w=48&h=48&q=74&m=6&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__17",
+                                                        "friendlyName": "Footer item 18",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Twitter",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Twitter"
+                                                            },
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiNtV",
+                                                                "altText": "Twitter",
+                                                                "copyright": "",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAqYKo",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAqYKo",
+                                                                "binaryHash": "O6Xju5IQodhL958RSiaDng==",
+                                                                "title": "Twitter",
+                                                                "imageSettings": {
+                                                                    "quality": 80,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 48,
+                                                                            "h": 48,
+                                                                            "q": "w=48&h=48&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "lg": {
+                                                                            "w": 48,
+                                                                            "h": 48,
+                                                                            "q": "w=48&h=48&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 48,
+                                                                            "h": 48,
+                                                                            "q": "w=48&h=48&q=80&m=6&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "footer-item",
+                                                        "id": "IDNMAiFGF_6o0tc3h-footer-item__18",
+                                                        "friendlyName": "Footer item 19",
+                                                        "platform": {
+                                                            "layout": "small"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "small",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "link": {
+                                                                "linkText": "Linked In",
+                                                                "linkUrl": {
+                                                                    "destinationUrl": "/fedev/",
+                                                                    "type": "internalLink"
+                                                                },
+                                                                "ariaLabel": "Linked In"
+                                                            },
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiNtY",
+                                                                "altText": "LinkedIn",
+                                                                "copyright": "",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAr3Wn",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAr3Wn",
+                                                                "binaryHash": "YMoJhBsE/Pp1b+flf+9nCg==",
+                                                                "title": "LinkedIn",
+                                                                "imageSettings": {
+                                                                    "quality": 74,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 48,
+                                                                            "h": 48,
+                                                                            "q": "w=48&h=48&q=74&m=6&f=jpg"
+                                                                        },
+                                                                        "lg": {
+                                                                            "w": 24,
+                                                                            "h": 24,
+                                                                            "q": "w=48&h=48&q=74&m=6&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 24,
+                                                                            "h": 24,
+                                                                            "q": "w=48&h=48&q=74&m=6&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "data": {}
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "footer-category",
+                                            "id": "IDNMAiFGF_6o0tc3h-footer-category__3",
+                                            "friendlyName": "Footer category 4",
+                                            "config": {
+                                                "categoryClassName": "footer-back-to-top"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "back-top-footer",
+                                                        "id": "IDNMAiFGF_6o0tc3h-back-top-footer",
+                                                        "friendlyName": "Back to top",
+                                                        "config": {
+                                                            "destination": "#",
+                                                            "ariaLabel": "Back To Top"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "primary": [
+                            {
+                                "typeName": "default-container",
+                                "id": "default-container",
+                                "friendlyName": "Fluid Container",
+                                "config": {
+                                    "containerType": "fluid",
+                                    "layout": "stacked",
+                                    "heading": {},
+                                    "childrenWidth": "four"
+                                },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "carousel",
+                                            "id": "carousel",
+                                            "friendlyName": "Carousel",
+                                            "config": {
+                                                "keyboard": true,
+                                                "pauseOnHover": true,
+                                                "autoplay": true,
+                                                "interval": 10000.0,
+                                                "containerType": "fluid",
+                                                "transitionType": "slide"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "hero",
+                                                        "id": "hero",
+                                                        "friendlyName": "Hero",
+                                                        "platform": {
+                                                            "layout": "wide"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "wide",
+                                                            "heading": {
+                                                                "text": "SALE",
+                                                                "tag": "h2"
+                                                            },
+                                                            "paragraph": "<p>Get 15% off on all our FOREST series!</p>\n",
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiQ3S",
+                                                                "altText": "hero image",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ3T?ver=c2ca",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ3T?ver=c2ca",
+                                                                "location": {
+                                                                    "country": ""
+                                                                },
+                                                                "copyright": "",
+                                                                "binaryHash": "c+ZYz2gwOWSpZ7t+ES86gA==",
+                                                                "title": "hero",
+                                                                "imageSettings": {
+                                                                    "quality": 90,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 800,
+                                                                            "h": 600,
+                                                                            "q": "w=800&h=600&q=90&m=6&o=t&x=1368&y=207&f=jpg"
+                                                                        },
+                                                                        "sm": {
+                                                                            "w": 1200,
+                                                                            "h": 900,
+                                                                            "q": "w=1200&h=900&q=90&m=6&o=t&x=1368&y=207&f=jpg"
+                                                                        },
+                                                                        "md": {
+                                                                            "w": 1600,
+                                                                            "h": 900,
+                                                                            "q": "w=1600&h=900&q=90&m=6&o=t&x=1368&y=207&f=jpg"
+                                                                        },
+                                                                        "lg": {
+                                                                            "w": 1600,
+                                                                            "h": 700,
+                                                                            "q": "w=1600&h=700&q=90&m=6&o=t&x=1368&y=207&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 1600,
+                                                                            "h": 700,
+                                                                            "q": "w=1600&h=700&q=90&m=6&o=t&x=1368&y=207&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "links": [
+                                                                {
+                                                                    "linkText": "Shop Now",
+                                                                    "linkUrl": {
+                                                                        "destinationUrl": "/fedev/fashion/womenswear/dresses/22565426204.c",
+                                                                        "type": "externalLink"
+                                                                    },
+                                                                    "ariaLabel": "Shop sale collection",
+                                                                    "openInNewTab": false
+                                                                }
+                                                            ],
+                                                            "textPlacement": "topleft",
+                                                            "textTheme": "darkTheme",
+                                                            "defaultMask": false,
+                                                            "mobileReflow": true
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "hero",
+                                                        "id": "hero__0",
+                                                        "friendlyName": "Hero 1",
+                                                        "platform": {
+                                                            "layout": "horizontal"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "horizontal",
+                                                            "heading": {
+                                                                "text": "SALE",
+                                                                "tag": "h2"
+                                                            },
+                                                            "paragraph": "<p>Get 15% off on all our FOREST series!</p>\n",
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiQ3Y",
+                                                                "altText": "hero image",
+                                                                "copyright": "",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ3Z?ver=74e6",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ3Z?ver=74e6",
+                                                                "binaryHash": "taXs05QYHSJqv/RsGf2pfg==",
+                                                                "title": "hero3",
+                                                                "imageSettings": {
+                                                                    "quality": 80,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 800,
+                                                                            "h": 600,
+                                                                            "q": "w=800&h=600&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "sm": {
+                                                                            "w": 1200,
+                                                                            "h": 900,
+                                                                            "q": "w=1200&h=900&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "md": {
+                                                                            "w": 1600,
+                                                                            "h": 900,
+                                                                            "q": "w=1600&h=900&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "lg": {
+                                                                            "w": 1600,
+                                                                            "h": 700,
+                                                                            "q": "w=1600&h=700&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 1600,
+                                                                            "h": 700,
+                                                                            "q": "w=1600&h=700&q=80&m=6&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "links": [
+                                                                {
+                                                                    "linkText": "Shop now",
+                                                                    "linkUrl": {
+                                                                        "destinationUrl": "fedev/fashion/womenswear/dresses/22565426204.c",
+                                                                        "type": "externalLink"
+                                                                    },
+                                                                    "ariaLabel": "Shop sale collection"
+                                                                }
+                                                            ],
+                                                            "textPlacement": "topcenter",
+                                                            "textTheme": "lightTheme",
+                                                            "defaultMask": false,
+                                                            "mobileReflow": true
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "hero",
+                                                        "id": "hero__1",
+                                                        "friendlyName": "Hero 2",
+                                                        "platform": {
+                                                            "layout": "horizontal"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "horizontal",
+                                                            "heading": {
+                                                                "text": "SALE",
+                                                                "tag": "h2"
+                                                            },
+                                                            "paragraph": "<p>Get 15% off on all our FOREST series!</p>\n",
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiQ3V",
+                                                                "altText": "hero image",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ3W?ver=91dd",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ3W?ver=91dd",
+                                                                "location": {
+                                                                    "country": ""
+                                                                },
+                                                                "copyright": "",
+                                                                "binaryHash": "JIQlwNVbIFZTDgyP7dNQCg==",
+                                                                "title": "hero2",
+                                                                "imageSettings": {
+                                                                    "quality": 80,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 800,
+                                                                            "h": 600,
+                                                                            "q": "w=800&h=600&q=80&m=6&o=t&x=2851&y=358&f=jpg"
+                                                                        },
+                                                                        "sm": {
+                                                                            "w": 1200,
+                                                                            "h": 900,
+                                                                            "q": "w=1200&h=900&q=80&m=6&o=t&x=2851&y=358&f=jpg"
+                                                                        },
+                                                                        "md": {
+                                                                            "w": 1600,
+                                                                            "h": 900,
+                                                                            "q": "w=1600&h=900&q=80&m=6&o=t&x=2851&y=358&f=jpg"
+                                                                        },
+                                                                        "lg": {
+                                                                            "w": 1600,
+                                                                            "h": 700,
+                                                                            "q": "w=1600&h=700&q=80&m=6&o=t&x=2851&y=358&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 1600,
+                                                                            "h": 700,
+                                                                            "q": "w=1600&h=700&q=80&m=6&o=t&x=2851&y=358&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "links": [
+                                                                {
+                                                                    "linkText": "Shop Now",
+                                                                    "linkUrl": {
+                                                                        "destinationUrl": "fedev/fashion/womenswear/dresses/22565426204.c",
+                                                                        "type": "externalLink"
+                                                                    },
+                                                                    "ariaLabel": "Shop sale collection"
+                                                                }
+                                                            ],
+                                                            "textPlacement": "topright",
+                                                            "textTheme": "darkTheme",
+                                                            "defaultMask": false,
+                                                            "mobileReflow": true
+                                                        },
+                                                        "data": {}
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "typeName": "default-container",
+                                "id": "default-container__0",
+                                "friendlyName": "Fluid Container 1",
+                                "config": {
+                                    "containerType": "container",
+                                    "layout": "stacked",
+                                    "heading": {},
+                                    "childrenWidth": "four"
+                                },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "content-rich-block",
+                                            "id": "content-rich-block",
+                                            "friendlyName": "Content Rich Block",
+                                            "config": {
+                                                "layout": "oneColumn",
+                                                "containerType": "container"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "content-rich-block-item",
+                                                        "id": "content-rich-block-item",
+                                                        "friendlyName": "Content rich block item",
+                                                        "config": {
+                                                            "paragraph": "<h5>The new season has arrived</h5>\n"
+                                                        }
+                                                    },
+                                                    {
+                                                        "typeName": "content-rich-block-item",
+                                                        "id": "content-rich-block-item__0",
+                                                        "friendlyName": "Content rich block item 1",
+                                                        "config": {
+                                                            "paragraph": "<h6>Explore our new season with soft fabrics as if it's embracing a subtle forest breeze.</h6>\n"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "content-placement",
+                                            "id": "content-placement",
+                                            "friendlyName": "Content placement ",
+                                            "config": {
+                                                "containerType": "container"
+                                            },
+                                            "modules": {
+                                                "content": [
+                                                    {
+                                                        "typeName": "content-placement-item",
+                                                        "id": "content-placement-item",
+                                                        "friendlyName": "Content placement item ",
+                                                        "platform": {
+                                                            "layout": "Wide"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "Wide",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiQ4Q",
+                                                                "altText": "Shop Women",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ4S?ver=b95e",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiQ4S?ver=b95e",
+                                                                "location": {
+                                                                    "country": ""
+                                                                },
+                                                                "copyright": "",
+                                                                "binaryHash": "7G7MuCg2ieFVisd2y+1Utg==",
+                                                                "title": "",
+                                                                "imageSettings": {
+                                                                    "quality": 80,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 343,
+                                                                            "h": 457,
+                                                                            "q": "w=343&h=457&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "md": {
+                                                                            "w": 427,
+                                                                            "h": 569,
+                                                                            "q": "w=427&h=569&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 427,
+                                                                            "h": 569,
+                                                                            "q": "w=427&h=569&q=80&m=6&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "links": [
+                                                                {
+                                                                    "linkText": "Shop WOMEN",
+                                                                    "linkUrl": {
+                                                                        "type": "categoryLink",
+                                                                        "categoryId": 22565426204
+                                                                    },
+                                                                    "ariaLabel": "Shop women's collection"
+                                                                }
+                                                            ],
+                                                            "lazyload": true,
+                                                            "tileSize": 4.0
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "content-placement-item",
+                                                        "id": "content-placement-item__0",
+                                                        "friendlyName": "Content placement item  1",
+                                                        "platform": {
+                                                            "layout": "Wide"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "Wide",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAiSEL",
+                                                                "altText": "Shop men",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiSEM?ver=eff2",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiSEM?ver=eff2",
+                                                                "location": {
+                                                                    "country": ""
+                                                                },
+                                                                "copyright": "",
+                                                                "binaryHash": "PDrBmaZmSyL6O9krUtoB5A==",
+                                                                "title": "",
+                                                                "imageSettings": {
+                                                                    "quality": 80,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 343,
+                                                                            "h": 457,
+                                                                            "q": "w=343&h=457&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "md": {
+                                                                            "w": 427,
+                                                                            "h": 569,
+                                                                            "q": "w=427&h=569&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 427,
+                                                                            "h": 569,
+                                                                            "q": "w=427&h=569&q=80&m=6&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "links": [
+                                                                {
+                                                                    "linkText": "Shop MEN",
+                                                                    "linkUrl": {
+                                                                        "type": "categoryLink",
+                                                                        "categoryId": 22565426197
+                                                                    },
+                                                                    "ariaLabel": "Shop men's collection"
+                                                                }
+                                                            ],
+                                                            "lazyload": true,
+                                                            "tileSize": 4.0
+                                                        },
+                                                        "data": {}
+                                                    },
+                                                    {
+                                                        "typeName": "content-placement-item",
+                                                        "id": "content-placement-item__1",
+                                                        "friendlyName": "Content placement item  2",
+                                                        "platform": {
+                                                            "layout": "Wide"
+                                                        },
+                                                        "config": {
+                                                            "msdyn365__moduleLayout": "Wide",
+                                                            "heading": {
+                                                                "text": "",
+                                                                "tag": "h2"
+                                                            },
+                                                            "image": {
+                                                                "$type": "image",
+                                                                "_id": "MAqOkL",
+                                                                "altText": "Accessories category",
+                                                                "copyright": "",
+                                                                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAqOkM?ver=a51e",
+                                                                "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAqOkM?ver=a51e",
+                                                                "binaryHash": "4mEp3BK2cXJjZIpvqbq9Qg==",
+                                                                "title": "Category _ Accessories.jpg",
+                                                                "imageSettings": {
+                                                                    "quality": 80,
+                                                                    "lazyload": true,
+                                                                    "viewports": {
+                                                                        "xs": {
+                                                                            "w": 343,
+                                                                            "h": 457,
+                                                                            "q": "w=343&h=457&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "md": {
+                                                                            "w": 427,
+                                                                            "h": 569,
+                                                                            "q": "w=427&h=569&q=80&m=6&f=jpg"
+                                                                        },
+                                                                        "xl": {
+                                                                            "w": 427,
+                                                                            "h": 569,
+                                                                            "q": "w=427&h=569&q=80&m=6&f=jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "links": [
+                                                                {
+                                                                    "linkText": "Shop ACCESSORIES",
+                                                                    "linkUrl": {
+                                                                        "type": "categoryLink",
+                                                                        "categoryId": 22565426211
+                                                                    },
+                                                                    "ariaLabel": "Shop accessories"
+                                                                }
+                                                            ],
+                                                            "lazyload": true,
+                                                            "tileSize": 4.0
+                                                        },
+                                                        "data": {}
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "video-player",
+                                            "id": "video-player",
+                                            "friendlyName": "Video player",
+                                            "config": {
+                                                "video": {
+                                                    "$type": "video",
+                                                    "_id": "MAiVgk",
+                                                    "_links": {
+                                                        "binaryReferences": [
+                                                            {
+                                                                "$type": "videoBinaryReference",
+                                                                "alias": "1001",
+                                                                "contentType": "video/mp4",
+                                                                "extension": ".mp4",
+                                                                "sizeInBytes": 1293246,
+                                                                "sourceHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/4333d87f-4e33-42e4-a49d-c482274c5c70/ac206f07-e32c-4826-817c-f142b7b44585.mp4",
+                                                                "href": "cms/api/fabrikamsb/binary/MAiVgl-1001",
+                                                                "format": "1001",
+                                                                "clientHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/4333d87f-4e33-42e4-a49d-c482274c5c70/ac206f07-e32c-4826-817c-f142b7b44585.mp4",
+                                                                "_lastModifiedDateTime": "2019-07-26T23:06:42Z",
+                                                                "processingStatus": {
+                                                                    "message": "Skipping Caption as requested or there is no audio tracks in source video.",
+                                                                    "lastUpdateTime": "2019-07-26T23:06:42Z",
+                                                                    "status": "Complete"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$type": "videoBinaryReference",
+                                                                "alias": "1006",
+                                                                "sizeInBytes": 0,
+                                                                "sourceHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/5487dccf-09fb-450b-aec3-e0de69fb61fc/ac206f07-e32c-4826-817c-f142b7b4.ism/manifest(format=m3u8-aapl)",
+                                                                "href": "cms/api/fabrikamsb/binary/MAiVgl-1006unsupported",
+                                                                "format": "1006",
+                                                                "height": 360,
+                                                                "width": 640,
+                                                                "clientHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/5487dccf-09fb-450b-aec3-e0de69fb61fc/ac206f07-e32c-4826-817c-f142b7b4.ism/manifest(format=m3u8-aapl)",
+                                                                "processingStatus": {
+                                                                    "message": "",
+                                                                    "lastUpdateTime": "2019-07-26T23:07:31Z",
+                                                                    "status": "Complete"
+                                                                },
+                                                                "_lastModifiedDateTime": "2019-07-26T23:07:32Z"
+                                                            },
+                                                            {
+                                                                "$type": "videoBinaryReference",
+                                                                "alias": "1007",
+                                                                "sizeInBytes": 0,
+                                                                "sourceHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/5487dccf-09fb-450b-aec3-e0de69fb61fc/ac206f07-e32c-4826-817c-f142b7b4.ism/manifest(format=mpd-time-csf)",
+                                                                "href": "cms/api/fabrikamsb/binary/MAiVgl-1007unsupported",
+                                                                "format": "1007",
+                                                                "height": 360,
+                                                                "width": 640,
+                                                                "clientHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/5487dccf-09fb-450b-aec3-e0de69fb61fc/ac206f07-e32c-4826-817c-f142b7b4.ism/manifest(format=mpd-time-csf)",
+                                                                "processingStatus": {
+                                                                    "message": "",
+                                                                    "lastUpdateTime": "2019-07-26T23:07:31Z",
+                                                                    "status": "Complete"
+                                                                },
+                                                                "_lastModifiedDateTime": "2019-07-26T23:07:32Z"
+                                                            },
+                                                            {
+                                                                "$type": "videoBinaryReference",
+                                                                "alias": "101",
+                                                                "sizeInBytes": 1295878,
+                                                                "sourceHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/c2cd59fd-0343-4ec9-aad1-afb3ca82a4c4/38e39e8e-852e-4c5c-b40b-dd57fa75_650.mp4",
+                                                                "href": "cms/api/fabrikamsb/binary/MAiVgl-101unsupported",
+                                                                "format": "101",
+                                                                "height": 360,
+                                                                "width": 640,
+                                                                "clientHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/c2cd59fd-0343-4ec9-aad1-afb3ca82a4c4/38e39e8e-852e-4c5c-b40b-dd57fa75_650.mp4",
+                                                                "processingStatus": {
+                                                                    "message": "",
+                                                                    "lastUpdateTime": "2019-07-13T05:31:04Z",
+                                                                    "status": "Complete"
+                                                                },
+                                                                "_lastModifiedDateTime": "2019-07-13T05:31:04Z"
+                                                            },
+                                                            {
+                                                                "$type": "videoClosedCaptionBinaryReference",
+                                                                "alias": "enus",
+                                                                "extension": "ttml",
+                                                                "sizeInBytes": 0,
+                                                                "sourceHref": "https://ppe-video-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikamsb/videofiledata/MAiVgl-enus?ver=deb3",
+                                                                "href": "cms/api/fabrikamsb/binary/MAiVgl-enus",
+                                                                "locale": "en-us",
+                                                                "clientHref": "https://ppe-video-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikamsb/videofiledata/MAiVgl-enus?ver=deb3",
+                                                                "processingStatus": {
+                                                                    "message": "",
+                                                                    "lastUpdateTime": "2019-08-28T18:56:13Z",
+                                                                    "status": "Complete"
+                                                                },
+                                                                "_lastModifiedDateTime": "2019-08-28T18:56:13Z"
+                                                            },
+                                                            {
+                                                                "$type": "videoTranscriptBinaryReference",
+                                                                "alias": "tscriptenus",
+                                                                "sizeInBytes": 0,
+                                                                "sourceHref": "https://ppe-video-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikamsb/videofiledata/MAiVgl-tscriptenus?ver=31ad",
+                                                                "href": "cms/api/fabrikamsb/binary/MAiVgl-tscriptenus",
+                                                                "userProvided": false,
+                                                                "locale": "en-us",
+                                                                "clientHref": "https://ppe-video-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikamsb/videofiledata/MAiVgl-tscriptenus?ver=31ad",
+                                                                "processingStatus": {
+                                                                    "message": "",
+                                                                    "lastUpdateTime": "2019-08-28T18:56:13Z",
+                                                                    "status": "Complete"
+                                                                },
+                                                                "_lastModifiedDateTime": "2019-08-28T18:56:13Z"
+                                                            },
+                                                            {
+                                                                "$type": "videoBinaryReference",
+                                                                "alias": "1004",
+                                                                "sizeInBytes": 0,
+                                                                "sourceHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/5487dccf-09fb-450b-aec3-e0de69fb61fc/ac206f07-e32c-4826-817c-f142b7b4.ism/manifest",
+                                                                "href": "cms/api/fabrikamsb/binary/MAiVgl-1004unsupported",
+                                                                "format": "1004",
+                                                                "height": 360,
+                                                                "width": 640,
+                                                                "clientHref": "https://ppe-streaming-video-mr-microsoft-com.akamaized.net/5487dccf-09fb-450b-aec3-e0de69fb61fc/ac206f07-e32c-4826-817c-f142b7b4.ism/manifest",
+                                                                "processingStatus": {
+                                                                    "message": "",
+                                                                    "lastUpdateTime": "2019-07-26T23:07:31Z",
+                                                                    "status": "Complete"
+                                                                },
+                                                                "_lastModifiedDateTime": "2019-07-26T23:07:32Z"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "playtime": 12,
+                                                    "subtitle": "",
+                                                    "thumbnail": {
+                                                        "$type": "image",
+                                                        "_id": "MAj0sx",
+                                                        "title": "Sample video Thumbnail",
+                                                        "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAj0sx?ver=fd1c",
+                                                        "href": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAj0sx?ver=fd1c",
+                                                        "quality": 70,
+                                                        "width": 640,
+                                                        "height": 360,
+                                                        "binaryHash": "KQfv4jRm/xBkNhz4tV9Uew==",
+                                                        "focalRegion": {
+                                                            "x1": 154,
+                                                            "y1": 39,
+                                                            "x2": 217,
+                                                            "y2": 102
+                                                        }
+                                                    },
+                                                    "title": "Sample video",
+                                                    "minimumAge": 0,
+                                                    "tasks": {
+                                                        "closedCaptions": "skip"
+                                                    },
+                                                    "copyright": "",
+                                                    "description": "",
+                                                    "fileName": "50cee5b6-2156-4090-ae69-c9b735b7_650.mp4",
+                                                    "headlines": [
+                                                        {
+                                                            "image": {
+                                                                "$type": "imageFileData",
+                                                                "_id": "MAj0sx",
+                                                                "_lastPublishedSequence": 8,
+                                                                "_name": "50cee5b6-2156-4090-ae69-c9b735b7_650.mp4",
+                                                                "_links": {
+                                                                    "self": [
+                                                                        {
+                                                                            "href": "cms/api/fabrikamsb/imageFileData/MAj0sx"
+                                                                        }
+                                                                    ],
+                                                                    "parent": [
+                                                                        {
+                                                                            "href": "cms/api/fabrikamsb/section/MAiFGf"
+                                                                        }
+                                                                    ],
+                                                                    "binaryReferences": [
+                                                                        {
+                                                                            "$type": "BinaryReference",
+                                                                            "contentType": "image/jpeg",
+                                                                            "description": "Sample video Thumbnail",
+                                                                            "sizeInBytes": 39697,
+                                                                            "href": "cms/api/fabrikamsb/binary/MAj0sx",
+                                                                            "_lastModifiedDateTime": "2019-07-13T05:31:04Z"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "_lastPublishedDateTime": "2019-08-28T19:09:40+00:00",
+                                                                "_lastEditedDateTime": "2019-07-13T05:31:06+00:00",
+                                                                "title": "Sample video Thumbnail",
+                                                                "description": "Sample video Thumbnail",
+                                                                "href": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikamsb/imageFileData/MAj0sx?ver=fd1c",
+                                                                "quality": 70,
+                                                                "fileSize": 39697,
+                                                                "width": 640,
+                                                                "height": 360,
+                                                                "binaryHash": "KQfv4jRm/xBkNhz4tV9Uew==",
+                                                                "focalRegion": {
+                                                                    "x1": 154,
+                                                                    "y1": 39,
+                                                                    "x2": 217,
+                                                                    "y2": 102
+                                                                },
+                                                                "_qualityProcessingStatus": {
+                                                                    "status": "Complete",
+                                                                    "message": ""
+                                                                },
+                                                                "_optimizationProcessingStatus": {
+                                                                    "status": "Complete",
+                                                                    "message": "",
+                                                                    "wasOptimized": "False"
+                                                                },
+                                                                "_face2dProcessingStatus": {
+                                                                    "status": "Complete",
+                                                                    "message": ""
+                                                                },
+                                                                "_processingStatus": {
+                                                                    "status": "Complete",
+                                                                    "message": ""
+                                                                },
+                                                                "_createdDateTime": "2019-07-13T05:31:04Z",
+                                                                "_sourceMetering": {
+                                                                    "isMetered": false
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "interactiveTriggersEnabled": false
+                                                },
+                                                "playLabel": "Play",
+                                                "pauseLabel": "Pause",
+                                                "pausedLabel": "Paused",
+                                                "playingLabel": "Playing",
+                                                "unMuteLabel": "Mute",
+                                                "muteLabel": "Unmute",
+                                                "fullScreenLabel": "Full screen",
+                                                "exitFullScreenLabel": "Exit full screen",
+                                                "mute": true,
+                                                "playPauseTrigger": false,
+                                                "controls": true,
+                                                "trigger": true,
+                                                "maskLevel": 40.0,
+                                                "fullScreenIconOptions": "square"
+                                            },
+                                            "data": {}
+                                        },
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection",
+                                            "friendlyName": "Product collection",
+                                            "platform": {
+                                                "layout": "mediumWidth"
+                                            },
+                                            "config": {
+                                                "msdyn365__moduleLayout": "mediumWidth",
+                                                "productCollection": {
+                                                    "recommendationListId": "trending",
+                                                    "pageSize": 10,
+                                                    "listType": "recommendation"
+                                                },
+                                                "heading": {
+                                                    "text": "Trending now",
+                                                    "tag": "h2"
+                                                },
+                                                "hideDescription": true,
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": {
+                                                            "w": 315,
+                                                            "h": 315,
+                                                            "q": "w=315&h=315&q=80&m=6&f=jpg"
+                                                        },
+                                                        "lg": {
+                                                            "w": 315,
+                                                            "h": 315,
+                                                            "q": "w=315&h=315&q=80&m=6&f=jpg"
+                                                        },
+                                                        "xl": {
+                                                            "w": 315,
+                                                            "h": 315,
+                                                            "q": "w=315&h=315&q=80&m=6&f=jpg"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection__0",
+                                            "friendlyName": "Product collection 1",
+                                            "platform": {
+                                                "layout": "mediumWidth"
+                                            },
+                                            "config": {
+                                                "msdyn365__moduleLayout": "mediumWidth",
+                                                "productCollection": {
+                                                    "recommendationListId": "new",
+                                                    "pageSize": 10,
+                                                    "listType": "recommendation"
+                                                },
+                                                "heading": {
+                                                    "text": "New Products",
+                                                    "tag": "h2"
+                                                },
+                                                "hideDescription": true,
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": {
+                                                            "w": 315,
+                                                            "h": 315,
+                                                            "q": "w=315&h=315&q=80&m=6&f=jpg"
+                                                        },
+                                                        "lg": {
+                                                            "w": 315,
+                                                            "h": 315,
+                                                            "q": "w=315&h=315&q=80&m=6&f=jpg"
+                                                        },
+                                                        "xl": {
+                                                            "w": 315,
+                                                            "h": 315,
+                                                            "q": "w=315&h=315&q=80&m=6&f=jpg"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "requestUrl": "https://dev.fabrikam.com/fedev",
+        "sitePath": "/fedev",
+        "clientContext": {
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/_scnr/",
+            "staticCdnUrlWithLocale": "/en-US/_msdyn365/_scnr/"
+        },
+        "user": {
+            "token": null,
+            "isAuthenticated": false,
+            "signInUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signin",
+            "signOutUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signout",
+            "signUpUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signup",
+            "editProfileUrl": "https://dev.fabrikam.com/fedev/_msdyn365/editprofile",
+            "signinName": null,
+            "firstName": null,
+            "lastName": null,
+            "tenantId": "",
+            "customerAccountNumber": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "previewContext": null,
+        "locale": "en-US",
+        "textDirection": "ltr",
+        "suggestedMarket": null,
+        "urlTokens": {},
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb10cddc845e563b6c8ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/search?fileName=/",
+            "ratingsReviewsEndpoint": "https://d247ff89-1bb8-42bf-955e-a731fbc57c75.rnr-ppe.ms",
+            "rnr": {
+                "id": "d247ff89-1bb8-42bf-955e-a731fbc57c75",
+                "url": "https://d247ff89-1bb8-42bf-955e-a731fbc57c75.rnr-ppe.ms"
+            }
+        },
+        "gridSettings": {
+            "xs": {
+                "w": 767
+            },
+            "sm": {
+                "w": 991
+            },
+            "md": {
+                "w": 1199
+            },
+            "lg": {
+                "w": 1599
+            },
+            "xl": {
+                "w": 1600
+            }
+        },
+        "debugMode": 0,
+        "operationId": "25061c8765aee644b315724786d55a1b",
+        "features": {
+            "scnr_blob": true,
+            "disable_cors": true,
+            "action_timeout": true
+        }
+    },
+    "statusCode": 200,
+    "redirectUrl": null,
+    "appContext": {
+        "config": {
+            "outOfStockThreshold": -1.0,
+            "maxQuantityForCartLineItem": 10.0,
+            "enableStockCheck": false,
+            "reviewTextMaxLength": 5000.0,
+            "reviewTitleMaxLength": 5.0,
+            "disableTooltip": false,
+            "disableBopis": false
+        },
+        "routes": {
+            "cart": {
+                "destinationUrl": "/fedev/cart",
+                "type": "internalLink"
+            },
+            "checkout": {
+                "destinationUrl": "/fedev/checkout",
+                "type": "internalLink"
+            },
+            "account": {
+                "destinationUrl": "/fedev/myaccount",
+                "type": "internalLink"
+            },
+            "accountProfile": {
+                "destinationUrl": "/fedev/myprofile",
+                "type": "internalLink"
+            },
+            "orderDetails": {
+                "destinationUrl": "/fedev/orderdetails",
+                "type": "internalLink"
+            },
+            "wishlist": {
+                "destinationUrl": "/fedev/wishlist",
+                "type": "internalLink"
+            },
+            "orderConfirmation": {
+                "destinationUrl": "/fedev/order-confirmation",
+                "type": "internalLink"
+            },
+            "home": {
+                "destinationUrl": "/fedev/",
+                "type": "internalLink"
+            },
+            "loyalty": {
+                "destinationUrl": "/fedev/loyalty",
+                "type": "internalLink"
+            },
+            "loyaltyJoin": {
+                "destinationUrl": "/fedev/loyalty-join",
+                "type": "internalLink"
+            }
+        },
+        "platform": {
+            "maintenanceMode": false,
+            "imageQuality": 80.0,
+            "pageTitleSuffix": "- Fabrikam",
+            "skipToMainText": "Skip to main section"
+        },
+        "contentSecurityPolicy": {}
+    }
+}

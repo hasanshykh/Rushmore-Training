@@ -1,0 +1,419 @@
+@import '../00-settings/colors';
+@import '../00-settings/font';
+@import '../00-settings/responsive-breakpoints';
+@import '../01-tools/mixins';
+
+//spacing
+$header-container-spacing-desktop: 20px;
+$header-container-spacing-mobile: 0px;
+$signin-info-spacing-left: 8px;
+$wishlist-spacing-right: 8px;
+$navigation-spacing-left: 8px;
+$cart-icon-spacing-left: 20px;
+$heading-padding-top: 25px;
+$signin-info-padding: 12px 14px;
+$header-height: 48px;
+$header-mobile-height: 48px;
+$header-icon-width: 48px;
+$account-link-height: 35px;
+$account-links-max-width: 276px;
+$signin-link-padding: 0 16px;
+$header_container-max-width: $msv-breakpoint-xl;
+$header-container-max-width: 1440px;
+$header-myaccount-margin-left: 8px;
+
+$header-icon-size: 16px;
+
+$popover-menu-border-color: $msv-gray-120;
+$popover-menu-background-color: $white;
+$popover-menu-item-height: 32px;
+
+$msv-default-container-padding-bottom: 25px;
+
+.ms-header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $header-container-spacing-mobile;
+    padding-right: $header-container-spacing-mobile;
+    padding-top: $heading-padding-top;
+
+    &__container {
+        padding-bottom: $msv-default-container-padding-bottom;
+
+        .ms-header__logo a
+        {
+            display:block;
+        }
+        
+        .ms-header__logo a {
+            @include vfi();
+
+            &:focus {
+                outline-offset: -2px;
+            }
+        }
+    }
+
+    .ms-search__icon,
+    .ms-header__signin-button,
+    .msc-wishlist-icon,
+    .msc-cart-icon,
+    .ms-header__profile-button {
+        &:focus {
+            outline-offset: -1px;
+        }
+    }
+
+    // hiding the header icons from login page
+    &.hide-header-options {
+        .ms-header__nav-icon,
+        .ms-header__account-info,
+        .msc-cart-icon,
+        .msc-wishlist-icon {
+            display: none;
+        }   
+    }
+    .ms-nav.mobile-vp {
+        display: none;
+    }
+    
+    .msc-btn {
+        background-color: $msv-white;
+        height: $header-height;
+    }
+
+    .ms-header__topbar {
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        height: $header-mobile-height;
+    }
+    
+    .ms-header__account-info {
+        display: none;
+        font-family: $msv-primary-font-family;
+        justify-content: flex-end;
+        margin-left: $signin-info-spacing-left;
+        height: $header-height;
+
+        &__account-link-container {
+            height: $account-link-height;
+        }
+
+        a {
+            align-items: center;
+            display: flex;
+            font-size: $msv-text-size;
+            height: 100%;
+            line-height: $msv-text-line-height;
+            padding: $signin-link-padding;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        .ms-header__signin-button {
+            color: $msv-black;
+            font-weight: normal;
+            
+            &:focus {
+                outline-offset: -1px;
+            }
+        }
+
+        .msc-popover {
+            background-color: $popover-menu-background-color;
+            background-clip: padding-box;
+            border: 1px solid $popover-menu-border-color;
+            display: block;
+            left: 0;
+            max-width: $account-links-max-width;
+            position: absolute;
+            top: 0;
+            word-wrap: break-word;
+            z-index: 1060;
+
+            .msc-btn {
+                color: $msv-text-color;
+                font-weight: normal;
+                height: $popover-menu-item-height;
+            }
+
+            .msc-arrow {
+                display: block;
+                height: .5rem;
+                margin: 0 .3rem;
+                position: absolute;
+                top: calc((.5rem + 1px) * -1);
+                width: 1rem;
+
+                &::before,
+                &::after {
+                  border-color: transparent;
+                  border-style: solid;
+                  border-width: 0 .5rem .5rem .5rem;
+                  content: "";
+                  display: block;
+                  position: absolute;
+                }
+
+                &::before {
+                    border-bottom-color: $popover-menu-border-color;
+                    top: 0;
+                }
+
+                &::after {
+                    border-bottom-color: $popover-menu-background-color;
+                    top: 1px;
+                }
+            }
+        }
+    }
+
+    .msc-wishlist-icon {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    
+    .ms-header__wishlist-desktop {
+        display: none;
+
+        margin-right: $wishlist-spacing-right;
+        width: $header-icon-width;
+        height: $header-height;
+        align-items: center;
+
+        @include add-icon($msv-Heart, before, 400);
+
+        &:before {
+            font-size: $header-icon-size;
+            width: $header-icon-width;
+            vertical-align: text-bottom;
+            text-align: center;
+        }
+
+        .msc-wishlist-icon__text {
+            display: none;
+        }
+    }
+
+    .ms-header__nav-icon {    
+        background: $msv-white;
+        width: $header-icon-width;
+        height: $header-height;
+        display: flex;
+        align-items: center;
+
+        &:focus {
+            outline-offset: -1px;
+        }
+
+        &:before {
+            @include msv-icon();
+            content: $msv-GlobalNavButton;
+            font-size: $header-icon-size;
+            width: $header-icon-width;
+            vertical-align: text-bottom;
+            text-align: center;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }    
+
+    .msc-cart-icon {    
+        width: $header-icon-width;
+        height: $header-height;
+        display: flex;
+        align-items: center;
+
+        &:before {
+            @include msv-icon();
+            content: $msv-shopping-bag;
+            font-size: $header-icon-size;
+            width: $header-icon-width;
+            vertical-align: text-bottom;
+            text-align: center;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &__count {
+            @include font-content-s()
+        }
+    }
+
+    @media (min-width: $msv-breakpoint-xs) {
+        .ms-nav.desktop-vp {
+            display: none;
+        }
+
+        .msc-cart-icon {    
+            &:before {
+                width: $header-icon-width / 2;
+            }
+        }
+    }
+
+    @media (min-width: $msv-breakpoint-m) {
+        max-width: $header-container-max-width;
+        padding-left: $header-container-spacing-desktop;
+        padding-right: $header-container-spacing-desktop;
+
+        &__modal {
+            display: none;
+        }
+
+        &__profile-button {
+            color: $msv-black;
+            font-weight: normal;
+            &:after {
+                @include msv-icon();
+                content: $msv-ChevronDown;
+                font-size: $header-icon-size;
+                margin-left: $header-myaccount-margin-left;
+                text-align: center;
+                vertical-align: text-bottom;                                
+            }
+        }
+
+        &__profile-button[aria-expanded=true] {
+            &:after {
+                content: $msv-ChevronUp;
+            }
+        }
+
+        &__profile-button[aria-expanded=false] {
+            &:after {
+                content: $msv-ChevronDown;
+            }
+        }
+
+        .ms-search {
+            &__icon {
+                color: $msv-black;
+                font-weight: normal;
+                &:focus {
+                    outline-offset: -1px;
+                }
+            }
+        }
+    
+        .ms-header__wishlist-desktop
+        {
+            display: flex;
+        }
+
+        .ms-nav.desktop-vp {
+            display: flex;
+        }
+
+        .ms-header__nav-icon {
+            display: none;
+        }
+
+        .ms-header__account-info {
+            display: flex;
+        }
+
+        .ms-cart-icon {
+            border-left: 1px solid $msv-gray-60;
+            padding-left: $cart-icon-spacing-left;
+            width: unset;
+
+            &:before {
+                width: unset;
+
+                margin-right: 4px;
+            }
+        }
+    }
+}
+
+.msc-modal {
+    .ms-header__mobile-hamburger {
+        background: $msv-white;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+   
+        .msc-modal__content {
+            height: 100%;
+            padding: 12px;
+
+            .ms-header__mobile-hamburger-menu-body {
+                flex: 1 1 auto;                
+                overflow: hidden;
+                padding: 0px;
+                position: relative;
+
+                .msc-btn {
+                    font-size: 16px;
+                    height: unset;
+                    line-height: 22px;
+                    padding: 12px 8px;
+                }
+            }
+
+            .ms-nav {
+                padding-left: $navigation-spacing-left;
+            }
+
+            .msc-modal__header {
+                display: block;
+                height: $header-height;
+                padding: 0px;
+
+                .msc-modal__close-button {
+                    color: $msv-black;
+                    left:0;
+                    margin: 0px;
+                    opacity: 1;
+
+                    &:focus {
+                        outline-offset: -1px;
+                    }
+
+                    &:before {
+                        @include msv-icon();
+                        content: $msv-Cancel;
+                        font-size: 20px;
+                        position: unset;
+                        text-align: center;
+                        vertical-align: text-bottom;
+                    }
+                    
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+    
+        .msc-btn {
+            display: block;
+            background-color: $msv-white;
+        }
+
+        .ms-header__mobile-hamburger-menu-links {
+            border-top: 1px solid $msv-gray-60;
+            .ms-signin-info__account-link-button,
+            .ms-header__signout-button,
+            .ms-header__signin-button,
+            .msc-wishlist-icon {
+                color: $msv-text-color;
+                font-weight: normal;
+
+                &:focus {
+                    outline-offset: -1px;
+                }
+            }
+        }
+    }
+}

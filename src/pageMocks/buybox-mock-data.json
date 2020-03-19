@@ -1,0 +1,263 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "modules": {
+                        "mediaGallery": [
+                            {
+                                "id": "media-gallery-1",
+                                "typeName": "media-gallery"
+                            }
+                        ],
+                        "content": [
+                            {
+                                "id": "product-title-1",
+                                "typeName": "product-title"
+                            },
+                            {
+                                "id": "product-rating-1",
+                                "typeName": "product-rating"
+                            }
+                        ],
+                        "secondaryContent": [
+                            {
+                                "id": "product-description-1",
+                                "typeName": "product-description"
+                            },
+                            {
+                                "id": "product-price-1",
+                                "typeName": "product-price"
+                            },
+                            {
+                                "id": "product-configure-1",
+                                "typeName": "product-configure"
+                            },
+                            {
+                                "id": "product-add-to-cart-1",
+                                "typeName": "product-add-to-cart"
+                            }
+                        ]
+                    },
+                    "id": "primaryRegion__0",
+                    "typeName": "buybox-container"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+
+        "headRegion__0": {
+            "id": "headRegion__0",
+            "typeName": "default-container"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "buybox-container"
+        },
+        "footerRegion": {
+            "id": "footerRegion",
+            "typeName": "default-container"
+        },
+        "media-gallery-1": {
+            "id": "media-gallery-1",
+            "typeName": "media-gallery",
+            "data": {
+                "items": [
+                    {
+                        "content": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_001.png",
+                            "altText": "Slide 1"
+                        },
+                        "thumbnail": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_001.png",
+                            "altText": "Slide 1",
+                            "width": 100
+                        }
+                    },
+                    {
+                        "content": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_002.png",
+                            "altText": "Slide 2"
+                        },
+                        "thumbnail": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_002.png",
+                            "altText": "Slide 2",
+                            "width": 100
+                        }
+                    },
+                    {
+                        "content": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_003.png",
+                            "altText": "Slide 3"
+                        },
+                        "thumbnail": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_003.png",
+                            "altText": "Slide 3",
+                            "width": 100
+                        }
+                    },
+                    {
+                        "content": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_004.png",
+                            "altText": "Slide 3"
+                        },
+                        "thumbnail": {
+                            "href": "https://cms-eastus-prod-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81225_000_004.png",
+                            "altText": "Slide 3",
+                            "width": 100
+                        }
+                    }
+                ]
+            },
+            "config": {}
+        },
+        "product-title-1": {
+            "id": "product-title-1",
+            "typeName": "product-title",
+            "config": {},
+            "data": {
+                "title": {
+                    "text": "Boot Cut Jeans"
+                }
+            }
+        },
+        "product-rating-1": {
+            "id": "product-rating-1",
+            "typeName": "product-rating",
+            "config": {},
+            "data": {
+                "rating": {
+                    "id": "ratingId",
+                    "avgRating": 3.5,
+                    "ratingCount": "19",
+                    "customerRating": 0,
+                    "hideAvgRating": false,
+                    "hideProgress": false,
+                    "readOnly": true,
+                    "emptyGlyph": "far fa-star",
+                    "collapsedAriaLabel": "Ratings and reviews section. Average {0} of {1} stars, disclosure",
+                    "expandedAriaLabel": "{0} total reviews, disclosure",
+                    "filledGlyph": "fa fa-star",
+                    "halfFilledGlyph": "fa fa-star-half-alt",
+                    "likeDislike": false,
+                    "dropdownGlyph": "fa fa-caret-down mx-1",
+                    "individualAriaLabel": "Like",
+                    "individualAriaLabelDown": "Dislike",
+                    "emptyDownGlyph": "far fa-thumbs-down",
+                    "filledDownGlyph": "fa fa-thumbs-down"
+                }
+            }
+        },
+        "product-description-1": {
+            "id": "product-description-1",
+            "typeName": "product-description",
+            "config": {},
+            "data": {
+                "description": {
+                    "text": "Form and function intersect perfectly in our line of women’s jeans. Made to be comfortable and also be flattering."
+                }
+            }
+        },
+        "product-price-1": {
+            "id": "product-price-1",
+            "typeName": "product-price",
+            "config": {},
+            "data": {
+                "price": {
+                    "locale": "en-us",
+                    "currencyCode": "USD",
+                    "freePriceText": "Free",
+                    "currentPrice": { "startingValue": 60 },
+                    "savingsText": "Save 50% when you buy today",
+                    "originalPrice": { "startingValue": 100 }
+                }
+            }
+        },
+        "product-configure-1": {
+            "id": "product-configure-1",
+            "typeName": "product-configure",
+            "data": {
+                "dropdowns": [
+                    {
+                        "dropdownToggleName": "Select A Size",
+                        "dropdownName": "Size",
+                        "dropdownList": ["0", "2", "4", "6", "8"],
+                        "classNames": "pt-3"
+                    },
+                    {
+                        "dropdownToggleName": "Select A Color",
+                        "dropdownName": "Color",
+                        "dropdownList": ["Blue", "Pink"],
+                        "classNames": "pt-3"
+                    },
+                    {
+                        "dropdownToggleName": "Select A Size",
+                        "dropdownName": "Size",
+                        "dropdownList": ["XS", "MD"],
+                        "classNames": "pt-3"
+                    }
+                ]
+            }
+        },
+        "product-add-to-cart-1": {
+            "id": "product-add-to-cart-1",
+            "typeName": "product-add-to-cart",
+            "config": {
+                "addToCartText": "Add To Cart"
+            },
+            "data": {
+                "link": {
+                    "destinationUrl": "/cart",
+                    "text": "Add to Cart",
+                    "ariaLabel": "Cart"
+                }
+            }
+        }
+    },
+    "renderingContext": {
+        "flightIds": ["feature.contentondesktop", "feature.control"],
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": null,
+            "isAuthenticated": false,
+            "signinName": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+            "ratingsReviewsEndpoint": ""
+        },
+        "locale": "en-us",
+        "site": "fabrikam"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

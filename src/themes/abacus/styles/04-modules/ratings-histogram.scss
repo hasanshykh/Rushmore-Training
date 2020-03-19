@@ -1,0 +1,63 @@
+$msv-histogram-bar-bg: #E8E8E8;
+$msv-histogram-bar-fg: $msv-text-color;
+$msv-histogram-bar-height: 4px;
+$msv-histogram-bar-width: 200px;
+
+.ms-ratings-histogram {
+    display: flex;
+
+    .msc-progress {
+        position: relative;
+        background-color: $msv-histogram-bar-bg;
+        height: $msv-histogram-bar-height;
+        width: $msv-histogram-bar-width;
+        margin: 0 12px;
+
+        &__bar {
+            background-color: $msv-histogram-bar-fg;
+            height: $msv-histogram-bar-height;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .msc-rating {
+        display: inline-block;
+    }
+
+    &__histogram {
+        margin-right: 20px;
+    }
+
+    &__average {
+        display: inline-block;
+    }
+
+    &__heading {
+        display: none;
+    }
+
+    &__total{
+        margin-top: 12px;
+    }
+
+    &__item {
+        background-color: transparent;
+        border-color: transparent;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__star {
+        @include add-icon($msv-FavoriteStarFill, after);
+
+        &:after {
+            margin-left: 4px;
+        }
+    }
+}

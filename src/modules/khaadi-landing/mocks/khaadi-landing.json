@@ -1,0 +1,13 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "imageUrl": "https://www.khaadi.com/media/countrydd_kh.jpg",
+    "btnText": "Enter"
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response"
+    }
+  },
+  "typeName": "khaadi-landing"
+}

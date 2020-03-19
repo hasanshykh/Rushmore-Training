@@ -1,0 +1,298 @@
+{
+  "exception": null,
+  "pageRoot": {
+    "pageLayout": null,
+    "title": null,
+    "faviconUrl": null,
+    "bodyClass": "this should be body class",
+    "pageDescription": null,
+    "pageKeywords": null,
+    "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+    "modules": {
+      "primary": [
+        {
+          "modules": {
+            "content": [
+              {
+                "id": "accordion_0",
+                "typeName": "accordion",
+                "modules": {
+                  "accordionItem": [
+                    {
+                      "id": "accordionItem_0",
+                      "typeName": "accordion-item",
+                      "mockId": "accordion-item",
+                      "modules": {
+                        "accordionItemContent": [
+                          {
+                            "id": "logo_0",
+                            "typeName": "logo",
+                            "mockId": "logo_0"
+                          },
+                          {
+                            "id": "accordionItemContent_0",
+                            "typeName": "content-rich-block",
+                            "modules": {
+                              "content": [
+                                {
+                                  "id": "contentRichBlockItem_0",
+                                  "typeName": "content-rich-block-item"                            
+                                }
+                              ]
+                            }                     
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": "accordionItem_1",
+                      "typeName": "accordion-item",
+                      "mockId": "accordion-item",
+                      "modules": {
+                        "accordionItemContent": [
+                          {
+                            "id": "accordionItemContent_1",
+                            "typeName": "content-rich-block",
+                            "modules": {
+                              "content": [
+                                {
+                                  "id": "contentRichBlockItem_1",
+                                  "typeName": "content-rich-block-item"                            
+                                }
+                              ]
+                            }                     
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": "accordionItem_2",
+                      "typeName": "accordion-item",
+                      "mockId": "accordion-item",
+                      "modules": {
+                        "accordionItemContent": [
+                          {
+                            "id": "accordionItemContent_2",
+                            "typeName": "content-rich-block",
+                            "modules": {
+                              "content": [
+                                {
+                                  "id": "contentRichBlockItem_2",
+                                  "typeName": "content-rich-block-item"                            
+                                }
+                              ]
+                            }                     
+                          }
+                        ]
+                      }
+                    }                   
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "primaryRegion_0",
+          "typeName": "default-container"
+        }
+      ]
+    },
+    "id": "page",
+    "config": {},
+    "typeName": "default-page"
+  },
+  "modules": {
+    "page": {
+      "id": "page",
+      "typeName": "default-page"
+    },
+    "primaryRegion_0": {
+      "id": "primaryRegion_0",
+      "typeName": "default-container"
+    },
+    "accordion_0": {
+      "id": "accordion_0",
+      "typeName": "accordion",
+      "data": {
+        "accordionTitle": {
+          "text": "Accordion Title"
+        },
+        "expandAll": {
+          "text": "open all"
+        },
+        "collapseAll": {
+          "text": "close all"
+        }
+      },
+      "config": {
+        "collapseAllText": "Close all",
+        "expandAllText": "Open all",
+        "showToggleAll": true,
+        "toggleAllFormat": "text",
+        "toggleAllSeparator": "|"
+      }
+    },
+    "accordionItem_0": {
+      "id": "accordionItem_0",
+      "typeName": "accordion-item",
+      "config": {
+        "glyphPlacement": "end",
+        "showGlyph": true
+      },
+      "data": {
+        "accordionItemTitle": {
+          "text": "Accordion Item Title 0"
+        },
+        "isExpandedOnInitialLoad": false
+      }
+    },
+    "accordionItem_1": {
+      "id": "accordionItem_1",
+      "typeName": "accordion-item",
+      "config": {
+        "glyphPlacement": "end",
+        "showGlyph": true
+      },
+      "data": {
+        "accordionItemTitle": {
+          "text": "Accordion Item Title 1"
+        },
+        "isExpandedOnInitialLoad": false
+      }
+    },
+    "accordionItem_2": {
+      "id": "accordionItem_2",
+      "typeName": "accordion-item",
+      "config": {
+        "glyphPlacement": "end",
+        "showGlyph": true
+      },
+      "data": {
+        "accordionItemTitle": {
+          "text": "Accordion Item Title 2"
+        },
+        "isExpandedOnInitialLoad": false
+      }
+    },
+    "accordionItemContent_0": {
+      "id": "accordionItemContent_0",
+      "typeName": "content-rich-block",      
+      "friendlyName": "Content rich block 0",
+      "config": {
+          "layout": "oneColumn"
+      },
+      "modules": {
+          "content": [{
+              "typeName": "content-rich-block-item",
+              "id": "contentRichBlockItem_0",
+              "friendlyName": "Content rich block item 0",
+              "config": {},
+              "data": {                  
+              }
+          }]
+      }
+  },
+  "accordionItemContent_1": {
+    "id": "accordionItemContent_1",
+    "typeName": "content-rich-block",      
+    "friendlyName": "Content rich block 1",
+    "config": {
+        "layout": "oneColumn"
+    },
+    "modules": {
+        "content": [{
+            "typeName": "content-rich-block-item",
+            "id": "contentRichBlockItem_1",
+            "friendlyName": "Content rich block item 1",
+            "config": {},
+            "data": {                  
+            }
+        }]
+    }
+  },
+  "accordionItemContent_2": {
+    "id": "accordionItemContent_2",
+    "typeName": "content-rich-block",      
+    "friendlyName": "Content rich block 2",
+    "config": {
+        "layout": "oneColumn"
+    },
+    "modules": {
+        "content": [{
+            "typeName": "content-rich-block-item",
+            "id": "contentRichBlockItem_2",
+            "friendlyName": "Content rich block item 2",
+            "config": {},
+            "data": {                  
+            }
+        }]
+    }
+  },
+  "contentRichBlockItem_0": {
+    "id": "contentRichBlockItem_0",
+    "config": {
+    },
+    "data": {
+        "backgroundColor": { "text" : "#42f495" },
+        "blob": { "text" : "<h3 class=\"c-heading-3\" >Heading sizes</h3><p class=\"c-paragraph-3\" ><i>Headings</i> are available in 6 sizes and are used to define content sections. </p><h1 class=\"c-heading-1\" >Heading size 1</h1><h2 class=\"c-heading-2\" >Heading size 2</h2><h3 class=\"c-heading-3\" >Heading size 3</h3><h4 class=\"c-heading-4\" >Heading size 4</h4><h5 class=\"c-heading-5\" >Heading size 5</h5><h6 class=\"c-heading-6\" >Heading size 6</h6>"}
+    },
+    "typeName": "content-rich-block-item"
+  },
+  "contentRichBlockItem_1": {
+    "id": "contentRichBlockItem_1",
+    "config": {
+    },
+    "data": {
+      "backgroundColor": {"text" : "#3FB7BB"},
+      "blob": {"text": "<p>For support, larger orders, and special business and EDU institute pricing call us at 866-425-4709 Monday through Friday, 6:00 AM to 6:00 PM PT</p>"}
+    },
+    "typeName": "content-rich-block-item"
+  },
+  "contentRichBlockItem_2": {
+    "id": "contentRichBlockItem_2",
+    "config": {
+    },
+    "data": {
+      "backgroundColor": {"text" : "#f4416b"},
+      "blob": {"text" : "<div>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit, <i>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i> Bibendum est ultricies integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Varius duis at consectetur lorem donec. Elit eget gravida cum sociis. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Vestibulum sed arcu non odio euismod lacinia at quis risus. Semper quis lectus nulla at. Est pellentesque elit ullamcorper dignissim.</div>"}
+    },
+    "typeName": "content-rich-block-item"
+  },
+  "logo_0": {
+    "id": "logo_0",
+    "config": {
+    },
+    "data": {
+      "image": { "title": "microsoft", "href": "https://cms-eastus-ppe-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/MAAqS?ver=62c7&amp;w=220&amp;h=48&amp;m=6", "alttext": "microsoft" }
+    },
+    "typeName": "logo"
+  }
+  },
+  "renderingContext": {
+    "flightIds": [
+      "feature.xboxcontentondesktop",
+      "feature.sfwaa_control"
+    ],
+    "requestUrl": "rushmore.microsoft.com/cittadesign/demopagev3",
+    "clientContext": {
+      "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+      "deviceType": "Pc"
+    },
+    "staticContext": {
+      "staticCdnUrl": "/",
+      "staticCdnUrlWithLocale": "/"
+    },
+    "userContext": {
+      "token": null,
+      "isAuthenticated": false,
+      "signInUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signin?EEL=True&pcexp=True",
+      "signOutUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signout?pcexp=True",
+      "signinName": null,
+      "name": null,
+      "emailAddress": null
+    },
+    "locale": "en-us",
+    "market": "US"
+  },
+  "statusCode": 200,
+  "redirectUrl": null
+}

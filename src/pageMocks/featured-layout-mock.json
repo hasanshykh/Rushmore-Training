@@ -1,0 +1,205 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "typeName": "featured-layout",
+        "id": "Root",
+        "friendlyName": "Featured layout",
+        "config": {
+            "className": "container"
+        },
+        "modules": {
+            "leftItem": [
+                {
+                    "typeName": "featured-layout-item",
+                    "id": "featured-layout-item",
+                    "friendlyName": "Featured Layout Item",
+                    "config": {
+                        "categoryLink": {
+                            "linkText": "View More",
+                            "linkUrl": {
+                                "type": "categoryLink",
+                                "categoryId": 68719478053
+                            }
+                        },
+                        "bgImage": "https://us-sb-imageresizer-preview-tm.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAsCs",
+                        "heading": "Our Popular Products",
+                        "showButton": true,
+                        "buttonText": "View More"
+                    },
+                    "data": {}
+                }
+            ],
+            "rightTopLeftItem": [
+                {
+                    "typeName": "featured-layout-item",
+                    "id": "featured-layout-item__0",
+                    "friendlyName": "Featured Layout Item 1",
+                    "config": {
+                        "categoryLink": {
+                            "linkText": "Link text ",
+                            "linkUrl": {
+                                "type": "categoryLink",
+                                "categoryId": 68719478055
+                            }
+                        },
+                        "bgImage": "https://us-sb-imageresizer-preview-tm.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAnq1",
+                        "heading": "Winter Collections",
+                        "buttonText": "View More"
+                    },
+                    "data": {}
+                }
+            ],
+            "rightTopRightItem": [
+                {
+                    "typeName": "featured-layout-item",
+                    "id": "featured-layout-item__1",
+                    "friendlyName": "Featured Layout Item 2",
+                    "config": {
+                        "categoryLink": {
+                            "linkText": "Link text ",
+                            "linkUrl": {
+                                "type": "categoryLink",
+                                "categoryId": 68719478066
+                            }
+                        },
+                        "bgImage": "https://us-sb-imageresizer-preview-tm.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAsCt",
+                        "heading": "Summer Collections",
+                        "buttonText": "View More"
+                    },
+                    "data": {}
+                }
+            ],
+            "rightBaseItem": [
+                {
+                    "typeName": "featured-layout-item",
+                    "id": "featured-layout-item__2",
+                    "friendlyName": "Featured Layout Item 3",
+                    "config": {
+                        "categoryLink": {
+                            "linkText": "Link text ",
+                            "linkUrl": {
+                                "type": "categoryLink",
+                                "categoryId": 68719478056
+                            }
+                        },
+                        "bgImage": "https://us-sb-imageresizer-preview-tm.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAq19",
+                        "heading": "Up to 75% OFF Spring Sale!",
+                        "buttonText": "View More"
+                    },
+                    "data": {}
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "requestUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/IDNSAsCk?domain=www.vsicommerceeval.com&preview=inprogress&isAlias=false&isPageFragment=true&theme=fabrikam",
+        "sitePath": "/visionet-demo",
+        "clientContext": {
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/_scnr/",
+            "staticCdnUrlWithLocale": "/en-us/_msdyn365/_scnr/"
+        },
+        "user": {
+            "token": null,
+            "isAuthenticated": false,
+            "signInUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/signin",
+            "signOutUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/signout",
+            "signUpUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/signup",
+            "editProfileUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/visionet-demo/_msdyn365/editprofile",
+            "signinName": null,
+            "firstName": null,
+            "lastName": null,
+            "tenantId": "",
+            "customerAccountNumber": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "previewContext": {
+            "requestState": "InProgress",
+            "changesetId": null,
+            "overrideChangesetId": null,
+            "cmsUserType": 0
+        },
+        "locale": "en-us",
+        "textDirection": "ltr",
+        "suggestedMarket": null,
+        "query": {
+            "domain": "www.vsicommerceeval.com",
+            "preview": "inprogress",
+            "isAlias": "false",
+            "isPageFragment": "true",
+            "theme": "fabrikam"
+        },
+        "urlTokens": {},
+        "apiSettings": {
+            "baseUrl": "https://vsicommerceeval5efcca299aa7c8e7ret.cloud.retail.dynamics.com/",
+            "channelId": 68719478279,
+            "catalogId": 0,
+            "oun": "128",
+            "baseImageUrl": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/search?fileName=/",
+            "ratingsReviewsEndpoint": "https://71fee24e-b456-4375-aba5-2505ff229944.rnr.ms",
+            "rnr": {
+                "id": "71fee24e-b456-4375-aba5-2505ff229944",
+                "url": "https://71fee24e-b456-4375-aba5-2505ff229944.rnr.ms"
+            }
+        },
+        "gridSettings": {
+            "xs": {
+                "w": 767
+            },
+            "sm": {
+                "w": 991
+            },
+            "md": {
+                "w": 1199
+            },
+            "lg": {
+                "w": 1599
+            },
+            "xl": {
+                "w": 1600
+            }
+        },
+        "debugMode": 0,
+        "operationId": "7c31656d9e5a59408b35d6c9aa0770eb",
+        "sameSiteRequired": true,
+        "features": {
+            "scnr_blob": true,
+            "legacy_getactiveprices": true,
+            "disable_cors": true
+        },
+        "telemetrySettings": {
+            "doNotCollectBiData": false,
+            "eventHubEndPoint": "",
+            "eventHubAuthToken": "",
+            "operationId": "7c31656d9e5a59408b35d6c9aa0770eb"
+        }
+    },
+    "statusCode": 200,
+    "redirectUrl": null,
+    "appContext": {
+        "config": {
+            "outOfStockThreshold": 0.0,
+            "maxQuantityForCartLineItem": 10.0,
+            "enableStockCheck": false,
+            "reviewTextMaxLength": 500.0,
+            "reviewTitleMaxLength": 50.0,
+            "disableTooltip": false,
+            "disableBopis": false,
+            "searchQueryStringParameter": "q",
+            "searchInputMaxLength": 50.0
+        },
+        "routes": {},
+        "platform": {
+            "disableCookieCompliance": false,
+            "cartSessionExpiration": 0.0,
+            "imageQuality": 80.0,
+            "skipToMainText": "Skip to main content"
+        },
+        "contentSecurityPolicy": {
+            "disableContentSecurityPolicy": true
+        }
+    }
+}

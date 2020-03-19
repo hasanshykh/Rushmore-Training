@@ -1,0 +1,6 @@
+{
+    "$type": "themeModule",
+    "friendlyName": "Customer simulation theme",
+    "name": "customer-sim-theme",
+    "description": "This is customer simulation theme."
+}

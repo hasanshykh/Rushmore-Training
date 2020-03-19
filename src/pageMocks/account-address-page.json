@@ -1,0 +1,138 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "config": {
+                        "className": "account-management",
+                        "containerType": "container"
+                    },
+                    "modules": {
+                        "content": [
+                            {
+                                "typeName": "content-rich-block",
+                                "id": "content-rich-block",
+                                "friendlyName": "Content rich block",
+                                "config": {
+                                    "layout": "oneColumn",
+                                    "renderWithContainer": true
+                                },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "content-rich-block-item",
+                                            "id": "content-rich-block-item",
+                                            "friendlyName": "Content rich block item",
+                                            "config": {},
+                                            "data": {
+                                                "blob": {
+                                                    "$type": "richText",
+                                                    "_id": "yvqgzbukx64",
+                                                    "text": "<p><a href=\"/fe/myaccount\" class=\"c-hyperlink\">My account</a> / Addresses</p>\n"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "account-management-address__1",
+                                "typeName": "account-management-address"
+                            }
+                        ]
+                    },
+                    "id": "primaryRegion__0",
+                    "typeName": "default-container"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "default-container"
+        },
+        "account-management-address__1": {
+            "id": "account-management-address__1",
+            "typeName": "account-management-address",
+            "data": {
+                "heading": {
+                    "headingTag": "h1",
+                    "text": "Addresses",
+                    "textSize": "sm"
+                },
+                "primaryAddressSectionHeading": {
+                    "headingTag": "h2",
+                    "text": "Primary address",
+                    "textSize": "sm"
+                },
+                "otherAddressSectionHeading": {
+                    "headingTag": "h2",
+                    "text": "Other addresses",
+                    "textSize": "sm"
+                },
+                "addAddressHeading": {
+                    "headingTag": "h1",
+                    "text": "Add address",
+                    "textSize": "sm"
+                },
+                "editAddressHeading": {
+                    "headingTag": "h1",
+                    "text": "Edit address",
+                    "textSize": "sm"
+                }
+            }
+        }
+    },
+    "renderingContext": {
+        "flightIds": [
+            "feature.xboxcontentondesktop",
+            "feature.sfwaa_control"
+        ],
+        "requestUrl": "rushmore.microsoft.com/cittadesign/demopagev3",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1NjE0NDU4NDIsIm5iZiI6MTU2MTQ0MjI0MiwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5mYWJyaWthbS5jb20vMDcxODA4YzMtMDIxMy00ZjQzLWI1ZTItZGYwMTI2NmU0NGFlL3YyLjAvIiwic3ViIjoiOGE0MzRkYzMtZmZmZS00YjBhLWExMGEtNGUyZTY3ZGQ0MTQxIiwiYXVkIjoiNWY2M2Y1MGQtZDdlNy00YTRlLTg1MzQtZTg3NTk5ZmMwZmQ5Iiwibm9uY2UiOiI2MzY5NzAzOTA0MTAyMDMwOTAuTW1JNE5qWmlaall0TVdNNU5TMDBNMk14TFdKaVpHVXROelkzTWpBell6UXdaRGhrTnpNellXRTNOR010WW1ZeVlTMDBaRFUxTFdFMk1qWXRZVGRqWkdZM01XUmpaV0k1IiwiaWF0IjoxNTYxNDQyMjQyLCJhdXRoX3RpbWUiOjE1NjE0NDIyNDIsIm9pZCI6IjhhNDM0ZGMzLWZmZmUtNGIwYS1hMTBhLTRlMmU2N2RkNDE0MSIsImdpdmVuX25hbWUiOiJBamF5MSIsImZhbWlseV9uYW1lIjoiS3VtYXIxIiwiZW1haWxzIjpbIm1zdGVzdF9hamFrdW1Ab3V0bG9vay5jb20iXSwidGZwIjoiQjJDXzFfc2lzdV9wcGUiLCJjX2hhc2giOiIwODVhTjdyRUphNUl6eFJrV3dyVkpRIn0.ADwfL6JSDWjF0mq9UBGE0WbLTebmXBDpRrrrWyOCd1GEwNu1Lyrr0YYHxSldYOHza9wt9tbY0lCRfxDYNoYLP2H_-wW7jqewoS1iUxOg4YS2rn234-UGvyUWjSdSHeI8yD7yL6CeFdVBYy6XWbhrXg-uzjT7ESXwLH8u99mpfJHN57GcUI-I6JdGahJYjRuuXs2z9-D6pfL-drj1K6TO1Kf4_Nta2v7OrStUfteSsVDu6qosWcm4NfvHN1MU1_UpC2ESOhxd-ivaU3xAIcwBKBOINjjxSImiFQSVk83UzcXHbXXINXIIjiPjzKtrc0iZ6tB5vF1D5HSwKa1HDujcZQ",
+            "isAuthenticated": true,
+            "signInUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null,
+            "customerAccountNumber": "004358"
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/search?fileName=/"
+        },
+        "locale": "en-us",
+        "market": "US"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

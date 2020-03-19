@@ -1,0 +1,49 @@
+.ms-product-specification{
+    margin-top: 40px;
+    div>div {
+        border-collapse: separate;
+        border-spacing: 0 10px;
+    }
+    &__heading {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    &__table-row {
+
+        th {
+            display: block;
+            text-align: left;
+            @include font-content-s-height-l();
+            font-weight: 700;
+        }
+
+        td {
+            display: block;
+            @include font-content-s-height-l();
+        }
+    }
+}
+.ms-product-specification__table.table-striped.table-bordered{
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+    width: 100%;
+    color: #666666;
+    td,th{
+        border: 1px solid silver;
+        border-collapse: collapse;
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: .75rem;
+        min-height: 50px;
+    }
+    th{
+        width: 25%;
+    }
+    td{
+        width: 75%;
+    }
+}

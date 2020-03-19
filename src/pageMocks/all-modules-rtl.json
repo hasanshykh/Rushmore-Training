@@ -1,0 +1,299 @@
+{
+  "exception": null,
+  "pageRoot": {
+      "pageLayout": null,
+      "title": null,
+      "faviconUrl": null,
+      "bodyClass": "this should be body class",
+      "pageDescription": null,
+      "pageKeywords": null,
+      "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+      "modules": {
+          "primary": [
+              {
+                  "modules": {
+                    "content": [
+                      {
+                        "id": "header__0",
+                        "typeName": "header",
+                        "modules": {
+                          "alertMessages": [
+                            {
+                              "id": "alert_0",
+                              "typeName": "alert",
+                              "mockId": "alert"
+                            }
+                          ],
+                          "logo": [
+                            {
+                              "id": "logo__0",
+                              "typeName": "logo",
+                              "mockId": "R1Module1"
+                            }
+                          ],
+                          "menuBar": [
+                            {
+                              "id": "main-menu_0",
+                              "typeName": "navigation-menu",
+                              "mockId": "navigation-menu"
+                            }
+                          ],
+                          "search": [
+                            {
+                              "id": "search__0",
+                              "typeName": "search",
+                              "mockId": "R1Module1"
+                            }
+                          ],
+                          "cart": [
+                            {
+                              "id": "cart__0",
+                              "typeName": "cart-icon",
+                              "mockId": "R1Module1"
+                            }
+                          ],
+                          "signin": [
+                            {
+                              "id": "signin-info__0",
+                              "typeName": "signin-info",
+                              "mockId": "R1Module1"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "alert_0",
+                        "typeName": "alert",
+                        "mockId": "alert"
+                      },                      
+                      {
+                          "id": "search__0",
+                          "typeName": "search",
+                          "mockId": "R1Module1"
+                      },
+                      {
+                        "id": "main-menu_0",
+                        "typeName": "navigation-menu",
+                        "mockId": "navigation-menu"
+                      },
+                      {
+                        "id": "feature_0",
+                        "typeName": "feature",
+                        "mockId": "feature"
+                      },
+                      {
+                        "id": "carousel__0",
+                        "typeName": "carousel",
+                        "config": {
+                        },
+                        "modules": {
+                          "content": [
+                            {
+                              "id": "hero__0",
+                              "typeName": "hero",
+                              "mockId": "hero"
+                            },
+                            {
+                              "id": "hero__1",
+                              "typeName": "hero",
+                              "mockId": "hero1"
+                            },
+                            {
+                              "id": "feature__0",
+                              "typeName": "feature",
+                              "mockId": "feature"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "contentplacement__0",
+                        "typeName": "content-placement",
+                        "config": {
+                          "layout": "threeItemsInRow"
+                        },
+                        "modules": {
+                          "content": [
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            },
+                            {
+                              "id": "content-placement-item__0",
+                              "typeName": "content-placement-item",
+                              "mockId": "content-placement-item"
+                            }
+                          ]
+                        }
+                      }                        
+                    ]
+                  },
+                  "id": "primaryRegion__0",
+                  "typeName": "default-container"
+              }
+          ]
+      },
+      "id": "page",
+      "config": {},
+      "typeName": "default-page"
+  },
+  "modules": {
+      "page": {
+          "id": "page",
+          "typeName": "default-page"
+      },
+      "signin-info__0":{
+        "id": "signin-info__0",
+        "typeName": "signin-info",
+        "config": {
+          "showText": "Example Config Value"
+        },
+        "data": {
+          "signInLink": {
+            "text": "Sign In",
+            "destinationUrl": "/en-us/onerf/signin?EEL=True&amp;pcexp=True"
+          },
+          "signOutLink": {
+            "text": "Sign out",
+            "destinationUrl": "/en-us/signout"
+          },
+          "myAccount": {
+            "text": "Order History",
+            "destinationUrl": "/en-us/orderhistory"
+          },
+          "orderHistory": {
+            "text": "My account",
+            "destinationUrl": "/en-us/myaccount"
+          }
+        }
+      },
+      "logo__0":{
+        "id": "logo__0",
+        "typeName": "logo",
+        "config": {    
+        },
+        "data": {
+          "logo": {
+            "destinationUrl": "http://www.microsoft.com",
+            "image": {
+              "title": "microsoft",
+              "href": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d5",
+              "alttext": "microsoft"
+          }
+          }      
+        }
+      },
+      "search__0":{
+        "id": "search__0",
+        "typeName": "search",
+        "config": {
+          "hideSearchLabel": false,
+          "defaultSearchUrl": "https://www.microsoft.com/en-us/search",
+          "searchPlaceholderText": "Search Microsoft.com",
+          "searchQueryStringParameter": "q",
+          "searchText": "Search",
+          "cancelText": "Cancel" 
+        },
+        "data": {               
+        }
+      },
+      "cart__0":{
+        "id": "cart__0",
+        "typeName": "cart-icon",
+        "config": {
+        },
+        "data": {
+          "cartItemCount": 5,
+          "cartLink": {
+            "destinationUrl": "http://www.microsoft.com"
+          }
+        }
+      },
+      "primaryRegion__0": {
+          "id": "primaryRegion__0",
+          "typeName": "default-container"
+      },
+      
+      "contentplacement__0": {
+          "id": "contentplacement__0",
+          "typeName": "content-placement"
+      },
+
+      "header__0": {
+        "id": "header__0",
+        "typeName": "header",
+        "config": {
+          "renderWithContainer": true
+        }
+    },
+      
+      "carousel__0": {
+          "id": "carousel__0",
+          "typeName": "carousel"
+      },
+      "AlertModule": {
+        "id": "AlertModule",
+        "typeName": "alert"
+    },
+    "R1Module1": {
+      "id": "R1Module1",
+      "typeName": "hero"
+  }
+  },
+  "renderingContext": {
+    "flightIds": ["feature.xboxcontentondesktop", "feature.sfwaa_control"],
+    "requestUrl": "store-int.fabrikam.com/en-us/cart",
+    "clientContext": {
+        "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+        "deviceType": "Pc"
+    },
+    "staticContext": {
+        "staticCdnUrl": "/",
+        "staticCdnUrlWithLocale": "/"
+    },
+    "userContext": {
+        "token": null,
+        "isAuthenticated": false,
+        "signInUrl": "",
+        "signOutUrl": "",
+        "signUpUrl": "",
+        "signinName": null,
+        "name": null,
+        "emailAddress": null
+    },
+    "apiSettings": {
+      "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+      "channelId": 5637145359,
+      "catalogId": 0,
+      "oun": "077",
+      "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+      "ratingsReviewsEndpoint": ""
+  },
+      "locale": "en-us",
+      "site": "fabrikam",
+      "textDirection": "rtl"
+  },
+  "statusCode": 200,
+  "redirectUrl": null
+}

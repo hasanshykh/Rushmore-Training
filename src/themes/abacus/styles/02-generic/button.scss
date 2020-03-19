@@ -1,0 +1,72 @@
+@import '../00-settings/colors';
+@import '../00-settings/font';
+@import '../00-settings/responsive-breakpoints';
+
+//btn primary
+$btn-primary-color:#fff;
+$btn-primary-background:$primary-color;
+$btn-primary-border:$primary-color;
+$btn-primary-color-hover:$primary-color;
+$btn-primary-background-hover: #fff;
+$btn-primary-border-hover: $primary-color;
+//btn secondary
+$btn-secondary-color:$primary-color;
+$btn-secondary-background:#fff;
+$btn-secondary-border:$primary-color;
+$btn-secondary-color-hover:#fff;
+$btn-secondary-background-hover: $primary-color;
+$btn-secondary-border-hover: $primary-color;
+
+
+@mixin button-link($color: $msv-link-color) {
+  border-color: transparent;
+  background-color: transparent;
+  color: $msv-link-color;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@mixin primary-button() {
+  background-color: $btn-primary-background;
+  border: 1px solid $btn-primary-border;
+  color: $btn-primary-color;
+  cursor: pointer;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    border-color: $msv-gray-60;
+    background-color: $msv-gray-60;
+    color: $msv-text-color;
+  }
+  &:hover , &:focus , &:active{
+    background-color: $btn-primary-background-hover;
+    border: 1px solid $btn-primary-border-hover;
+    color: $btn-primary-color-hover;
+  }
+}
+
+@mixin secondary-button() {
+  background-color: $btn-secondary-background;
+  border: 1px solid $btn-secondary-border;
+  color: $btn-secondary-color;
+  cursor: pointer;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    border-color: $msv-gray-60;
+    background-color: $msv-gray-60;
+    color: $msv-text-color;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $btn-secondary-background-hover;
+    border: 1px solid $btn-secondary-border-hover;
+    color: $btn-secondary-color-hover;
+  }
+}

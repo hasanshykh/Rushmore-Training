@@ -1,0 +1,152 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "modules": {
+                        "mediaGallery": [
+                            {
+                                "id": "media-gallery-1",
+                                "typeName": "media-gallery"
+                            }
+                        ],
+                        "content": [
+                            {
+                                "id": "product-title-1",
+                                "typeName": "product-title"
+                            },
+                            {
+                                "id": "product-price-1",
+                                "typeName": "product-price"
+                            }
+                        ],
+                        "secondaryContent": [
+                            {
+                                "id": "product-description-1",
+                                "typeName": "product-description"
+                            },
+                            {
+                                "id": "product-configure-1",
+                                "typeName": "product-configure"
+                            },
+                            {
+                                "id": "product-add-to-cart-1",
+                                "typeName": "product-add-to-cart"
+                            }
+                        ]
+                    },
+                    "id": "primaryRegion__0",
+                    "typeName": "buybox-container"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+
+        "headRegion__0": {
+            "id": "headRegion__0",
+            "typeName": "default-container"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "buybox-container"
+        },
+        "footerRegion": {
+            "id": "footerRegion",
+            "typeName": "default-container"
+        },
+        "media-gallery-1": {
+            "id": "media-gallery-1",
+            "typeName": "media-gallery",
+            "config": {}
+        },
+        "product-title-1": {
+            "id": "product-title-1",
+            "typeName": "product-title",
+            "config": {}
+        },
+        "product-rating-1": {
+            "id": "product-rating-1",
+            "typeName": "product-rating",
+            "config": {}
+        },
+        "product-description-1": {
+            "id": "product-description-1",
+            "typeName": "product-description",
+            "config": {}
+        },
+        "product-price-1": {
+            "id": "product-price-1",
+            "typeName": "product-price",
+            "config": {}
+        },
+        "product-configure-1": {
+            "id": "product-configure-1",
+            "typeName": "product-configure",
+            "config": {
+                "selectDimensionFormatString": "Select A {0}",
+                "productDimensionTypeColor": "Color",
+                "productDimensionTypeConfiguration": "Configuration",
+                "productDimensionTypeSize": "Size",
+                "productDimensionTypeStyle": "Style"
+            }
+        },
+        "product-add-to-cart-1": {
+            "id": "product-add-to-cart-1",
+            "typeName": "product-add-to-cart",
+            "config": {
+                "addToCartText": "Add To Cart"
+            },
+            "link": {
+                "destinationUrl": "/cart",
+                "text": "Add to Cart",
+                "ariaLabel": "Cart"
+            }
+        }
+    },
+    "renderingContext": {
+        "flightIds": ["feature.contentondesktop", "feature.sfwaa_control"],
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": null,
+            "isAuthenticated": false,
+            "signinName": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+            "ratingsReviewsEndpoint": ""
+        },
+        "locale": "en-us",
+        "site": "fabrikam"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

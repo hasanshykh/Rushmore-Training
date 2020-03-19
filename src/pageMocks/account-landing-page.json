@@ -1,0 +1,295 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "typeName": "default-container",
+                    "id": "default-container 1__0",
+                    "friendlyName": "Default container 1 1",
+                    "config": {
+                        "className": "account-management",
+                        "containerType": "container"
+                    },
+                    "modules": {
+                        "content": [
+                            {
+                                "typeName": "content-rich-block",
+                                "id": "content-rich-block",
+                                "friendlyName": "Content rich block",
+                                "config": {
+                                    "layout": "oneColumn",
+                                    "renderWithContainer": true
+                                },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "content-rich-block-item",
+                                            "id": "content-rich-block-item",
+                                            "friendlyName": "Content rich block item",
+                                            "config": {},
+                                            "data": {
+                                                "blob": {
+                                                    "$type": "richText",
+                                                    "_id": "go5j4p8d2lc",
+                                                    "parent": [
+                                                        {
+                                                            "href": "cms/api/fabrikam/section/MAAqu"
+                                                        }
+                                                    ],
+                                                    "text": "<p>My account</p>\n"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "typeName": "content-placement",
+                                "id": "content-placement 1__0",
+                                "friendlyName": "Content placement 1 1",
+                                "config": {
+                                    "layout": "threeItemsInRow",
+                                    "renderWithContainer": false
+                                },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "account-welcome-placement-item",
+                                            "id": "account-welcome-placement-item",
+                                            "friendlyName": "Account welcome placement item",
+                                            "config": {
+                                                "tileSize": 12
+                                            },
+                                            "data": {
+                                                "heading": {
+                                                    "$type": "heading",
+                                                    "_id": "kr0zfb0h4gr",
+                                                    "parent": [
+                                                        {
+                                                            "href": "cms/api/fabrikam/section/MAAqu"
+                                                        }
+                                                    ],
+                                                    "text": "Welcome,",
+                                                    "headingTag": "h1",
+                                                    "textSize": "sm"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "typeName": "account-order-placement-item",
+                                            "id": "account-order-placement-item",
+                                            "friendlyName": "Account order placement item",
+                                            "config": {
+                                                "tileSize": 6,
+                                                "summary": "You have {0} orders."
+                                            },
+                                            "data": {
+                                                "heading": {
+                                                    "$type": "heading",
+                                                    "_id": "ew2bc1ekffx",
+                                                    "parent": [
+                                                        {
+                                                            "href": "cms/api/fabrikam/section/MAAqu"
+                                                        }
+                                                    ],
+                                                    "text": "Order history",
+                                                    "textSize": "sm",
+                                                    "headingTag": "h2"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "$type": "simpleLink",
+                                                        "_id": "avbf1dreqr2",
+                                                        "parent": [
+                                                            {
+                                                                "href": "cms/api/fabrikam/section/MAAqu"
+                                                            }
+                                                        ],
+                                                        "destinationUrl": "/fe/orderhistory",
+                                                        "ariaLabel": "View Orders",
+                                                        "text": "View"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "account-profile-placement-item",
+                                            "id": "account-profile-placement-item",
+                                            "friendlyName": "Account profile placement item",
+                                            "config": {
+                                                "tileSize": 6
+                                            },
+                                            "data": {
+                                                "heading": {
+                                                    "$type": "heading",
+                                                    "_id": "qkay5mr7uwh",
+                                                    "parent": [
+                                                        {
+                                                            "href": "cms/api/fabrikam/section/MAAqu"
+                                                        }
+                                                    ],
+                                                    "text": "My profile",
+                                                    "textSize": "sm",
+                                                    "headingTag": "h2"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "$type": "simpleLink",
+                                                        "_id": "caeeit1467c",
+                                                        "parent": [
+                                                            {
+                                                                "href": "cms/api/fabrikam/section/MAAqu"
+                                                            }
+                                                        ],
+                                                        "text": "View",
+                                                        "ariaLabel": "View profile",
+                                                        "destinationUrl": "/fe/MyProfile"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "account-wishlist-placement-item",
+                                            "id": "account-wishlist-placement-item",
+                                            "friendlyName": "Account wishlist placement item",
+                                            "config": {
+                                                "tileSize": 6,
+                                                "summary": "You have {0} items in the Wishlist."
+                                            },
+                                            "data": {
+                                                "heading": {
+                                                    "$type": "heading",
+                                                    "_id": "mptvz9vt56h",
+                                                    "parent": [
+                                                        {
+                                                            "href": "cms/api/fabrikam/section/MAAqu"
+                                                        }
+                                                    ],
+                                                    "text": "Wishlist",
+                                                    "headingTag": "h2",
+                                                    "textSize": "sm"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "$type": "simpleLink",
+                                                        "_id": "jndtv8a3dfu",
+                                                        "parent": [
+                                                            {
+                                                                "href": "cms/api/fabrikam/section/MAAqu"
+                                                            }
+                                                        ],
+                                                        "text": "View",
+                                                        "ariaLabel": "View Wishlist",
+                                                        "destinationUrl": "/fe/wishlist"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "typeName": "account-address-placement-item",
+                                            "id": "account-address-placement-item",
+                                            "friendlyName": "Account address placement item",
+                                            "config": {
+                                                "tileSize": 6,
+                                                "summary": "You have {0} addresses."
+                                            },
+                                            "data": {
+                                                "heading": {
+                                                    "$type": "heading",
+                                                    "_id": "boo8ul8czyu",
+                                                    "parent": [
+                                                        {
+                                                            "href": "cms/api/fabrikam/section/MAAqu"
+                                                        }
+                                                    ],
+                                                    "text": "Addresses",
+                                                    "headingTag": "h2",
+                                                    "textSize": "sm"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "$type": "simpleLink",
+                                                        "_id": "otqqduxtrma",
+                                                        "parent": [
+                                                            {
+                                                                "href": "cms/api/fabrikam/section/MAAqu"
+                                                            }
+                                                        ],
+                                                        "text": "View ",
+                                                        "ariaLabel": "View Addresses",
+                                                        "destinationUrl": "/fe/addressbook"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "content-placement"
+        },
+        "footerRegion": {
+            "id": "footerRegion",
+            "typeName": "default-container"
+        }
+    },
+    "renderingContext": {
+        "flightIds": [
+            "feature.xboxcontentondesktop",
+            "feature.sfwaa_control"
+        ],
+        "requestUrl": "rushmore.microsoft.com/cittadesign/demopagev3",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1NjE0NDU4NDIsIm5iZiI6MTU2MTQ0MjI0MiwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5mYWJyaWthbS5jb20vMDcxODA4YzMtMDIxMy00ZjQzLWI1ZTItZGYwMTI2NmU0NGFlL3YyLjAvIiwic3ViIjoiOGE0MzRkYzMtZmZmZS00YjBhLWExMGEtNGUyZTY3ZGQ0MTQxIiwiYXVkIjoiNWY2M2Y1MGQtZDdlNy00YTRlLTg1MzQtZTg3NTk5ZmMwZmQ5Iiwibm9uY2UiOiI2MzY5NzAzOTA0MTAyMDMwOTAuTW1JNE5qWmlaall0TVdNNU5TMDBNMk14TFdKaVpHVXROelkzTWpBell6UXdaRGhrTnpNellXRTNOR010WW1ZeVlTMDBaRFUxTFdFMk1qWXRZVGRqWkdZM01XUmpaV0k1IiwiaWF0IjoxNTYxNDQyMjQyLCJhdXRoX3RpbWUiOjE1NjE0NDIyNDIsIm9pZCI6IjhhNDM0ZGMzLWZmZmUtNGIwYS1hMTBhLTRlMmU2N2RkNDE0MSIsImdpdmVuX25hbWUiOiJBamF5MSIsImZhbWlseV9uYW1lIjoiS3VtYXIxIiwiZW1haWxzIjpbIm1zdGVzdF9hamFrdW1Ab3V0bG9vay5jb20iXSwidGZwIjoiQjJDXzFfc2lzdV9wcGUiLCJjX2hhc2giOiIwODVhTjdyRUphNUl6eFJrV3dyVkpRIn0.ADwfL6JSDWjF0mq9UBGE0WbLTebmXBDpRrrrWyOCd1GEwNu1Lyrr0YYHxSldYOHza9wt9tbY0lCRfxDYNoYLP2H_-wW7jqewoS1iUxOg4YS2rn234-UGvyUWjSdSHeI8yD7yL6CeFdVBYy6XWbhrXg-uzjT7ESXwLH8u99mpfJHN57GcUI-I6JdGahJYjRuuXs2z9-D6pfL-drj1K6TO1Kf4_Nta2v7OrStUfteSsVDu6qosWcm4NfvHN1MU1_UpC2ESOhxd-ivaU3xAIcwBKBOINjjxSImiFQSVk83UzcXHbXXINXIIjiPjzKtrc0iZ6tB5vF1D5HSwKa1HDujcZQ",
+            "isAuthenticated": true,
+            "signInUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null,
+            "customerAccountNumber": "004358"
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/search?fileName=/"
+        },
+        "locale": "en-us",
+        "market": "US"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

@@ -1,0 +1,153 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "modules": {
+                        "content": [
+                            {
+                                "modules": {
+                                  "text": [
+                                    {
+                                      "id": "a",
+                                      "typeName": "kerrynb-hero-text"
+                                    }
+                                  ],
+                                  "background": [
+                                    {
+                                     "id" : "b",
+                                     "typeName": "kerrynb-hero-background-image"
+                                    }
+                                  ],
+                                  "calltoactions": [
+                                    {
+                                      "id": "c",
+                                      "typeName": "kerrynb-hero-cta"
+                                    },
+                                    {
+                                      "id": "d",
+                                      "typeName": "kerrynb-hero-cta"
+                                    }
+                                  ]
+                                },
+                                "id": "e",
+                                "typeName": "kerrynb-hero-container"
+                              }
+                        ]
+                    },
+                    "id": "primaryRegion__0",
+                    "typeName": "default-container"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "default-container"
+        },
+        "a" : {
+            "id": "a",
+            "config": {
+              "titleSize": "md",
+              "title": "Sample title text",
+              "paragraph": "Sample description is a long string, with words to show up prettily."
+            },
+            "typeName": "kerrynb-hero-text"
+        },
+        "b" : {
+            "data": {
+                "image": {
+                    "title": "something",
+                    "href": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d8"
+                }
+            },
+            "id": "b",
+            "config": {
+                "horizontalAlignment": "left",
+                "verticalAlignment": "top",
+                "overlayGradient": "dark"
+            },
+            "typeName": "kerrynb-hero-background-image"
+        },
+        "c" : {
+            "id": "c",
+            "config": {
+              "destinationURL": "http://sample.com",
+              "text": "Shop shoes",
+              "ariaLabel": "Shop sample.com shoes category",
+              "openInNewTab" : true
+            },
+            "typeName": "kerrynb-hero-cta"
+        },
+        "d" : {
+            "id": "d",
+            "config": {
+              "destinationURL": "http://sample.com",
+              "text": "Shop bags",
+              "ariaLabel": "Shop sample.com bags category",
+              "openInNewTab" : true
+            },
+            "typeName": "kerrynb-hero-cta"          
+        },
+        "e" : {
+            "id": "e",
+            "typeName": "kerrynb-hero-container",
+            "config": {
+                "horizontalAlignment": "left",
+                "verticalAlignment": "top",
+                "textLightDark": "lightTheme",
+                "ctaAlignment": "row",
+                "mobileReflow": true
+            }
+        }
+    },
+    "renderingContext": {
+        "flightIds": ["feature.xboxcontentondesktop", "feature.sfwaa_control"],
+        "requestUrl": "rushmore.microsoft.com/cittadesign/demopagev3",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImV0aTF3b25IV29STy1QWC1PNTlZTXhwR0F6N1JDVHdLWUswTmZQU3Y2OTQifQ.eyJleHAiOjE1NTAxMTc0MDcsIm5iZiI6MTU1MDA4ODYwNywidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5jb250b3NvLmNvbS90ZnAvMDcxODA4YzMtMDIxMy00ZjQzLWI1ZTItZGYwMTI2NmU0NGFlL2IyY18xYV9zaWdudXBfc2lnbmluL3YyLjAvIiwic3ViIjoiNGJiZDhkZTItZjBhZS00Mjk4LWI0MGUtN2Q4OGZhZmE4MzFiIiwiYXVkIjoiZGNlZTdiMTMtZDNmOS00YzQ5LTgwMzktMDNhOWMwN2VlZDVmIiwiYWNyIjoiYjJjXzFhX3NpZ251cF9zaWduaW4iLCJub25jZSI6IjYzNjg1Njg1MzkwNTg1ODU1MC5PVE00Tm1JeE1UQXRORGc1TXkwME5XWTNMV0pqWm1ZdFptUmhaR015Wm1VM1lUbGhOakJoTkRreFlUQXRPV0U1WmkwMFlUSTVMV0kwTWpRdE1EaGtOekZsTkRJNU1HSmgiLCJpYXQiOjE1NTAwODg2MDcsImF1dGhfdGltZSI6MTU1MDA4ODYwNywibmFtZSI6Ikt1bXVkIiwib3RoZXJNYWlscyI6WyJrdW11ZHJhbmphbjE5QGdtYWlsLmNvbSJdLCJnaXZlbl9uYW1lIjoiS3VtdWQiLCJmYW1pbHlfbmFtZSI6IlJhbmphbiIsInRpZCI6IjA3MTgwOGMzLTAyMTMtNGY0My1iNWUyLWRmMDEyNjZlNDRhZSIsImNfaGFzaCI6Ik9jRERlR0RjOEI2dXhseFJ1UFVPS1EifQ.KvsQfztuxcU-RlR3EvxV2yHQKFmkJUYpB8dvY7cPTofXnP9bKpJrGQKhk9ye1nIK2w6u3DxkuqNS8XytM4mcEQFD4UbkzeFkzvqPytAxellN4vRi22WCte4oq3QvKDl8wUoZNHBvGPNBGpdgXPDkrv9TL5AMamRBLcGpwFe8sJ9ZWJxAoAKxIt1YZTXa3PPDJ4F5E5k1sAL1FeH0u_vufL7otlYldpbpLPyDXj4e1k0t41nWODqjgzQnt3fujBJAlEbpEPwzm96O5N8HV5qX1DtZIRJDQWz1_Lj-YUONhmyOWjNEoaFrTdcjVTO4pxcIPn9exR4mr5_HT_6VzlnWqA",
+            "isAuthenticated": true,
+            "signInUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+            "ratingsReviewsEndpoint": ""
+        },
+        "locale": "en-us",
+        "site": "cittadesign"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

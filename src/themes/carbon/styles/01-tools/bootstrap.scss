@@ -1,0 +1,32 @@
+// Import bootstrap css
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import '../00-settings/responsive-breakpoints';
+
+.row {
+    margin: 0;
+}
+
+div[class^='col'] {
+    padding: 0;
+    margin: 0;
+}
+
+// Container width
+body .container
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  >.row{
+    margin: 0 -15px;
+  }
+
+  @media screen and (min-width: $msv-breakpoint-s) {
+    max-width: $container-max-width;
+    width: 100%;
+  }
+}

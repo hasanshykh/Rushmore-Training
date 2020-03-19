@@ -1,0 +1,102 @@
+$msv-secondary-btn-background-color: transparent;
+$msv-secondary-btn-color: #222222;
+$msv-secondary-btn-border-color: #222222;
+$msv-secondary-btn-background-color-hover: #222222;
+$msv-secondary-btn-color-hover: #fff;
+$msv-secondary-btn-border-color-hover: #222222;
+
+$msv-primary-btn-background-color: #222222;
+$msv-primary-btn-color: $msv-white;
+$msv-primary-btn-border-color: #222222;
+$msv-primary-btn-background-color-hover: transparent;
+$msv-primary-btn-color-hover: #222;
+$msv-primary-btn-border-color-hover: #222;
+
+@mixin button-link($color: $msv-link-color) {
+  border-color: transparent;
+  background-color: transparent;
+  color: $msv-link-color;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@mixin primary-button() {
+  background-color: $msv-primary-btn-background-color;
+  border: 1px solid $msv-primary-btn-border-color;
+  color: $msv-primary-btn-color;
+  height: 40px;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+     color: #ffffff;
+     background-color: #222222;
+     border-color: #222222;
+  }
+
+  &:hover, &:focus, &:active{
+     -webkit-box-shadow: unset;
+     box-shadow: unset;
+     background-color: $msv-primary-btn-background-color-hover;
+     border: 1px solid $msv-primary-btn-border-color-hover;
+     color: $msv-primary-btn-color-hover;
+
+  }
+
+  &:not(:disabled):not(.disabled).active,
+  &:not(:disabled):not(.disabled):active{
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    background-color: transparent;
+    color: #222222;
+    border-color: #222222;
+  }
+
+  &:not(:disabled):not(.disabled).active:focus,
+  &:not(:disabled):not(.disabled):active:focus {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+  }
+}
+
+@mixin secondary-button() {
+  background-color: $msv-secondary-btn-background-color;
+  color: $msv-secondary-btn-color;
+  border-color: $msv-secondary-btn-border-color;
+  height: 40px;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    background-color: transparent;
+    color: #222222;
+    border-color: #222222;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $msv-secondary-btn-background-color-hover;
+    color: $msv-secondary-btn-color-hover;
+    border-color: $msv-secondary-btn-border-color-hover;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+  }
+
+  &:not(:disabled):not(.disabled).active,
+  &:not(:disabled):not(.disabled):active {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #222222;
+  }
+
+  &:not(:disabled):not(.disabled).active:focus,
+  &:not(:disabled):not(.disabled):active:focus {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+  }
+}

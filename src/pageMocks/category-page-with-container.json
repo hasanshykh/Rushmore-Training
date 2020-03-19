@@ -1,0 +1,202 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "header": [
+                {
+                    "modules": {
+                        "content": [
+                            {
+                                "id": "header__foo",
+                                "typeName": "header"
+                            }
+                        ]
+                    },
+                    "id": "headRegion__0",
+                    "typeName": "default-container"
+                }
+            ],
+            "primary": [
+                {
+                    "modules": {
+                        "refineMenu": [
+                            {
+                                "id": "refine-menu__0",
+                                "typeName": "refine-by-category-menu"
+                            }
+                        ],
+                        "choiceSummary": [
+                            {
+                                "id": "choice-summary-by-category__0",
+                                "typeName": "choice-summary-by-category"
+                            }
+                        ],
+                        "products": [
+                            {
+                                "id": "products-by-category__0",
+                                "typeName": "products-by-category"
+                            }
+                        ]
+                    },
+                    "config": {
+                        "mobileModalTitle": "Sort & filter",
+                        "mobileModalCloseButtonText": "Close"
+                    },
+                    "id": "primaryRegion__0",
+                    "typeName": "sort-and-filter-container"
+                },
+                {
+                    "modules": {
+                        "content": [
+                            {
+                                "id": "footer__0",
+                                "typeName": "footer"
+                            }
+                        ]
+                    },
+                    "id": "footerRegion",
+                    "typeName": "default-container"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "headRegion__0": {
+            "id": "headRegion__0",
+            "typeName": "default-container"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "sort-and-filter-container"
+        },
+        "footerRegion": {
+            "id": "footerRegion",
+            "typeName": "default-container"
+        },
+        "refine-menu__0": {
+            "data": {},
+            "id": "refine-menu__0",
+            "config": {
+                "placeholderTextMax": "No Max",
+                "minLabel": "Min",
+                "maxLabel": "Max",
+                "rangeNameFormat": "{0} range",
+                "validationErrorNotNumber": "Input needs to be a number",
+                "validationErrorNotRange": "Invalid range"
+            },
+            "typeName": "refine-by-category-menu"
+        },   
+        "choice-summary-by-category__0": {
+            "data": {},
+            "id": "choice-summary-by-category__0",
+            "config": {
+                "clearAllText": "Clear All",
+                "choiceRangeValueFormat": "{0} - {1}"
+            },
+            "typeName": "choice-summary-by-category"
+        },
+        "products-by-category__0": {
+            "data": {},
+            "id": "products-by-category__0",
+            "config": {},
+            "typeName": "products-by-category"
+        },
+        "header__foo": {
+            "id": "header__foo",
+            "config": {
+                "promotion": "FREE SHIPPING ON ALL ONLINE ORDERS OVER 100$",
+                "cartUrl": "/en-us/cittadesign/cart",
+                "logoUrl": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d5",
+                "homeLink": "/en-us/cittadesign/",
+                "cartLogoUrl": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d5"
+            },
+            "typeName": "header"
+        },
+        "footer__0": {
+            "data": {
+                "primary": {
+                    "$type": "featureItem",
+                    "_id": "cj8ylt09f6c",
+                    "_lastPublishedSequence": null,
+                    "_name": "cj8ylt09f6c-featureItem",
+                    "_links": {
+                        "Self": [
+                            {
+                                "Href": "cms/api/embedded/featureItem/cj8ylt09f6c"
+                            }
+                        ],
+                        "Parent": [
+                            {
+                                "Href": "cms/api/rushmore/section/MA6sGx"
+                            }
+                        ],
+                        "Children": null,
+                        "References": null,
+                        "BinaryReferences": null,
+                        "AuthoringSources": null,
+                        "Identity": null
+                    },
+                    "_locale": null,
+                    "_lastPublishedDateTime": null,
+                    "_lastEditedDateTime": null,
+                    "paragraph": "Containing more computing power than the average laptop, Microsoft HoloLens is passively cooled without fans. With no wires, external cameras, or phone or PC connection required, you can move freely and untethered.",
+                    "backgroundColor": "accent",
+                    "isDirty": true,
+                    "heading": "Power and grace",
+                    "id": "cj8ylt09f6c"
+                }
+            },
+            "id": "footer__0",
+            "config": {},
+            "typeName": "footer"
+        }
+    },
+    "renderingContext": {
+        "flightIds": ["feature.xboxcontentondesktop", "feature.sfwaa_control"],
+        "requestUrl": "rushmore.microsoft.com/cittadesign/demopagev3",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "customerAccountNumber": "",
+            "token": "",
+            "isAuthenticated": false,
+            "signInUrl": "https://rushmore-int.onerf.microsoft.com:443/plex/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://rushmore-int.onerf.microsoft.com:443/plex/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/search?fileName=/"
+        },
+        "gridSettings":{"xs":{"w":767,"h":0},"sm":{"w":991,"h":0},"md":{"w":1199,"h":0},"lg":{"w":1599,"h":0},"xl":{"w":1600,"h":0}},
+        "locale": "en-us",
+        "market": "US"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

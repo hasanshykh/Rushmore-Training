@@ -1,0 +1,14 @@
+@import '../00-settings/responsive-breakpoints';
+
+$spacer-size-desktop: 80px;
+$spacer-size-mobile: 48px;
+
+.ms-spacer {
+  height: $spacer-size-mobile;
+
+  @media screen and (min-width: $msv-breakpoint-m) {
+    & {
+      height: $spacer-size-desktop;
+    }
+  }
+}

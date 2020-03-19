@@ -1,0 +1,20 @@
+// custom font families
+$msv-primary-font-family:'Ubuntu', sans-serif;
+$msv-font-assistant: Gudea, Arial, sans-serif;
+$heading-font-family: Oswald, Arial, sans-serif;
+$msv-font-allerta: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+$msv-font-cinzel: Times, "Times New Roman", serif;
+$msv-font-weight-bold: 700;
+$msv-font-weight-600: 600;
+$msv-font-weight-normal: 400;
+$msv-text-size: 14px;
+$msv-text-line-height: 1.5;
+
+$msv-heading-text-size: 20px;
+$msv-heading-line-height: 28px;
+
+@mixin lineHeightFromFontSize($font-size) {
+    @if $font-size == $msv-text-size {
+        line-height: $msv-text-line-height;
+    }
+}

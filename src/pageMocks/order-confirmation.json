@@ -1,0 +1,99 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "modules": {
+                        "orderConfirmationInfo": [
+                            {
+                                "id": "order-confirmation-info-1",
+                                "typeName": "order-confirmation-info"
+                            }
+                        ]
+                    },
+                    "id": "primaryRegion__0",
+                    "typeName": "order-confirmation"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "headRegion__0": {
+            "id": "headRegion__0",
+            "typeName": "default-container"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "order-confirmation",
+            "data": {
+                "heading": {
+                    "text": "Thank you for your order",
+                    "headingTag": "h1",
+                    "textSize": "sm"
+                }
+            }
+        },
+        "order-confirmation-info-1": {
+            "id": "order-confirmation-info-1",
+            "typeName": "order-confirmation-info",
+            "data": {
+                "keepShoppingLink": {
+                    "text": "keep shopping",
+                    "destinationUrl": "/home"
+                }
+            }
+        }
+    },
+    "renderingContext": {
+        "flightIds": ["feature.contentondesktop", "feature.sfwaa_control"],
+        "requestUrl": "store-int.fabrikam.com/en-us/thankyou",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "query": {
+            "onum": "9234592138",
+            "email": "john.doe@fabrikam.com" 
+        },
+        "user": {
+            "token": "sdgsdfsejrkawf989a8s90f90fdg90asdfsf",
+            "isAuthenticated": true,
+            "signInUrl": "",
+            "signOutUrl": "",
+            "signinName": null,
+            "name": null,
+            "emailAddress": "test@outlook.com"
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+            "ratingsReviewsEndpoint": ""
+        },
+        "locale": "en-us",
+        "site": "fabrikam"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

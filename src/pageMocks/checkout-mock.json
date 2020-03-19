@@ -1,0 +1,249 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "friendlyName": "Default container 1 1",
+                    "config": {
+                        "renderWithContainer": "container"
+                    },
+                    "modules": {
+                        "checkoutSummary": [
+                            {
+                                "id": "checkout-cart-summary-1",
+                                "typeName": "checkout-cart-summary"
+                            },
+                            {
+                                "id": "checkout-place-order-1",
+                                "typeName": "checkout-place-order"
+                            },
+                            {
+                                "id": "checkout-line-items-1",
+                                "typeName": "checkout-line-items"
+                            },
+                            {
+                                "id": "contentrichblockitem-1",
+                                "typeName": "content-rich-block-item"
+                            },
+                            {
+                                "id": "checkout-place-order-2",
+                                "typeName": "checkout-place-order"
+                            }
+                        ],
+                        "checkoutInformation": [
+                            {
+                                "id": "checkout-address-1",
+                                "typeName": "checkout-address"
+                            },
+                            {
+                                "id": "checkout-delivery-options-1",
+                                "typeName": "checkout-delivery-options"
+                            },
+                            {
+                                "modules": {
+                                    "primary": [
+                                        {
+                                            "id": "checkout-gift-card-1",
+                                            "typeName": "checkout-gift-card"
+                                        },
+                                        {
+                                            "id": "checkout-payment-instrument-1",
+                                            "typeName": "checkout-payment-instrument"
+                                        }
+                                    ]
+                                },
+                                "id": "checkout-plain-container-1",
+                                "typeName": "checkout-plain-container"
+                            },
+                            {
+                                "id": "guest-profile-1",
+                                "typeName": "checkout-guest-profile"
+                            }
+                        ],
+                        "checkoutPlaceOrder": [
+                            {
+                                "id": "checkout-place-order-3",
+                                "typeName": "checkout-place-order"
+                            }
+                        ]
+                    },
+                    "id": "checkout__0",
+                    "typeName": "checkout"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "checkout__0": {
+            "id": "checkout__0",
+            "typeName": "checkout",
+            "data": {
+                "checkoutTitle": {
+                    "text": "Checkout",
+                    "headingTag": "h1"
+                },
+                "title_1": {
+                    "text": "Shipping Address",
+                    "headingTag": "h2"
+                },
+                "title_2": {
+                    "text": "Delivery option",
+                    "headingTag": "h2"
+                },
+                "title_3": {
+                    "text": "Payment method",
+                    "headingTag": "h2"
+                },
+                "title_4": {
+                    "text": "Contact Information",
+                    "headingTag": "h2"
+                }
+            }
+        },
+        "footerRegion": {
+            "id": "footerRegion",
+            "typeName": "default-container"
+        },
+        "checkout-place-order-1": {
+            "id": "checkout-place-order-1",
+            "typeName": "checkout-place-order",
+            "data": {
+                "orderConfirmationUrl": {
+                    "destinationUrl": "/thankyou?a=b"
+                }
+            }
+        },
+        "checkout-place-order-2": {
+            "id": "checkout-place-order-2",
+            "typeName": "checkout-place-order",
+            "data": {
+                "orderConfirmationUrl": {
+                    "destinationUrl": "/thankyou?a=b"
+                },
+                "keepShoppingLink": {
+                    "text": "Back to shopping",
+                    "destinationUrl": "/"
+                }
+            }
+        },
+        "checkout-place-order-3": {
+            "id": "checkout-place-order-2",
+            "typeName": "checkout-place-order",
+            "data": {
+                "orderConfirmationUrl": {
+                    "destinationUrl": "/thankyou?a=b"
+                },
+                "keepShoppingLink": {
+                    "text": "Back to shopping",
+                    "destinationUrl": "/"
+                }
+            }
+        },
+        "checkout-address-1": {
+            "id": "checkout-address-1",
+            "typeName": "checkout-address"
+        },
+        "checkout-payment-instrument-1": {
+            "id": "checkout-payment-instrument-1",
+            "typeName": "checkout-payment-instrument",
+            "config": {
+                "iFrameHeightOverride": 800
+            }
+        },
+        "guest-profile-1": {
+            "id": "guest-profile-1",
+            "typeName": "checkout-guest-profile"
+        },
+        "checkout-delivery-options-1": {
+            "id": "checkout-delivery-options-1",
+            "typeName": "checkout-delivery-options"
+        },
+        "checkout-gift-card-1": {
+            "id": "checkout-gift-card-1",
+            "typeName": "checkout-gift-card"
+        },
+        "checkout-line-items-1": {
+            "id": "checkout-line-items-1",
+            "typeName": "checkout-line-items",
+            "data": {
+                "title": {
+                    "text": "Shopping bag",
+                    "headingTag": "h2"
+                },
+                "editCartLink": {
+                    "destinationUrl": "/cart",
+                    "text": "Edit",
+                    "ariaLabel": "Edit shoppipng bag"
+                }
+            }
+        },
+        "checkout-cart-summary-1": {
+            "id": "checkout-cart-summary-1",
+            "typeName": "checkout-cart-summary"
+        },
+        "checkout-plain-container-1": {
+            "id": "checkout-plain-container-1",
+            "typeName": "checkout-plain-container"
+        },
+        "contentrichblockitem-1": {
+            "data": {
+                "blob": {
+                    "text": "For support, larger orders, and special business and EDU institute pricing call us at 866-425-4709 Monday through Friday, 6:00 AM to 6:00 PM PT"
+                }
+            },
+            "id": "contentrichblockitem-1",
+            "typeName": "content-rich-block-item"
+        }
+    },
+    "renderingContext": {
+        "flightIds": [
+            "feature.xboxcontentondesktop",
+            "feature.sfwaa_control"
+        ],
+        "requestUrl": "rushmore.microsoft.com/cittadesign/demopagev3",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": null,
+            "isAuthenticated": false,
+            "signInUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null,
+            "customerAccountNumber": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/search?fileName=/"
+        },
+        "locale": "en-us",
+        "market": "US"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

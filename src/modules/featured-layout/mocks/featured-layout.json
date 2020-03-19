@@ -1,0 +1,12 @@
+{
+  "id": "featured-layout-mock",
+  "config": {
+    "className": "container"
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response"
+    }
+  },
+  "typeName": "featured-layout"
+}

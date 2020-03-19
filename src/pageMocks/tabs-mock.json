@@ -1,0 +1,264 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "typeName": "core-root",
+        "id": "core-root_qvj4mug",
+        "friendlyName": "Core root 1",
+        "config": {},
+        "modules": {
+            "htmlHead": [
+                { "typeName": "default-metatags", "id": "default-metatags", "friendlyName": "Default metatags", "config": {} },
+                { "typeName": "default-page-summary", "id": "default-page-summary", "friendlyName": "Default page summary", "config": {} }
+            ],
+            "body": [
+                {
+                    "typeName": "default-page",
+                    "id": "default-page",
+                    "friendlyName": "Default Page",
+                    "config": { "skipToMainText": "Skip to main content", "pageTheme": "carbon" },
+                    "modules": {
+                        "primary": [
+                            {
+                                "typeName": "vsi-products-container",
+                                "id": "vsi-products-container-mock",
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection 1",
+                                            "friendlyName": "Product collection 1",
+                                            "config": {
+                                                "productCollection": {
+                                                    "categoryIds": [68719478054],
+                                                    "pageSize": 10,
+                                                    "listType": "productByCategory"
+                                                },
+                                                "heading": { "text": "Suits & Sportcoats", "tag": "h2" },
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "disableLazyLoad": true,
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "lg": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "xl": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection 3",
+                                            "friendlyName": "Product collection 3",
+                                            "config": {
+                                                "productCollection": {
+                                                    "categoryIds": [68719478056],
+                                                    "pageSize": 10,
+                                                    "listType": "productByCategory"
+                                                },
+                                                "heading": { "text": "Women Dresses", "tag": "h2" },
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "lg": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "xl": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection 5",
+                                            "friendlyName": "Product collection 5",
+                                            "config": {
+                                                "productCollection": {
+                                                    "categoryIds": [68719478035],
+                                                    "pageSize": 10,
+                                                    "listType": "productByCategory"
+                                                },
+                                                "heading": { "text": "Trending", "tag": "h2" },
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "lg": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "xl": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "typeName": "default-container",
+                                "id": "default-container",
+                                "friendlyName": "Container 2",
+                                "config": { "containerType": "container", "layout": "stacked", "heading": {}, "childrenWidth": "four" },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection 1",
+                                            "friendlyName": "Product collection 1",
+                                            "config": {
+                                                "productCollection": {
+                                                    "categoryIds": [68719478054],
+                                                    "pageSize": 10,
+                                                    "listType": "productByCategory"
+                                                },
+                                                "heading": { "text": "Suits & Sportcoats", "tag": "h2" },
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "disableLazyLoad": true,
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "lg": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "xl": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection 3",
+                                            "friendlyName": "Product collection 3",
+                                            "config": {
+                                                "productCollection": {
+                                                    "categoryIds": [68719478056],
+                                                    "pageSize": 10,
+                                                    "listType": "productByCategory"
+                                                },
+                                                "heading": { "text": "Women Dresses", "tag": "h2" },
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "lg": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "xl": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "typeName": "product-collection",
+                                            "id": "product-collection 5",
+                                            "friendlyName": "Product collection 5",
+                                            "config": {
+                                                "productCollection": {
+                                                    "categoryIds": [68719478035],
+                                                    "pageSize": 10,
+                                                    "listType": "productByCategory"
+                                                },
+                                                "heading": { "text": "Trending", "tag": "h2" },
+                                                "layout": "carousel",
+                                                "imageSettings": {
+                                                    "quality": 80,
+                                                    "lazyload": true,
+                                                    "viewports": {
+                                                        "xs": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "lg": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" },
+                                                        "xl": { "w": 315, "h": 315, "q": "w=315&h=315&q=80&m=6&f=jpg" }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "requestUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/FabrikamGA",
+        "sitePath": "/FabrikamGA",
+        "clientContext": { "deviceType": "Pc" },
+        "staticContext": { "staticCdnUrl": "/_scnr/", "staticCdnUrlWithLocale": "/en-us/_msdyn365/_scnr/" },
+        "user": {
+            "token": null,
+            "isAuthenticated": false,
+            "signInUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/fabrikamga/_msdyn365/signin",
+            "signOutUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/fabrikamga/_msdyn365/signout",
+            "signUpUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/fabrikamga/_msdyn365/signup",
+            "editProfileUrl": "https://vsicommerceeval-eval.commerce.dynamics.com/fabrikamga/_msdyn365/editprofile",
+            "signinName": null,
+            "firstName": null,
+            "lastName": null,
+            "optOutWebActivityTracking": null,
+            "tenantId": "",
+            "customerAccountNumber": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "previewContext": null,
+        "locale": "en-us",
+        "textDirection": "ltr",
+        "suggestedMarket": null,
+        "urlTokens": {},
+        "apiSettings": {
+            "baseUrl": "https://vsicommerceeval5efcca299aa7c8e7ret.cloud.retail.dynamics.com/",
+            "channelId": 68719478279,
+            "catalogId": 0,
+            "oun": "128",
+            "baseImageUrl": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/search?fileName=/",
+            "ratingsReviewsEndpoint": "https://71fee24e-b456-4375-aba5-2505ff229944.rnr.ms",
+            "rnr": { "id": "71fee24e-b456-4375-aba5-2505ff229944", "url": "https://71fee24e-b456-4375-aba5-2505ff229944.rnr.ms" }
+        },
+        "gridSettings": { "xs": { "w": 767 }, "sm": { "w": 991 }, "md": { "w": 1199 }, "lg": { "w": 1599 }, "xl": { "w": 1600 } },
+        "debugMode": 0,
+        "operationId": "4b1cd7918fe7db4f9243ad9676b7587c",
+        "sameSiteRequired": true,
+        "features": { "scnr_blob": true, "legacy_getactiveprices": true, "disable_cors": true },
+        "telemetrySettings": {
+            "doNotCollectBiData": false,
+            "eventHubEndPoint": "",
+            "eventHubAuthToken": "",
+            "operationId": "4b1cd7918fe7db4f9243ad9676b7587c"
+        }
+    },
+    "statusCode": 200,
+    "redirectUrl": null,
+    "appContext": {
+        "config": {
+            "outOfStockThreshold": 0.0,
+            "maxQuantityForCartLineItem": 10.0,
+            "enableStockCheck": false,
+            "reviewTextMaxLength": 500.0,
+            "reviewTitleMaxLength": 50.0,
+            "disableTooltip": false,
+            "disableBopis": false,
+            "searchQueryStringParameter": "q",
+            "searchInputMaxLength": 50.0
+        },
+        "routes": {
+            "account": { "destinationUrl": "/FabrikamGA/myaccount", "type": "internalLink" },
+            "accountProfile": { "destinationUrl": "/FabrikamGA/profile-edit", "type": "internalLink" },
+            "backToShopping": { "destinationUrl": "/FabrikamGA/home", "type": "internalLink" },
+            "cart": { "destinationUrl": "/FabrikamGA/cart", "type": "internalLink" },
+            "checkout": { "destinationUrl": "/FabrikamGA/checkout", "type": "internalLink" },
+            "home": { "destinationUrl": "/FabrikamGA/", "type": "internalLink" },
+            "loyalty": { "destinationUrl": "/FabrikamGA/loyalty", "type": "internalLink" },
+            "loyaltyJoin": { "destinationUrl": "/FabrikamGA/loyalty-join", "type": "internalLink" },
+            "orderConfirmation": { "destinationUrl": "/FabrikamGA/orderconfirmation", "type": "internalLink" },
+            "orderDetails": { "destinationUrl": "/FabrikamGA/orderdetails", "type": "internalLink" },
+            "search": { "destinationUrl": "/FabrikamGA/search", "type": "internalLink" },
+            "wishlist": { "destinationUrl": "/FabrikamGA/wishlist", "type": "internalLink" },
+            "loyaltyTerms": { "destinationUrl": "/FabrikamGA/loyalty-terms", "type": "internalLink" }
+        },
+        "platform": { "disableCookieCompliance": false, "imageQuality": 80.0, "skipToMainText": "Skip to main content" },
+        "contentSecurityPolicy": { "disableContentSecurityPolicy": true }
+    }
+}

@@ -1,0 +1,103 @@
+// for badges
+.badge-wrapper {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  white-space: nowrap;
+  z-index: 2;
+  display: flex;
+  
+  &.top-left {
+    right: unset;
+    left: 0;
+  }
+  
+  &.top-right {
+    top: 0;
+    right: 0;
+    left: unset;
+    bottom: unset;
+  }
+  
+  &.bottom-left {
+    top: unset;
+    bottom: 0;
+    right: unset;
+    left: 0;
+  }
+  
+  &.bottom-right {
+    top: unset;
+    bottom: 0;
+    right: 0;
+    left: unset;
+  }
+  
+  &.center {
+    top: 50%;
+    left: 50%;
+    bottom: unset;
+    right: unset;
+    transform: translate(-50%, -50%);
+  }
+  
+  .plp-rating {
+    color: white;
+    padding: 3px 6px;
+    background-color: #222;
+    margin-right: 8px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 1px solid transparent;
+    font-weight: 700;
+  }
+  
+  .pdp-rating {
+    color: white;
+    padding: 5px 10px;
+    background-color: #222;
+    margin-right: 8px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 1px solid transparent;
+    font-weight: 700;
+  }
+  
+  .plp-discount-badge {
+    color: #222;
+    padding: 10px;
+    background-color: lightgray;
+    margin-right: 8px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
+    box-shadow: 0 2px 5px 2px #d6d6d6;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    height: fit-content;
+  }
+  
+  .pdp-discount-badge {
+    color: #222;
+    padding: 20px;
+    background-color: lightgray;
+    margin-right: 8px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
+    box-shadow: 0 2px 5px 2px #d6d6d6;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    height: fit-content;
+  }
+  
+  &:not(:last-child) {
+    margin-right: 0;
+  }
+}
+  
+.position-relative {
+  position: relative;
+}

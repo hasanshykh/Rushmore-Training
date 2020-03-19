@@ -1,0 +1,7 @@
+{
+    "name": "@msdyn365-commerce/fabrikam-scripts",
+    "dependencies": {
+        "semver": "^5.6.0",
+        "yargs": "^13.2.2"
+    }
+}

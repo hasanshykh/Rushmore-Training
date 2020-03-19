@@ -1,0 +1,99 @@
+// Form elements
+@mixin error-message() {
+	@include font-content-m($font-weight-bold);
+	display: block;
+	color: $msv-error-color;
+}
+
+@mixin form-control {
+	display: block;
+	width: 100%;
+	color: $msv-gray-120;
+	background-color: #fff;
+	border: 1px solid $msv-gray-120;
+	border-radius: 0;
+	font-family: $msv-font-assistant;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 28px;
+	text-transform: none;
+	height: 48px;
+	padding: 10px;
+	background-clip: border-box;
+	position: relative;
+	&:focus {
+		color: $msv-black;
+		border-color: $msv-black;
+	}
+	&:disabled {
+		color: $msv-gray-90;
+		background-color: $msv-gray-90;
+	}
+}
+
+@mixin form-input-label() {
+	@include font-content-l();
+	display: block;
+	margin-bottom: 4px;
+}
+
+@mixin form-input-checkbox() {
+	height: 18px;
+	width: 18px;
+}
+
+@mixin form-input-radio {
+	@include vfi();
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+@mixin form-input-radio-label {
+	@include font-content-m($msv-font-weight-light);
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+@mixin form-input-el() {
+	@include vfi();
+	@include font-content-l();
+	height: 48px;
+	padding: 4px 8px;
+	background-color: $msv-white;
+	color: $msv-gray-120;
+	border-color: transparent;
+}
+
+@mixin form-input-el-error() {
+	border: 1px dashed $msv-error-color;
+	border-left: 3px solid $msv-error-color;
+}
+
+@mixin form-input-error-message() {
+	@include error-message();
+	@include add-icon($msv-IncidentTriangle);
+	margin-bottom: 4px;
+	&:before {
+		margin-right: 8px;
+	}
+}
+
+@mixin alert {
+	background-color: $msv-red;
+	border: 1px solid $red;
+	max-width: 512px;
+	padding: 8px;
+}
+
+@mixin alert-title {
+	@include error-message();
+	margin-bottom: 10px;
+	margin-top: 2px;
+	&:before {
+		@include font-awesome-icon($alert-icon);
+		margin-right: 8px;
+	}
+}

@@ -1,0 +1,110 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+        "modules": {
+            "primary": [
+                {
+                    "modules": {
+                        "content": [
+                            {
+                                "id": "sign-up__1",
+                                "typeName": "sign-up"
+                            }
+                        ]
+                    },
+                    "id": "primaryRegion__0",
+                    "typeName": "default-container"
+                }
+            ]
+        },
+        "id": "page",
+        "config": {},
+        "typeName": "default-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "typeName": "default-page"
+        },
+        "primaryRegion__0": {
+            "id": "primaryRegion__0",
+            "typeName": "default-container"
+        },
+        "sign-up__1": {
+            "id": "sign-up__1",
+            "typeName": "sign-up",
+            "data": {
+                "heading": {
+                    "headingTag": "h1",
+                    "text": "Sign up",
+                    "textSize": "sm"
+                },
+                "disclaimer": {
+                    "text": "<p>By creating an account, you agree to Fabrikam’s <a href=\"TermsOfUser\" class=\"c-hyperlink\">Terms of Use</a> and accept our <a href=\"privacypolicy\" class=\"c-hyperlink\">Privacy Policy</a>.</p>"
+                }
+            },
+            "config": {
+                "firstNameLabelText": "First Name",
+                "lastNameLabelText": "Last Name",
+                "emailAddressLabelText": "Email Address",
+                "passwordLabelText": "Password",
+                "passwordDescription": "Must have more than 8 characters with at least 1 number.",
+                "confirmPasswordLabelText": "Confirm Password",
+                "signUpButtonText": "Sign up",
+                "signUpButtonArialabel": "Sign up",
+                "cancelButtonText": "Cancel",
+                "cancelButtonArialabel": "Cancel",
+                "passwordEntryMismatchError": "The password entry fields do not match. Please enter the same password in both fields and try again.",
+                "requiredFieldMissingSummaryError": "A required field is missing. Please fill out all required fields and try again.",
+                "requiredFieldMissingError": "This information is required.",
+                "fieldIncorrectError": "One or more fields are filled out incorrectly. Please check your entries and try again.",
+                "invalidEmailAddressError": "Please enter a valid email address.",
+                "invalidPasswordError": "Please enter a valid password.",
+                "loadingMessage": "Please wait.",
+                "showLoadingMessage": true
+            }
+        }
+    },
+    "renderingContext": {
+        "flightIds": [
+            "feature.xboxcontentondesktop",
+            "feature.sfwaa_control"
+        ],
+        "requestUrl": "rushmore.microsoft.com/cittadesign/demopagev3",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/",
+            "staticCdnUrlWithLocale": "/"
+        },
+        "userContext": {
+            "token": null,
+            "isAuthenticated": false,
+            "signInUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://onerf.dev.microsoft.com:443/cittadesign/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com//",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/search?fileName=/"
+        },
+        "locale": "en-us",
+        "market": "US"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

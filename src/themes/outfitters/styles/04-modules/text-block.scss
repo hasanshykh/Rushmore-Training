@@ -1,0 +1,31 @@
+.ms-text-block
+{
+    &.alignment__center
+    {
+      text-align: center;
+    }
+    &.alignment__left {
+        text-align: left;
+    }
+    &.alignment__right {
+        text-align: right;
+    }
+
+    &.fontsize__small {
+        font-size: small;
+    }
+    &.fontsize__medium {
+        font-size: medium;
+    }
+    &.fontsize__large {
+        font-size: large;
+    }
+    &.fontsize__extralarge {
+        font-size: x-large;
+    }
+
+    a {
+        color: $msv-blue;
+        text-decoration: underline;
+    }
+}

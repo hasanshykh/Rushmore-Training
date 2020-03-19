@@ -1,0 +1,133 @@
+$msv-feature-body-color: $msv-black;
+$buybox-product-title-size: 24px;
+$buybox-font-size: 14px;
+$buybox-content-items-padding-top: 20px;
+$buybox-content-items-padding-top-small: 12px;
+$buybox-margin-top: 36px;
+$buybox-button-height:32px;
+$buybox-quantity-width:40px;
+$buybox-find-in-store-description-padding-bottom:7px;
+$buybox-product-title-line-height:32px;
+$buybox-quantity-label-line-height:20px;
+$buybox-label-margin-bottom: 5px;
+$buybox-title-margin-bottom: 5px;
+$buybox-dropdown-height:32px;
+$buybox-ratings-margin-top:10px;
+
+// mixin
+@mixin buybox-button {
+    height: $buybox-button-height;
+    width: 100%;
+}
+
+.ms-buybox {
+  margin-top: $buybox-margin-top;
+  @media (min-width: $msv-breakpoint-s) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+
+    // content styles
+    &__content {
+      color: $msv-black;
+      font-size: $buybox-font-size;
+      flex-grow: 2;
+    }
+
+    &__product-title {
+      font-size: $buybox-product-title-size;
+      line-height: $buybox-product-title-line-height;
+      margin-bottom: $buybox-title-margin-bottom;
+    }
+
+    &__dropdown,
+    &__quantity {
+        padding-top: $buybox-content-items-padding-top;
+    }
+
+    &__find-in-store-heading,
+    &__find-in-store-description {
+      display: none;
+    }
+
+    &__ratings-link {
+      @include vfi();
+      display: inline-block;
+    }
+
+    .msc-price__actual,
+    .ms_buybox__dropdown-quantity-label,
+    .ms_buybox__product-quantity-label-heading {
+      color: $msv-black;
+      font-weight: $msv-font-weight-600;
+      line-height: $buybox-quantity-label-line-height;
+    }
+    
+    .msc-no-ratings {
+      margin-top: $buybox-ratings-margin-top;
+    }
+    .msc-dropdown__select {
+      @include vfi();
+      height: $buybox-dropdown-height;
+      width: 100%;
+    }
+
+    .msc-quantity-input {
+      @include vfi();
+      height: $buybox-dropdown-height;
+      text-align: center;
+      width: $buybox-quantity-width;
+    }
+
+    &__add-to-cart-container {
+      padding-top: $buybox-content-items-padding-top;
+      .msc-add-to-cart {
+        @include buybox-button();
+        @include primary-button()
+      }
+    }
+
+    &__add-to-wishlist-container {
+      padding-top: $buybox-content-items-padding-top-small;
+
+      .msc-add-to-wishlist {
+        &:after {
+          color: $msv-link-color;
+        }
+        @include buybox-button();
+        @include secondary-button();
+        border-color: transparent;
+        background-color: transparent;
+        width: $buybox-button-height;
+      }
+    }
+
+    &__find-in-store-description {
+      padding-bottom: $buybox-find-in-store-description-padding-bottom;
+    }
+
+    &__find-in-store {
+      padding-top: $buybox-content-items-padding-top;
+      .ms-buybox__find-in-store-button {
+        @include buybox-button();
+        @include secondary-button();
+        @include vfi();
+
+        &:not(:disabled) {
+          &:hover {
+              cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  //mobile vp
+  @media (max-width: $msv-breakpoint-m) {
+    flex-flow: column; 
+  }
+  label {
+    display: block;
+    margin-bottom: $buybox-label-margin-bottom;
+  }
+}
+

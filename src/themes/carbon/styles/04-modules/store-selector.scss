@@ -1,0 +1,142 @@
+$msv-store-selector-phone-section-padding-top: 5px;
+
+.ms-store-select {
+  color: $msv-text-color;
+
+  &__found-locations {
+    margin-bottom: 20px;
+  }
+
+  &__search {
+    display: flex;
+    &-form {
+      flex: auto;
+      display: flex;
+      height: 32px;
+    }
+
+    &-input {
+      @include vfi();
+      flex: auto;
+      border: 1px solid $msv-gray-120;
+      border-right: 0;
+      border-radius: 2px 0 0 2px;
+      padding-left: 12px;
+    }
+
+    &-button {
+      cursor: pointer;
+      @include add-icon($msv-Search, after);
+      background-color: white;
+      border: 1px solid $msv-gray-120;
+      border-left: 0;
+      border-radius: 0 2px 2px 0;
+    }
+  }
+
+  &__store-hours-details {
+    display: flex;
+    flex-wrap: wrap;
+
+    .ms-store-select__store-hours-day {
+      flex: 0 0 40%;
+    }
+
+    .ms-store-select__store-hours-time {
+      flex: 0 0 60%;
+    }
+  }
+
+  &__location {
+    padding: 20px 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $msv-gray-20;
+    }
+
+    &-line-item-header {
+      margin-bottom: 10px;
+    }
+
+    &-line-item-store-name,
+    &-line-header {
+      @include font-content-s-height-l(600);
+    }
+
+    &-line-store-distance {
+      color: $msv-gray-120;
+    }
+
+    &-line-item-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-line-stock-status {
+      @include font-content-s-height-l();
+    }
+
+    &-line-shop-address {
+      &-section {
+        display: flex;
+      }
+      &-glyph-icon {
+        padding: 2px 6px;
+        @include add-icon($msv-Shop-Address);
+      }
+    }
+
+    &-line-shop-phone {
+      &-section {
+        display: flex;
+        padding-top: $msv-store-selector-phone-section-padding-top;
+      }
+      &-icon {
+        padding: 2px 6px;
+        @include add-icon($msv-Phone);
+      }
+    }
+
+    &-line-select-store {
+      cursor: pointer;
+      @include font-content-s-height-l(600);
+      background-color: #fff;
+      border-radius: 2px;
+      border: 1px solid $msv-gray-120;
+
+      &:hover,
+      &:focus {
+        background-color: $msv-gray-20;
+      }
+    }
+  }
+
+  &__terms-link {
+    @include vfi();
+  }
+}
+
+@media screen and (min-width: $msv-breakpoint-m) {
+  .ms-store-select__location {
+    &-line-item-content {
+      flex-direction: row;
+    }
+    &-line-item-contact-info,
+    &-line-item-store-hours {
+      width: 33%;
+      margin-right: 1%;
+    }
+    &-line-item-store-availability {
+      width: 32%;
+      text-align: right;
+      .ms-store-select__location-line-header {
+        display: none;
+      }
+    }
+    &-line-stock-status {
+      @include font-content-s-height-l(600);
+      position: relative;
+      top: -34px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "featured-category",
+    "name": "featured-category",
+    "description": "Featured category box for displaying the featured categories",
+    "categories": ["featured-category"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {        
+    },    
+    "config": {
+        "categoryLink":{
+            "friendlyName": "Category link/URL",
+            "description": "Select the category link which you need configured with this item",
+            "$ref": "@msdyn365-commerce-modules/definitions/dist/src/ActionLink.json#/definitions/actionLink",
+            "required": true
+        },
+        "buttonText": {
+            "friendlyName": "Button text",
+            "description": "Add text for button",
+            "type": "string",
+            "default": "Button Text",
+            "required": true
+        },
+        "categoryImage": {
+            "type": "string",
+            "friendlyName": "Image",
+            "description": "Category box image",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

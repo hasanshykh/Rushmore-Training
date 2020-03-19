@@ -1,0 +1,10 @@
+.msc-add-to-cart {
+    @include primary-button();
+    @include vfi();
+
+    &:not(:disabled) {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+} 

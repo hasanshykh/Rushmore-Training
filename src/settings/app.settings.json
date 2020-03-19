@@ -1,0 +1,114 @@
+{
+    "config": {
+        "rnrTenantId": {
+            "type": "string",
+            "friendlyName": "Ratings and review tenant id",
+            "description": "Id for your instance of the reviews and ratings service"
+        },
+        "outOfStockThreshold": {
+            "friendlyName": "Out of stock threshold",
+            "description": "Threshold to use when determining if a product is out of stock or not -- if its less than or equal to this value, it'll be marked as out of stock",
+            "type": "number",
+            "default": 0
+        },
+        "maxQuantityForCartLineItem": {
+            "friendlyName": "Cart line quantity limit",
+            "description": "Limit to the number of copies of an item that can be added to a cart line",
+            "type": "number",
+            "default": 10
+        },
+        "enableStockCheck": {
+            "friendlyName": "Enable stock check in app",
+            "description": "Flag to enable ot disable stock check in app",
+            "type": "boolean",
+            "default": false
+        },
+        "reviewTextMaxLength": {
+            "friendlyName": "Review text max length",
+            "description": "Maximum number of characters for the review text",
+            "type": "number",
+            "default": 500
+        },
+        "reviewTitleMaxLength": {
+            "friendlyName": "Review title max length",
+            "description": "Maximum number of characters for the title",
+            "type": "number",
+            "default": 50
+        },
+        "disableTooltip": {
+            "friendlyName": "Disable tooltip flag",
+            "description": "Flag to disable tooltip on items",
+            "type": "boolean",
+            "default": false
+        },
+        "disableBopis": {
+            "friendlyName": "Disable BOPIS",
+            "description": "Flag to disable BOPIS",
+            "type": "boolean",
+            "default": false
+        },
+        "searchQueryStringParameter": {
+            "friendlyName": "Search query string parameter",
+            "description": "Query string parameter for search",
+            "type": "string",
+            "default": "q"
+        },
+        "searchInputMaxLength": {
+            "friendlyName": "Search input max length",
+            "description": "Maximum number of characters for the search input field",
+            "type": "number",
+            "default": 50
+        }
+    },
+    "routes": {
+        "orderDetails": {
+            "friendlyName": "Order details Page Route",
+            "description": "Order details Page Route"
+        },
+        "cart": {
+            "friendlyName": "Cart Page Route",
+            "description": "Cart Page Route"
+        },
+        "checkout": {
+            "friendlyName": "Checkout Page Route",
+            "description": "Checkout Page Route"
+        },
+        "orderConfirmation": {
+            "friendlyName": "Order Confirmation Page Route",
+            "description": "Order Confirmation Page Route"
+        },
+        "home": {
+            "friendlyName": "Home Page Route",
+            "description": "Home Page Route"
+        },
+        "rnrPrivacyPolicy": {
+            "friendlyName": "RNR Privacy Policy",
+            "description": "Privacy Policy for Ratings and Reviews"
+        },
+        "wishlist": {
+            "friendlyName": "Wishlist Page Route",
+            "description": "Wishlist Page Route"
+        },
+        "loyalty": {
+            "friendlyName": "Loyalty Page Route",
+            "description": "Loyalty Page Route"
+        },
+        "loyaltyJoin": {
+            "friendlyName": "Loyalty sign up Page Route",
+            "description": "Loyalty sign up Page Route"
+        },
+        "loyaltyTerms": {
+            "friendlyName": "Loyalty terms page route",
+            "description": "Loyalty terms Page Route"
+        },
+        "search": {
+            "friendlyName": "Search page route",
+            "description": "Search page route"
+        }
+    },
+    "themes": {
+        "fabrikam-theme": {
+            "friendlyName": "Fabrikam"
+        }
+    }
+}

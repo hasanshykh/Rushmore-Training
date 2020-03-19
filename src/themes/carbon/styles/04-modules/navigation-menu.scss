@@ -1,0 +1,289 @@
+$navigation-parent-menu-margin-left:  10px;
+$navigation-parent-menu-margin-right:  10px;
+$navigation-parent-menu-margin-top:  0;
+$navigation-parent-menu-margin-bottom:  0;
+$navigation-menu-list-margin-top:  12px;
+$navigation-menu-list-min-width:  250px;
+$navigation-sub-menu-padding-left:  32px;
+$navigation-sub-menu-padding-right:  32px;
+$navigation-menu-item-font-size: 14px;
+.ms-nav {
+    background: $msv-white;
+    width: 100%;
+    &__list {
+        z-index: 1000;
+        @include vfi();
+        &__item {
+            white-space: nowrap;
+
+            &__image {
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+
+    &__list {
+        &.level-2 {
+            width: 100%;
+        }
+    }
+
+    >.ms-nav__list {
+        background: $msv-white;
+
+        >.ms-nav__list__item {
+            background: $msv-white;
+            >.ms-nav__list {
+                background: $msv-white;
+                padding: 10px 0;
+                min-width: $navigation-menu-list-min-width;
+                height: unset;
+                justify-content:center;
+                .ms-nav__list__item{
+                    line-height: 1.2;
+                    .ms-nav__list__item__button,
+                    .ms-nav__list__item__link{
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $msv-breakpoint-xs) {
+    .ms-nav {
+        &__list {
+            display: block;
+            flex-wrap: nowrap;
+            &__mobile__container {
+                border-bottom: 1px solid $msv-gray-60;
+                padding-bottom: 13px;
+                display: flex;
+                &__button {
+                    @include vfi();
+                    @include add-icon($msv-ChevronLeft);
+                    background-color: $msv-white;
+                    border: none;
+                    color: $msv-text-color;
+                    font-family: $msv-primary-font-family;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                &__span {
+                    margin-left: 21px;
+                    color: $msv-text-color;
+                }
+            }
+
+            &__item {
+                &__image {
+                    display: none;
+                }
+                &__button {
+                    color: $msv-black;
+                    padding-left: 0;
+                    padding-right: 0;
+                    text-align: left;
+                    width: 100%;
+                    &:after {
+                        @include msv-icon();
+                        content: $msv-ChevronRight;
+                        display: inline-flex;
+                        float: right;
+                        text-align: right;
+                    }
+                }
+
+                &__button,
+                &__link {
+                    background-color: $msv-white;
+                    border: none;
+                    color: $msv-text-color;
+                    display: block;
+                    font-family: $msv-primary-font-family;
+                    @include vfi();
+
+                    &:focus {
+                        outline-offset: -1px;
+                    }
+                }
+            }
+        }
+        >.ms-nav__list {
+            width: 100%;
+            >.ms-nav__list__item {
+                >.ms-nav__list__item__button {
+                    color: $msv-black;
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+
+    .ms-nav.child {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media screen and (min-width: $msv-breakpoint-m) {
+    .ms-nav {
+        display: flex;
+        &__list {
+            position: absolute;
+            &__mobile__container {
+                display: none;
+            }
+
+            &__item {
+                &__button {
+                    color: $msv-black;
+                    &:after {
+                        content: none;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    &:focus {
+                        @include vfi();
+                    }
+                }
+            }
+        }
+        &__list {
+            &.level-2 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                left: 0;
+
+                .ms-nav__list {
+                    position: relative;
+
+                    .ms-nav__list__item {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+
+        >.ms-nav__list {
+            display: flex;
+            flex-wrap: wrap;
+            position: unset;
+            justify-content: center;
+            .ms-nav__list {
+                height: unset;
+            }
+
+            >.ms-nav__list__item {
+                margin: {
+                    top: $navigation-parent-menu-margin-top;
+                    left: $navigation-parent-menu-margin-left;
+                    right: $navigation-parent-menu-margin-right;
+                    bottom: $navigation-parent-menu-margin-bottom;
+                }
+                &:hover {
+                    >.ms-nav__list {
+                        display: block;
+
+                        &.level-2 {
+                            display: flex;
+                        }
+                    }
+                }
+                >.ms-nav__list__item__button,
+                .ms-nav__list__item__link {
+                    @include vfi();
+                    align-items: center;
+                    background-color: $msv-white;
+                    border: none;
+                    display: inline-flex;
+                    font-family: $msv-primary-font-family;
+                    justify-content: center;
+                    text-transform: uppercase;
+                }
+                >.ms-nav__list {
+                    border: 1px solid $msv-gray-60;
+                    box-shadow: 0px 8px 15px $msv-box-shadow-color;
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.ms-nav__list__item__link,
+.ms-nav__list__item__button,
+.ms-nav__list__item__span {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0;
+}
+.ms-nav__list__item__link,
+.ms-nav__list__item__span {
+    text-transform: capitalize;
+    padding: 8px 15px;
+    margin: 0;
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    &:active,&:hover,&:focus{
+        color: #222;
+    }
+}
+.arrow-down{
+    @include add-icon($msv-ChevronDown, after);
+    &:after {
+        font-size: 11px;
+        padding-left: 4px;
+    }
+}
+.ms-nav>.ms-nav__list>.ms-nav__list__item>.ms-nav__list {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.ms-nav>.ms-nav__list>.ms-nav__list__item>.ms-nav__list.level-2>.ms-nav__list__item {
+    padding: 0 15px;
+}
+.level-2{
+    >.ms-nav__list__item {
+        .ms-nav__list {
+            .ms-nav__list__item {
+                margin-top: 12px;
+            }
+            .ms-nav__list__item .ms-nav__list__item__link {
+                text-transform: capitalize;
+                margin: 0;
+                display: block;
+                color: #666666;
+                font-size: 14px;
+                line-height: 1.25;
+                &:hover,&:focus,&:active{
+                    color: #222;
+                }
+            }
+        } 
+        .ms-nav__list__item__link {
+            padding: 0;
+        }
+        >.ms-nav__list__item__link {
+            color: #222222;
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+    }
+}

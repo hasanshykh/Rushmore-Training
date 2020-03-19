@@ -1,0 +1,41 @@
+{
+    "$type": "containerModule",
+    "friendlyName": "product-container",
+    "name": "product-container",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["product-container"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {      
+    },    
+    "config": {
+    },
+    "slots": {
+        "slot1": {
+            "friendlyName": "Content Slot 1",
+            "description": "Content to be rendered in container. Max 1",
+            "allowedTypes": ["product-list"],
+            "max": 1,
+            "min": 0
+        },
+        "slot2": {
+            "friendlyName": "Content Slot 2",
+            "description": "Content to be rendered in container. Max 1",
+            "allowedTypes": ["product-list"],
+            "max": 1,
+            "min": 0
+        },
+        "slot3": {
+            "friendlyName": "Content Slot 3",
+            "description": "Content to be rendered in container. Max 1",
+            "allowedTypes": ["product-list"],
+            "max": 1,
+            "min": 0
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

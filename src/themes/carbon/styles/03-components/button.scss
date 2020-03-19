@@ -1,0 +1,31 @@
+$msv-btn-primary-color: $msv-white;
+$msv-btn-primary-bg: $msv-primary;
+$msv-btn-min-width: 160px;
+$msv-btn-side-padding: 12px;
+$msv-btn-height: 40px;
+$msv-btn-icon-to-text-gap: 4px;
+$msv-btn-border-radius: 2px;
+
+.msc-btn {
+  @include vfi();
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-family: $msv-primary-font-family;
+  font-size: 14px;
+  font-weight: 400;
+  height: $msv-btn-height;
+  padding: 11px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  &:not(:disabled) {
+    cursor: pointer;
+}
+
+  &.msc-btn__wide {
+    min-width: $msv-btn-min-width;
+  }
+}

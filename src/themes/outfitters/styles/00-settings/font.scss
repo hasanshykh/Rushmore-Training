@@ -1,0 +1,18 @@
+$msv-primary-font-family: 'Poppins', sans-serif;
+$msv-font-assistant: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$msv-font-allerta: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+$msv-font-cinzel: 'Playfair Display', serif;
+$msv-font-weight-bold: 700;
+$msv-font-weight-600: 600;
+$msv-font-weight-normal: 400;
+$msv-text-size: 16x;
+$msv-text-line-height: 30px;
+
+$msv-heading-text-size: 20px;
+$msv-heading-line-height: 28px;
+
+@mixin lineHeightFromFontSize($font-size) {
+    @if $font-size == $msv-text-size {
+        line-height: $msv-text-line-height;
+    }
+}

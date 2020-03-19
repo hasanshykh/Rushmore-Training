@@ -1,0 +1,42 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "Featured Layout Item",
+    "name": "featured-layout-item",
+    "description": "Featured layout item box which will be used on the layout",
+    "categories": ["featured-layout-item"],
+    "dataActions": {        
+    },    
+    "config": {
+        "categoryLink":{
+            "friendlyName": "Category link/URL",
+            "description": "Select the category link which you need configured with this item",
+            "$ref": "@msdyn365-commerce-modules/definitions/dist/src/ActionLink.json#/definitions/actionLink",
+            "required": true
+        },
+        "bgImage": {
+            "type": "string",
+            "friendlyName": "Image",
+            "description": "Featured box image",
+            "required": true
+        },
+        "heading": {
+            "friendlyName": "Title",
+            "description": "Featured box title",
+            "type": "string",
+            "required": true
+        },
+        "showButton": {
+            "friendlyName": "Show button on Featured box",
+            "description": "Featured box button",
+            "type": "boolean",
+            "default": false,
+            "group": "Featured Box Button Settings"
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

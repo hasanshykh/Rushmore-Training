@@ -1,0 +1,69 @@
+// font
+$promo-banner-font-size: 14px;
+$promo-banner-line-height: 20px;
+$promo-banner-height: 40px;
+
+.ms-promo-banner {
+    background-color: $msv-black;
+    display: flex;
+    color: $msv-white;
+    flex-wrap: wrap;
+    align-items: center;
+    height: $promo-banner-height;
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    &.alignment__center {
+      text-align: center;
+    }
+    &.alignment__left {
+        text-align: left;
+    }
+    &.alignment__right {
+        text-align: right;
+    }
+
+    .ms-promo-banner__text {
+        color: $msv-white;
+    }
+
+    .ms-promo-banner__carousel {
+        flex-grow: 1;
+    }
+
+    .msc-carousel__inner {
+        color: $msv-white;
+    }
+
+    .ms-promo-banner__close-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        &:after {
+            @include msv-icon();
+            content: $msv-x-shape;
+            color: $msv-white;
+        }
+        .ms-promo-banner__close-button__label {
+            display: none;
+        }
+    }
+    
+    .promobanner-custom{
+        display: flex;
+        align-items: center;
+    }
+
+    .active{
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: $msv-breakpoint-m) {
+    .ms-promo-banner .ms-promo-banner__carousel {
+        width: auto;
+    }
+}

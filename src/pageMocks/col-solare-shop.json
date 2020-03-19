@@ -1,0 +1,625 @@
+{
+  "exception": null,
+  "pageRoot": {
+    "pageLayout": null,
+    "title": null,
+    "faviconUrl": null,
+    "bodyClass": "this should be body class",
+    "pageDescription": null,
+    "pageKeywords": null,
+    "canonicalUrl": "https://rushmore.microsoft.com/en-us/cittadesign/demopagev3",
+    "modules": {
+      "footer": [
+        {
+          "typeName": "footer",
+          "id": "IDNMAiex_p148wc4",
+          "friendlyName": "Footer",
+          "config": {},
+          "modules": {
+            "content": [
+              {
+                "typeName": "footer-item",
+                "id": "IDNMAiex_p148wc4-footer-item__0",
+                "friendlyName": "Footer item 1",
+                "config": {},
+                "data": {
+                  "links": [
+                    {
+                      "$type": "simpleLink",
+                      "_id": "kv6r6ng5smf",
+                      "parent": [
+                        {
+                          "href": "cms/api/fabrikam/section/MAidw"
+                        }
+                      ],
+                      "destinationUrl": "#",
+                      "text": "Sitemap"
+                    },
+                    {
+                      "$type": "simpleLink",
+                      "_id": "vg015ip3w7m",
+                      "parent": [
+                        {
+                          "href": "cms/api/fabrikam/section/MAidw"
+                        }
+                      ],
+                      "destinationUrl": "#",
+                      "text": "Contact Us"
+                    },
+                    {
+                      "$type": "simpleLink",
+                      "_id": "rb6l4cglalq",
+                      "parent": [
+                        {
+                          "href": "cms/api/fabrikam/section/MAidw"
+                        }
+                      ],
+                      "destinationUrl": "#",
+                      "text": "Careers"
+                    },
+                    {
+                      "$type": "simpleLink",
+                      "_id": "jra8ldp9x7y",
+                      "parent": [
+                        {
+                          "href": "cms/api/fabrikam/section/MAidw"
+                        }
+                      ],
+                      "destinationUrl": "#",
+                      "text": "Responsibility"
+                    },
+                    {
+                      "$type": "simpleLink",
+                      "_id": "sm9g1rk6ggi",
+                      "parent": [
+                        {
+                          "href": "cms/api/fabrikam/section/MAidw"
+                        }
+                      ],
+                      "destinationUrl": "#",
+                      "text": "California Supply Chains Act"
+                    }
+                  ],
+                  "heading": {
+                    "$type": "heading",
+                    "_id": "cuofv6zupc2",
+                    "parent": [
+                      {
+                        "href": "cms/api/fabrikam/section/MAidw"
+                      }
+                    ],
+                    "headingTag": "h6",
+                    "text": "Press"
+                  }
+                }
+              },
+              {
+                "typeName": "footer-item",
+                "id": "IDNMAiex_p148wc4-footer-item__1",
+                "friendlyName": "Footer item 2",
+                "config": {},
+                "data": {
+                  "heading": {
+                    "$type": "heading",
+                    "_id": "ccmscxbin7e",
+                    "parent": [
+                      {
+                        "href": "cms/api/fabrikam/section/MAidw"
+                      }
+                    ],
+                    "headingTag": "h6",
+                    "text": "Privacy"
+                  },
+                  "links": [
+                    {
+                      "$type": "simpleLink",
+                      "_id": "hyqlcsc14dc",
+                      "parent": [
+                        {
+                          "href": "cms/api/fabrikam/section/MAidw"
+                        }
+                      ],
+                      "text": "Terms of use",
+                      "destinationUrl": "#"
+                    },
+                    {
+                      "$type": "simpleLink",
+                      "_id": "qdvizofns1w",
+                      "parent": [
+                        {
+                          "href": "cms/api/fabrikam/section/MAidw"
+                        }
+                      ],
+                      "destinationUrl": "#",
+                      "text": "Gift Card Balance checker"
+                    }
+                  ]
+                }
+              }
+            ],
+            "socialLinks": [
+              {
+                "id": "social__0",
+                "typeName": "social",
+                "modules": {
+                  "socialItem": [
+                    {
+                      "id": "socialItem_0",
+                      "typeName": "social-item"
+                    },
+                    {
+                      "id": "socialItem_1",
+                      "typeName": "social-item"
+                    },
+                    {
+                      "id": "socialItem_2",
+                      "typeName": "social-item"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "primary": [
+        {
+          "modules": {
+            "content": [
+              {
+                "id": "header__0",
+                "typeName": "header",
+                "modules": {
+                  "logo": [
+                    {
+                      "id": "logo__0",
+                      "typeName": "logo"
+                    }
+                  ],
+                  "menuBar": [
+                    {
+                      "id": "main-menu_0",
+                      "typeName": "navigation-menu"
+                    }
+                  ],
+                  "cart": [
+                    {
+                      "id": "cart__0",
+                      "typeName": "cart-icon",
+                      "mockId": "R1Module1"
+                    }
+                  ],
+                  "signin": [
+                    {
+                      "id": "signin-info__0",
+                      "typeName": "signin-info"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "main-menu_1",
+                "typeName": "navigation-menu"
+              },
+              {
+                "id": "carousel__0",
+                "typeName": "carousel",
+                "config": {},
+                "modules": {
+                  "content": [
+                    {
+                      "id": "hero__0",
+                      "typeName": "hero"
+                    },
+                    {
+                      "id": "hero__1",
+                      "typeName": "hero"
+                    },
+                    {
+                      "id": "hero__2",
+                      "typeName": "hero"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "content-placement__0",
+                "typeName": "content-placement",
+                "config": {
+                  "layout": "twoItemsInRow",
+                  "renderWithContainer": false
+                },
+                "modules": {
+                  "content": [
+                    {
+                      "id": "content-placement-item_0",
+                      "typeName": "content-placement-item"
+                    },
+                    {
+                      "id": "content-placement-item_1",
+                      "typeName": "content-placement-item"
+                    }
+                  ]
+                }
+              },
+              {
+                "typeName": "product-placement",
+                "id": "product-placement_1",
+                "config": {
+                  "layout": "carousel",
+                  "cardLayout": "plain",
+                  "lazyload": true
+                },
+                "data": {
+                  "Heading": {
+                    "text": "TOP RATED WINES"
+                  },
+                  "products": [
+                    {
+                      "ProductDetails": {
+                        "Name": "Red Mountain",
+                        "Description": "A celebration of the 20th vintage of Col Solare. The wine offers aromas of black cherry, currants, cinnamon and rose petals with subtle notes...",
+                        "PrimaryImageUrl": "https://assets.wine/files/brands_cms/BottleShot/5000/SLR_CabSauv_RM_20thAnnv_14_small.png",
+                        "RecordId": 22565423456,
+                        "ProductTypeValue": 5,
+                        "DefaultUnitOfMeasure": "Ea",
+                        "BasePrice": 129,
+                        "Price": 129,
+                        "AdjustedPrice": 103.2,
+                        "MasterProductId": 22565423455
+                      },
+                      "ProductPrice": {
+                        "UnitOfMeasure": "Ea",
+                        "ProductId": 22565423116
+                      }
+                    },
+                    {
+                      "ProductDetails": {
+                        "Name": "Red Mountain",
+                        "Description": "A celebration of the 20th vintage of Col Solare. The wine offers aromas of black cherry, currants, cinnamon and rose petals with subtle notes...",
+                        "PrimaryImageUrl": "https://assets.wine/files/brands_cms/BottleShot/4999/SLR_RedWine_RedMtn_small.png",
+                        "RecordId": 22565423456,
+                        "ProductTypeValue": 5,
+                        "DefaultUnitOfMeasure": "Ea",
+                        "BasePrice": 129,
+                        "Price": 129,
+                        "AdjustedPrice": 103.2,
+                        "MasterProductId": 22565423455
+                      },
+                      "ProductPrice": {
+                        "UnitOfMeasure": "Ea",
+                        "ProductId": 22565423116
+                      }
+                    },
+                    {
+                      "ProductDetails": {
+                        "Name": "Red Mountain",
+                        "Description": "A celebration of the 20th vintage of Col Solare. The wine offers aromas of black cherry, currants, cinnamon and rose petals with subtle notes...",
+                        "PrimaryImageUrl": "https://assets.wine/files/brands_cms/BottleShot/5000/SLR_CabSauv_RM_20thAnnv_14_small.png",
+                        "RecordId": 22565423456,
+                        "ProductTypeValue": 5,
+                        "DefaultUnitOfMeasure": "Ea",
+                        "BasePrice": 129,
+                        "Price": 129,
+                        "AdjustedPrice": 103.2,
+                        "MasterProductId": 22565423455
+                      },
+                      "ProductPrice": {
+                        "UnitOfMeasure": "Ea",
+                        "ProductId": 22565423116
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "primaryRegion__0",
+          "typeName": "default-container"
+        }
+      ]
+    },
+    "id": "page",
+    "config": {},
+    "typeName": "default-page"
+  },
+  "modules": {
+    "page": {
+      "id": "page",
+      "typeName": "default-page"
+    },
+    "signin-info__0": {
+      "id": "signin-info__0",
+      "typeName": "signin-info",
+      "config": {
+        "showText": "Example Config Value"
+      },
+      "data": {
+        "signInLink": {
+          "text": "Sign In",
+          "destinationUrl": "/en-us/onerf/signin?EEL=True&amp;pcexp=True"
+        },
+        "signOutLink": {
+          "text": "Sign out",
+          "destinationUrl": "/en-us/signout"
+        },
+        "myAccount": {
+          "text": "Order History",
+          "destinationUrl": "/en-us/orderhistory"
+        },
+        "orderHistory": {
+          "text": "My account",
+          "destinationUrl": "/en-us/myaccount"
+        }
+      }
+    },
+    "logo__0": {
+      "id": "logo__0",
+      "typeName": "logo",
+      "config": {},
+      "data": {
+        "link": {
+          "destinationUrl": "http://www.microsoft.com"
+        },
+        "image": {
+          "title": "microsoft",
+          "href": "https://cms-eastus-ppe-imageresizer-mr.cloudapp.net/cms/api/fabrikam/imageFileData/MAAqS?ver=62c7&amp;w=220&amp;h=48&amp;m=6",
+          "alttext": "microsoft"
+        }
+      }
+    },
+    "cart__0": {
+      "id": "cart__0",
+      "typeName": "cart-icon",
+      "config": {},
+      "data": {
+        "cartItemCount": 5,
+        "cartLink": {
+          "destinationUrl": "http://www.microsoft.com"
+        }
+      }
+    },
+    "primaryRegion__0": {
+      "id": "primaryRegion__0",
+      "typeName": "default-container"
+    },
+    "header__0": {
+      "id": "header__0",
+      "typeName": "header",
+      "config": {
+        "renderWithContainer": true
+      }
+    },
+    "main-menu_0": {
+      "id": "main-menu_0",
+      "typeName": "navigation-menu",
+      "config": {},
+      "data": {
+        "cmsNavItems": [
+          {
+            "text": "shop",
+            "destinationUrl": "https://store-int.fabrikam.com/home",
+            "ariaLabel": "Collections"
+          },
+          {
+            "text": "people",
+            "destinationUrl": "https://store-int.fabrikam.com/home",
+            "ariaLabel": "Collections"
+          },
+          {
+            "text": "wines",
+            "destinationUrl": "https://store-int.fabrikam.com/home",
+            "ariaLabel": "Collections"
+          }
+        ]
+      }
+    },
+    "main-menu_1": {
+      "id": "main-menu_1",
+      "typeName": "navigation-menu",
+      "config": {},
+      "data": {
+        "cmsNavItems": [
+          {
+            "text": "Home",
+            "destinationUrl": "https://store-int.fabrikam.com/home",
+            "ariaLabel": "Collections"
+          },
+          {
+            "text": "Wine",
+            "destinationUrl": "https://store-int.fabrikam.com/home",
+            "ariaLabel": "Collections"
+          },
+          {
+            "text": "Collector's Society",
+            "destinationUrl": "https://store-int.fabrikam.com/home",
+            "ariaLabel": "Collections"
+          }
+        ]
+      }
+    },
+    "carousel__0": {
+      "id": "carousel__0",
+      "typeName": "carousel"
+    },
+    "hero__0": {
+      "id": "hero__0",
+      "typeName": "hero",
+      "config": {},
+      "data": {
+        "heading": {
+          "text": "Surface",
+          "textSize": "md"
+        },
+        "image": {
+          "title": "microsoft",
+          "href": "https://assets.wine/files/brands_cms/FlexibleImage/10618/Promo-Graphic.jpg",
+          "alttext": "microsoft"
+        }
+      }
+    },
+    "hero__1": {
+      "id": "hero__1",
+      "typeName": "hero",
+      "config": {},
+      "data": {
+        "heading": {
+          "text": "Surface",
+          "textSize": "md"
+        },
+        "image": {
+          "title": "microsoft",
+          "href": "https://assets.wine/files/brands_cms/FlexibleImage/10867/Home-Promo-SLR_GiftCard-lrg.jpg",
+          "alttext": "microsoft"
+        }
+      }
+    },
+    "hero__2": {
+      "id": "hero__2",
+      "typeName": "hero",
+      "config": {},
+      "data": {
+        "heading": {
+          "text": "Surface",
+          "textSize": "md"
+        },
+        "image": {
+          "title": "microsoft",
+          "href": "https://assets.wine/files/brands_cms/FlexibleImage/11237/SLR-promoAd-v3lrg.jpg",
+          "alttext": "microsoft"
+        }
+      }
+    },
+    "content-placement-item_0": {
+      "id": "content-placement-item_0",
+      "typeName": "content-placement-item",
+      "config": {
+        "tileSize": 6
+      },
+      "data": {
+        "heading": {
+          "text": "Mailing List"
+        },
+        "paragraph": {
+          "text": "To learn more about our wines, receive special offers, and be invited to exclusive events at the winery, we encourage you to sign up for our mailing list."
+        },
+        "links": [
+          {
+            "text": "Join now",
+            "destinationUrl": "/fe/fashion/womenswear/coats/22565426207.c",
+            "ariaLabel": "Shop womenswear"
+          }
+        ]
+      }
+    },
+    "content-placement-item_1": {
+      "id": "content-placement-item_1",
+      "typeName": "content-placement-item",
+      "config": {
+        "tileSize": 6
+      },
+      "data": {
+        "heading": {
+          "text": "Need Help?"
+        },
+        "paragraph": {
+          "text": "Our helpful Concierge staff is available weekdays 9am–5pm and weekends 9am–4pm PST. Call 1-877-319-3417 or email us at orders@colsolare.com."
+        },
+        "links": [
+          {
+            "text": "Contact",
+            "destinationUrl": "/fe/fashion/womenswear/coats/22565426207.c",
+            "ariaLabel": "Shop womenswear"
+          }
+        ]
+      }
+    },
+    "socialItem_0": {
+      "id": "socialItem_0",
+      "typeName": "social-item",
+      "config": {},
+      "data": {
+        "socialLinkImage": {
+          "href": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MA3ZfJ?ver=6510",
+          "alttext": "Facebook",
+          "title": "Follow Microsoft on Facebook"
+        },
+        "socialLinkUrl": {
+          "destinationUrl": "https://www.facebook.com/Microsoft"
+        }
+      }
+    },
+    "socialItem_1": {
+      "id": "socialItem_1",
+      "typeName": "social-item",
+      "config": {},
+      "data": {
+        "socialLinkImage": {
+          "href": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MA3ZfG?ver=97b9",
+          "alttext": "Twitter",
+          "title": "Follow Microsoft on Twitter"
+        },
+        "socialLinkUrl": {
+          "destinationUrl": "https://twitter.com/microsoft"
+        }
+      }
+    },
+    "socialItem_2": {
+      "id": "socialItem_2",
+      "typeName": "social-item",
+      "config": {},
+      "data": {
+        "socialLinkImage": {
+          "href": "https://img-ppe-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MA3ZfM?ver=810a",
+          "alttext": "LinkedIn",
+          "title": "Follow Microsoft on Linkedin"
+        },
+        "socialLinkUrl": {
+          "destinationUrl": "https://www.linkedin.com/company/microsoft"
+        }
+      }
+    },
+    "social__0": {
+      "id": "social__0",
+      "typeName": "social",
+      "data": {
+        "heading": {
+          "text": "Follow Microsoft"
+        }
+      },
+      "config": {
+        "orientation": "horizontal",
+        "renderWithContainer": true
+      }
+    }
+  },
+  "renderingContext": {
+    "flightIds": [
+      "feature.xboxcontentondesktop",
+      "feature.sfwaa_control"
+    ],
+    "requestUrl": "store-int.fabrikam.com/en-us/cart",
+    "clientContext": {
+      "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+      "deviceType": "Pc"
+    },
+    "staticContext": {
+      "staticCdnUrl": "/",
+      "staticCdnUrlWithLocale": "/"
+    },
+    "userContext": {
+      "token": null,
+      "isAuthenticated": false,
+      "signInUrl": "",
+      "signOutUrl": "",
+      "signUpUrl": "",
+      "signinName": null,
+      "name": null,
+      "emailAddress": null
+    },
+    "locale": "en-us",
+    "site": "fabrikam"
+  },
+  "statusCode": 200,
+  "redirectUrl": null
+}

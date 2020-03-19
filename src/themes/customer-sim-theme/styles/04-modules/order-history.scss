@@ -1,0 +1,175 @@
+@import '../00-settings/colors';
+@import '../00-settings/responsive-breakpoints';
+@import '../01-tools/mixins';
+@import "../02-generic/image";
+
+$border-bottom: 1px solid $msv-gray-60;
+
+$msv-order-history-padding-bottom: 28px;
+
+$msv-order-history-order-information-margin-top: 20px;
+$msv-order-history-order-information-margin-bottom: 13px;
+
+$msv-order-history-header-padding-bottom: 20px;
+$msv-order-history-header-border-bottom: $border-bottom;
+
+$msv-order-history-order-count-margin-left: 5px;
+
+$msv-order-history-sales-order-border-bottom: $border-bottom;
+
+$msv-order-history-order-information-sales-id-padding-right: 5px;
+$msv-order-history-order-information-sales-id-border-right: $border-bottom;
+
+$msv-order-history-sales-lines-margin-top: 8px;
+
+$msv-order-history-sales-line-picture-margin-right: 12px;
+$msv-order-history-sales-line-picture-margin-top: 12px;
+$msv-order-history-sales-line-picture-width: 81px;
+$msv-order-history-sales-line-picture-height: 81px;
+$msv-order-history-empty-image-width:81px;
+
+$msv-order-history-btn-order-details-margin-bottom: 20px;
+
+$msv-order-history-order-information-created-date-padding-right: 5px;
+$msv-order-history-order-information-created-date-padding-left: 5px;
+$msv-order-history-order-information-created-date-border-right: $border-bottom;
+
+$msv-order-history-order-information-count-padding-right: 5px;
+$msv-order-history-order-information-count-padding-left: 5px;
+$msv-order-history-order-information-count-border-right: $border-bottom;
+
+$msv-order-history-order-information-amount-padding-left: 5px;
+
+$msv-container-padding-left: 60px;
+$msv-container-padding-right: 60px;
+$msv-container-width: 100%;
+
+$msv-order-history-group-margin-bottom: 20px;
+
+$msv-order-history-group-delivery-heading-margin-right: 3px;
+
+$msv-order-history-btn-keep-shopping-margin-bottom: 20px;
+$msv-order-history-alert-margin-top: 20px;
+$msv-order-history-alert-margin-bottom: 20px;
+
+.ms-order-history {
+    padding-bottom: $msv-order-history-padding-bottom;
+
+    &__heading {
+        @include font-content-xl();
+        display: inline-block;
+    }
+
+    &__header {
+        padding-bottom: $msv-order-history-header-padding-bottom;
+        border-bottom: $msv-order-history-header-border-bottom;
+    }
+
+    &__order-count {
+        display: inline-block;
+        margin-left: $msv-order-history-order-count-margin-left;
+    }
+
+    &__sales-order {
+        position: relative;
+        border-bottom: $msv-order-history-sales-order-border-bottom;
+    }
+
+    &__order-information {
+        margin-top: $msv-order-history-order-information-margin-top;
+        margin-bottom: $msv-order-history-order-information-margin-bottom;
+    }
+
+    &__order-information-sales-id {
+        padding-right: $msv-order-history-order-information-sales-id-padding-right;
+        border-right: $msv-order-history-order-information-sales-id-border-right;
+    }
+
+    &__order-information-channel-reference-id {
+        display: block;
+    }
+
+    &__sales-lines {
+        margin-top: $msv-order-history-sales-lines-margin-top;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__sales-line-picture {
+        margin-right: $msv-order-history-sales-line-picture-margin-right;
+        margin-top: $msv-order-history-sales-line-picture-margin-top;
+        width: $msv-order-history-sales-line-picture-width;
+        height: $msv-order-history-sales-line-picture-height;
+    }
+
+    &__btn-order-details {
+        @include secondary-button();
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+
+    &__order-information-created-date {
+        padding-right: $msv-order-history-order-information-created-date-padding-right;
+        padding-left: $msv-order-history-order-information-created-date-padding-left;
+        border-right: $msv-order-history-order-information-created-date-border-right;
+    }
+
+    &__order-information-count {
+        padding-right: $msv-order-history-order-information-count-padding-right;
+        padding-left: $msv-order-history-order-information-count-padding-left;
+        border-right: $msv-order-history-order-information-count-border-right;
+    }
+
+    &__order-information-amount {
+        padding-left: $msv-order-history-order-information-amount-padding-left;
+    }
+
+    &__group {
+        margin-bottom: $msv-order-history-group-margin-bottom;
+
+        &-delivery {
+            &-heading {
+                font-weight: $msv-font-weight-bold;
+                margin-right: $msv-order-history-group-delivery-heading-margin-right;
+            }
+
+            &-processing-label {
+                display: block;
+            }
+        }
+    }
+
+    &__address {
+        &-header {
+            display: none;
+        }
+
+        &-name {
+            margin-right: 5px;
+        }
+    }
+
+    &__empty-message,
+    &__alert {
+        display: block;
+        margin-top: $msv-order-history-alert-margin-top;
+        margin-bottom: $msv-order-history-alert-margin-bottom;
+    }
+
+    @media screen and (max-width: $msv-breakpoint-m) {
+        &__btn-order-details {
+            width: 100%;
+            margin-bottom: $msv-order-history-btn-order-details-margin-bottom;
+            position: unset;
+        }
+
+        &__btn-keep-shopping {
+            width: 100%;
+        }
+    }
+
+    .msc-empty_image {
+        @include image-placeholder($msv-order-history-empty-image-width);
+    }
+}

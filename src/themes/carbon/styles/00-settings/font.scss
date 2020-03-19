@@ -1,0 +1,18 @@
+$msv-primary-font-family: "Archivo",sans-serif;
+$msv-font-assistant: "Archivo",sans-serif;
+$msv-font-allerta: "Archivo",sans-serif;
+$msv-font-cinzel: "Archivo",sans-serif;
+$msv-font-weight-bold: 700;
+$msv-font-weight-600: 600;
+$msv-font-weight-normal: 400;
+$msv-text-size: 14x;
+$msv-text-line-height: 1.5;
+
+$msv-heading-text-size: 20px;
+$msv-heading-line-height: 28px;
+
+@mixin lineHeightFromFontSize($font-size) {
+    @if $font-size == $msv-text-size {
+        line-height: $msv-text-line-height;
+    }
+}

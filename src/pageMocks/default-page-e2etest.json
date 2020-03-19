@@ -1,0 +1,229 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "pageLayout": null,
+        "title": null,
+        "faviconUrl": null,
+        "bodyClass": "this should be body class",
+        "pageDescription": null,
+        "pageKeywords": null,
+        "canonicalUrl": "https://rushmore.microsoft.com/en-us/contoso/home",
+        "modules": {
+            "header": [{
+                "modules": {
+                    "content": [{
+                        "modules": null,
+                        "id": "header__0",
+                        "typeName": "header"
+                    }]
+                },
+                "id": "headerArea",
+                "typeName": "default-container"
+            }],
+            "primary": [{
+                "modules": {
+                    "content": [{
+                        "modules": null,
+                        "id": "hero__0",
+                        "typeName": "hero"
+                    }, {
+                        "modules": null,
+                        "id": "hero__1",
+                        "typeName": "hero"
+                    }]
+                },
+                "id": "primaryArea__0",
+                "typeName": "default-container"
+            }],
+            "footer": [{
+                "modules": {
+                    "content": [{
+                        "modules": null,
+                        "id": "footer__0",
+                        "typeName": "footer"
+                    }]
+                },
+                "id": "footerArea",
+                "typeName": "default-container"
+            }]
+        },
+        "id": "page",
+        "config": {
+            "nodeservice_rendering": true,
+            "css_override": "default"
+        },
+        "typeName": "contoso-page"
+    },
+    "modules": {
+        "page": {
+            "id": "page",
+            "config": {
+                "nodeservice_rendering": true,
+            "css_override": "default"
+            },
+            "typeName": "contoso-page"
+        },
+        "headerArea": {
+            "id": "headerArea",
+            "typeName": "default-container"
+        },
+        "primaryArea__0": {
+            "id": "primaryArea__0",
+            "config": {
+                "className": ""
+            },
+            "typeName": "default-container"
+        },
+        "footerArea": {
+            "id": "footerArea",
+            "typeName": "default-container"
+        },
+        "header__0": {
+            "data": {
+                "primary": null,
+                "cart": null
+            },
+            "id": "header__0",
+            "config": {
+                "categoryUrl": "/en-us/contoso/department?categoryId={categoryId}",
+                "promotion": "FREE SHIPPING ON ALL ONLINE ORDERS",
+                "cartUrl": "/en-us/contoso/cart",
+                "styleOverride": ".hero { height: auto !important} .banner .row { text-align: center;display: block;} @media screen and (min-width: 1084px) { .hero {min-height: 600px !important;} .banner { min-height: 240px }} .banner a.btn {border: 1px solid #222;color: #222;} .banner .btn-primary:hover, .btn-primary.text-dark:active { background-color: #aaa !important;    border-color: #000 !important;} .hero, .banner, .feature { margin: 48px 0; padding: 0 !important; }",
+                "logoUrl": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d5",
+                "data_binder": "header-data-binder",
+                "baseUrl": "",
+                "homeLink": "/en-us/contoso/home",
+                "cartLogoUrl": "https://cittadesign-com.imgix.net/images/cart-icon.png?fit=fillmax&auto=format&s=64f34f5dedf0693bc9793e740ea9573e"
+            },
+            "typeName": "header"
+        },
+        "hero__0": {
+            "data": {            
+                "image": {
+                    "$type": "image",
+                    "altText": "Hero_electronics",
+                    "title": "Hero_electronics",
+                    "description": "",
+                    "imageStyle": "photo",
+                    "orientation": "horizontal",
+                    "isLocalizable": false,
+                    "copyright": "",
+                    "fileName": "Hero_electronics",
+                    "href": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d8",
+                    "quality": 80,
+                    "fileSize": 373528,
+                    "width": 5009,
+                    "height": 2355,
+                    "binaryHash": "DZQZeY5fIjYapQlAvk+8Dg=="
+                },
+                "heading": {"text": "Our hottest deals" },
+                "paragraph": {"text": "<p>Save on top-rated devices.</p>\n" },
+                "actionLinks": [{
+                    "$type": "actionLink",
+                    "title": "Shop Now",
+                    "openInNewTab": false,
+                    "queryStringBehavior": "Default",
+                    "typeOfLinkAction": "CallToAction",
+                    "link": {
+                        "destinationUrl": {
+                            "href": "/en-us/contoso/department?categoryId=22565423010"
+                        },
+                        "type": "externalUrl"
+                    }
+                }]            
+            },
+            "id": "hero__0",
+            "config": {},
+            "typeName": "partner-hero"
+        },
+        "hero__1": {
+            "data": {
+                "$type": "heroItem",
+                "image": {
+                    "$type": "image",
+                    "altText": "holiday banner",
+                    "title": "holiday banner",
+                    "description": "",
+                    "imageStyle": "photo",
+                    "orientation": "horizontal",
+                    "isLocalizable": false,
+                    "copyright": "",
+                    "fileName": "holiday banner",
+                    "href": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MC5d8",
+                    "quality": 80,
+                    "fileSize": 537132,
+                    "width": 5610,
+                    "height": 2103,
+                    "binaryHash": "mFzm0hM3khqrSAlPO2tNrg=="
+                },
+                "heading": {"text" : "Holiday gift guide!" },
+                "paragraph": {"text": "<p>Our experts pick our favorites for everyone on your list.</p>\n"},
+                "actionLinks": [{
+                    "$type": "actionLink",
+                    "title": "Get Started",
+                    "openInNewTab": false,
+                    "queryStringBehavior": "Default",
+                    "typeOfLinkAction": "CallToAction",
+                    "link": {
+                        "destinationUrl": {
+                            "href": "www.microsoft.com"
+                        },
+                        "type": "externalUrl"
+                    }
+                }]
+            },
+            "id": "hero__1",           
+            "typeName": "hero"
+        },
+        "footer__0": {
+            "data": {
+                "primary": null
+            },
+            "id": "footer__0",
+            "config": {
+                "copyright_text": "@Microsoft 2018",
+                "newsletter_sub_url": "#",
+                "instagram_url": "#",
+                "category_url": "/en-us/contoso/department?categoryId=",
+                "pintrest_url": "#",
+                "data_binder": "footer-data-binder",
+                "facebook_url": "#",
+                "youtube_url": "#"
+            },
+            "typeName": "footer"
+        }
+    },
+    "renderingContext": {
+        "requestUrl": "rushmore.microsoft.com/contoso/home",
+        "clientContext": {
+            "deviceGroupId": "uplevel.web.pc.webkit.chrome",
+            "deviceType": "Pc"
+        },
+        "staticContext": {
+            "staticCdnUrl": "/_scnr/",
+            "staticCdnUrlWithLocale": "/en-us/contoso/_scnr/"
+        },
+        "userContext": {
+            "token": null,
+            "isAuthenticated": false,
+            "signInUrl": "https://rushmore.dev.microsoft.com:443/contoso/onerf/signin?EEL=True&pcexp=True",
+            "signOutUrl": "https://rushmore.dev.microsoft.com:443/contoso/onerf/signout?pcexp=True",
+            "signinName": null,
+            "name": null,
+            "emailAddress": null
+        },
+        "apiSettings": {
+            "baseUrl": "https://rushe2e-tie-sb3f7e6dfa6e7204c89ret.cloudax.test.dynamics.com/",
+            "channelId": 5637145359,
+            "catalogId": 0,
+            "oun": "077",
+            "baseImageUrl": "https://mmarin-81-reprobox5d106e4fa3a6af57ret.cloudax.dynamics.com/MediaServer/",
+            "ratingsReviewsEndpoint": ""
+        },
+        "previewContext": null,
+        "locale": "en-us",
+        "site": "e2etest"
+    },
+    "statusCode": 200,
+    "redirectUrl": null
+}

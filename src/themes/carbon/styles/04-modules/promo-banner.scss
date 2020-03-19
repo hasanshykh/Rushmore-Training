@@ -1,0 +1,99 @@
+// font
+$promo-banner-font-size: 14px;
+$promo-banner-line-height: 20px;
+$promo-banner-height: 40px;
+
+.ms-promo-banner {
+        background-color: #222222;
+        text-align: center;
+        position: relative;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        height: auto;
+        padding-top: 13px;
+        padding-bottom: 13px;
+
+    &.alignment__center {
+      text-align: center;
+    }
+    &.alignment__left {
+        text-align: left;
+    }
+    &.alignment__right {
+        text-align: right;
+    }
+
+    .ms-promo-banner__text {
+        margin-bottom: 0;
+        line-height: initial;
+        color: #ffffff;
+        font-size: 17px;
+        font-style: italic;
+    }
+
+    .ms-promo-banner__link{
+        display: inline-block;
+        line-height: initial;
+        color: #ffffff;
+        position: relative;
+        font-weight: 700;
+        font-style: normal;
+        &:before{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            left: 0;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            background: #ffffff;
+        }
+        &:hover{
+            &:before{
+                width: 100%;
+            }
+        }
+    }
+
+    .ms-promo-banner__carousel {
+        flex-grow: 1;
+    }
+
+    .msc-carousel__inner {
+        color: $msv-white;
+    }
+
+    .ms-promo-banner__close-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        &:after {
+            @include msv-icon();
+            content: $msv-x-shape;
+            color: $msv-white;
+        }
+        .ms-promo-banner__close-button__label {
+            display: none;
+        }
+    }
+    
+    .promobanner-custom{
+        display: flex;
+        align-items: center;
+    }
+
+    .active{
+        text-decoration: none;
+    }
+}
+.promo-alert{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: $msv-breakpoint-m) {
+    .ms-promo-banner .ms-promo-banner__carousel {
+        width: auto;
+    }
+}

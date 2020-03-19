@@ -1,0 +1,21 @@
+{
+  "$type": "definitionExtension",
+  "config": {
+      "showBadges": {
+          "friendlyName": "Enable Product Badges",
+          "description": "Set the value to true to display the product badges",
+          "type": "boolean",
+          "default": false,
+          "required": false
+      }
+  },
+  "slots": {
+      "content": {
+          "friendlyName": "content slot",
+          "description": "This is the content slot",
+          "max": 100,
+          "min": 0,
+          "allowedTypes": "*"
+      }
+  }
+}

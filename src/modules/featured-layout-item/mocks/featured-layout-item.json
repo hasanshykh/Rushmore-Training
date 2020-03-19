@@ -1,0 +1,17 @@
+{
+  "id": "featured-layout-item-mock",
+  "config": {
+    "bgImage": "https://images-us-sb.cms.commerce.dynamics.com/cms/api/qvngfvszcl/imageFileData/SAd0D",
+    "heading": "Summer Collection",
+    "showButton": true,
+    "categoryLink":
+      {
+          "linkText": "Shop WOMEN",
+          "linkUrl": {
+              "destinationUrl": "/visionet-demo/fabrikam-fashion/womenswear/68719478038.c"
+          },
+          "ariaLabel": "Shop women's collection"
+      }
+  },
+  "typeName": "featured-layout-item"
+}

@@ -1,0 +1,187 @@
+@import '../00-settings/colors';
+@import '../00-settings/font';
+@import '../00-settings/responsive-breakpoints';
+
+$product-collection-item-width: 100%;
+
+$product-collection-font: $msv-primary-font-family;
+
+$product-collection-carousel-padding-top: 15px;
+
+$product-collection-margin-bottom-mobile: 48px;
+$product-collection-margin-bottom-desktop: 100px;
+
+$product-collection-heading-font-size: 24px;
+$product-collection-heading-line-height: 32px;
+$product-collection-heading-padding-right: 100px;
+$product-collection-heading-margin-bottom: 8px;
+
+$product-collection-item-padding: 5px 20px 24px 5px;
+$product-collection-item-first-child-width: 100%;
+$product-collection-item-first-child-margin-left: 0px;
+$product-collection-item-first-child-padding-left: 5px;
+
+$product-collection-price-font-size: 16px;
+$product-collection-price-line-height: 20px;
+$product-collection-price-font-family: $msv-font-assistant;
+
+$product-collection-tooltip-left: 0px;
+$product-collection-tooltip-top: 0px;
+
+$product-collection-tooltip-inner-background-color: $msv-black;
+$product-collection-tooltip-inner-color: $msv-white;
+$product-collection-tooltip-inner-font-size: 14px;
+$product-collection-tooltip-inner-margin-top: -36px;
+$product-collection-tooltip-inner-max-width: 200px;
+$product-collection-tooltip-inner-padding: 4px 8px;
+
+$product-heading-margin-bottom:7px;
+
+.ms-product-collection {
+  margin-bottom: $product-collection-margin-bottom-mobile;
+
+  @media (min-width: $msv-breakpoint-m) {
+    margin-bottom: $product-collection-margin-bottom-desktop;
+  }
+
+  &__heading {
+    text-transform: none;
+    font-size: 42px;
+    margin: 7px 0;
+    padding-right: 100px;
+    position: relative;
+    margin-bottom: $product-heading-margin-bottom;
+    &:after{
+      content: '';
+      width: 5%;
+      height: 4px;
+      background-color: $primary-color;
+      position: absolute;
+      bottom: -$product-heading-margin-bottom;
+      left: 0;
+    }
+  }  
+
+  &__item {
+    display: inline-block;
+    max-width: none;
+    padding: $product-collection-item-padding;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    width: $product-collection-item-width;
+    white-space: normal;
+    img{
+      margin: 0 auto;
+    }
+    
+    @media (min-width: $msv-breakpoint-m){
+      width: 50%;
+    }
+    @media (min-width: $msv-breakpoint-l) {
+      width: 25%;
+    }
+  }
+
+  .msc-ss-carousel {
+    padding-top: $product-collection-carousel-padding-top;
+  }
+
+  .msc-product {
+    display: inline-block;
+    position: relative;
+
+    &:hover {
+      text-decoration: none;
+
+      .msc-product__title {
+        text-decoration: none;
+      }
+    }
+
+    &__details{
+      text-align: center;
+    }
+  }
+
+  .msc-price {
+    display: block;
+    font-family: $product-collection-font;
+    font-size: $product-collection-price-font-size;
+    font-weight: 700;
+    line-height: $product-collection-price-line-height;
+    text-transform: none;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    background: $primary-color;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .msc-rating__count {
+    border-bottom: none;
+  }
+
+  .msc-tooltip {
+    display: block;
+    left: $product-collection-tooltip-left;
+    position: absolute;
+    top: $product-collection-tooltip-top;
+
+    .msc-tooltip-inner {
+      background-color: $product-collection-tooltip-inner-background-color;
+      color: $product-collection-tooltip-inner-color;
+      font-size: $product-collection-tooltip-inner-font-size;
+      margin-top: $product-collection-tooltip-inner-margin-top;
+      max-width: $product-collection-tooltip-inner-max-width;
+      padding: $product-collection-tooltip-inner-padding;
+      text-align: center;
+    }
+  }
+}
+
+.msc-product__image {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    background-color: #ffffff;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background-color: #ffffff;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+  }
+
+
+  img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    transform: scale(.8);
+  }
+
+  &:hover img,
+  &:focus img {
+    transform: scale(1);
+  }
+}

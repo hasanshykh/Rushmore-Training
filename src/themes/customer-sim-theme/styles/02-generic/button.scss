@@ -1,0 +1,45 @@
+$msv-secondary-btn-background-color: $msv-white;
+$msv-secondary-btn-color: $msv-text-color;
+$msv-secondary-btn-border-color: $msv-gray-90;
+$msv-primary-btn-background-color: $msv-primary;
+$msv-primary-btn-color: $msv-white;
+$msv-primary-btn-border-color: $msv-primary;
+
+@mixin button-link($color: $msv-link-color) {
+  border-color: transparent;
+  background-color: transparent;
+  color: $msv-link-color;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@mixin primary-button() {
+  background-color: $msv-primary-btn-background-color;
+  border: 1px solid $msv-primary-btn-border-color;
+  color: $msv-primary-btn-color;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    border-color: $msv-gray-60;
+    background-color: $msv-gray-60;
+    color: $msv-text-color;
+  }
+}
+
+@mixin secondary-button() {
+  background-color: $msv-secondary-btn-background-color;
+  border: 1px solid $msv-secondary-btn-border-color;
+  color: $msv-secondary-btn-color;
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    border-color: $msv-gray-60;
+    background-color: $msv-gray-60;
+    color: $msv-text-color;
+  }
+}

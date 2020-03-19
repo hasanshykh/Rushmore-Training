@@ -1,0 +1,153 @@
+$max-height-m: 732px;
+$max-height-l: 772px;
+$gutter-width: 40px;
+$carousel-padding-left: 0;
+$thumbnail-height: 100px;
+$thumbnail-flipper-height: 30px;
+$thumbnail-flipper-background: $msv-white;
+$thumbnail-flipper-foreground: $msv-gray-120;
+$carousel-tooltip-padding:4px;
+$carousel-indicators-border: 1px;
+$carousel-width:50%;
+
+.ms-media-gallery {
+    display: inline-flex;
+    flex-basis: $carousel-width;
+    flex-wrap: wrap;
+    min-width: $carousel-width;
+    padding-right: $gutter-width;
+    width: 50%;
+
+    .ms-media-gallery__thumbnails-container {
+        display: none;
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .ms-media-gallery__carousel {
+        align-items: start;
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .msc-ss-carousel-vert__flipper {
+        position: relative;
+        height: $thumbnail-flipper-height;
+        width: 100%;
+        border-radius: 0;
+        background: $thumbnail-flipper-background;
+        border: 1px solid $thumbnail-flipper-background;
+        top: auto;
+        left: auto;
+        transform: none;
+        color: $thumbnail-flipper-foreground;
+
+        flex: 0 1 $thumbnail-flipper-height;
+
+        &.disabled {
+            display: none;
+        }
+    }
+
+    .msc-ss-carousel__flipper{
+        height: 100px;
+    }
+
+    .msc-carousel__control__prev,
+    .msc-carousel__control__next {
+        background-color: #ffffff;
+        color: #222;
+        &:hover, &:focus, &:active{
+            background-color: #222;
+            color: #fff;
+        }
+    }
+    .msc-carousel__control__prev{
+        left: 15px;
+    }
+    .msc-carousel__control__next{
+        right: 15px;
+    }
+    .msc-carousel__control__prev__icon {
+        @include add-icon($msv-ChevronLeft);
+        transform: rotate(0);
+    }
+    .msc-carousel__control__next__icon {
+        @include add-icon($msv-ChevronRight);
+    }
+
+    .msc-ss-carousel-vert__flipper--next {
+        bottom: auto;
+    }
+    
+    .msc-tooltip-inner {
+        background-color: $msv-black;
+        color: $msv-white;
+        padding: $carousel-tooltip-padding $carousel-tooltip-padding;
+    }
+
+    .msc-carousel__indicators li{
+        &.active{
+          background-color: $msv-black;
+        }
+        border: $carousel-indicators-border solid $msv-black;
+        background-color: $msv-white;
+    }
+}
+.msc-ss-carousel-strip{
+    .msc-ss-carousel-slide{
+        display: flex;
+    }
+    .ms-media-gallery__thumbnail-item{
+        min-width: 25%;
+        padding: 0 15px;
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+@media (min-width: $msv-breakpoint-m) {
+    .ms-media-gallery {
+        .msc-carousel__item {
+            max-height: $max-height-m;
+        }
+    }
+}
+
+@media (min-width: $msv-breakpoint-l) {
+    .ms-media-gallery {
+        max-height: $max-height-l;
+
+        .ms-media-gallery__carousel {
+            margin-left: $carousel-padding-left;
+        }
+
+        .msc-carousel__indicators {
+            display: none;
+        }
+    
+        .msc-carousel__control__prev {
+            display: none;            
+        }
+
+        .msc-carousel__control__next {
+            display: none;            
+        }
+
+        .ms-media-gallery__thumbnails-container {
+            display: flex;
+        }
+    
+        .ms-media-gallery__thumbnail-item {
+            height: $thumbnail-height;
+        }
+    }
+}
+
+//mobile vp
+@media (max-width: $msv-breakpoint-m) {
+    .ms-media-gallery {
+      padding-right: 0;
+    }
+}

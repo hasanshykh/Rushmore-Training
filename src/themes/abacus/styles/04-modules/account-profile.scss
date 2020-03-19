@@ -1,0 +1,100 @@
+@import "../01-tools/mixins";
+
+$msv-account-profile-heading-margin-bottom: 32px;
+
+$msv-account-profile-section-margin-bottom: 40px;
+$msv-account-profile-section-heading-font-weight: 600;
+$msv-account-profile-section-heading-margin-bottom: 4px;
+$msv-account-profile-section-description-margin-bottom: 6px;
+
+$msv-account-profile-preference-heading-font-weight: 600;
+$msv-account-profile-preference-margin-top: 20px;
+$msv-account-profile-preference-heading-margin-bottom: 10px;
+$msv-account-profile-preference-description-margin-bottom: 10px;
+
+$msv-account-profile-toggle-button-icon-size: 24px;
+$msv-account-profile-toggle-button-padding: 0 5px;
+
+.ms-account-profile {
+  @include font-content-m();
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__heading {
+    @include font-content-xl();
+    margin-bottom: $msv-account-profile-heading-margin-bottom;
+  }
+
+  &__section {
+    margin-bottom: $msv-account-profile-section-margin-bottom;
+
+    &-heading {
+      @include font-content-l($msv-account-profile-section-heading-font-weight);
+      margin-bottom: $msv-account-profile-section-heading-margin-bottom;
+    }
+
+    &-description {
+      margin-bottom: $msv-account-profile-section-description-margin-bottom;
+    }
+
+    &-links {
+      text-decoration: underline;
+    }
+
+    &-link {
+      @include vfi();
+    }
+  }
+
+  &__preference {
+    margin-top: $msv-account-profile-preference-margin-top;
+
+    &-heading {
+      @include font-content-m($msv-account-profile-preference-heading-font-weight);
+      margin-bottom: $msv-account-profile-preference-heading-margin-bottom;
+    }
+
+    &-description {
+      margin-bottom: $msv-account-profile-preference-description-margin-bottom;
+    }
+  }
+
+  &__toggle-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__toggle-button {
+    font-size: $msv-account-profile-toggle-button-icon-size;
+    background-color: transparent;
+    padding: $msv-account-profile-toggle-button-padding;
+
+    &:focus {
+      @include basic-outline-offset();
+    }
+  }
+
+  &__toggle-enable {
+    .ms-account-profile__toggle-enable-text {
+      font-weight: bold;
+    }
+  }
+
+  &__toggle-disable {
+    .ms-account-profile__toggle-disable-text {
+      font-weight: bold;
+    }
+  }
+
+  &__toggle-enable-button {
+    @include add-icon($msv-ToggleLeft);
+    color: $msv-primary;
+  }
+
+  &__toggle-disable-button {
+    @include add-icon($msv-ToggleRight);
+  }
+}

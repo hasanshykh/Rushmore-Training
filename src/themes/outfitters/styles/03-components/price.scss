@@ -1,0 +1,14 @@
+.msc-price {
+    &.discount-value {
+        .msc-price__strikethrough {
+            display: block;
+            margin-right: 0px;;
+        }
+    }
+
+    &__strikethrough {
+        color: $msv-gray-120;
+        margin-right: 5px;
+        text-decoration: line-through;
+    }
+}

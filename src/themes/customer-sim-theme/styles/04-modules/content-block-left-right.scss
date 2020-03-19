@@ -1,0 +1,175 @@
+@import '../00-settings/colors';
+@import '../01-tools/layout';
+@import '../00-settings/responsive-breakpoints';
+
+$feature-body-color: $msv-black;
+$feature-heading-color: $msv-black;
+$feature-heading-font-size: 32px;
+$feature-heading-line-height: 43px;
+$feature-heading-font-weight: normal;
+$feature-link-right-margin: 16px;
+$feature-links-top-margin: 32px;
+$feature-link-to-link-spacing: 16px;
+$feature-content-margin-left: 80px;
+$feature-content-margin-right: 80px;
+$feature-content-font-size: 16px;
+$feature-content-line-height: 21px;
+$feature-content-text-margin-top: 16px;
+$feature-content-button-margin-top: 32px;
+$feature-cta-font-size: 14px;
+$feature-cta-line-height: 20px;
+$feature-content-mobile-margin-top: 16px;
+$feature-content-mobile-margin-left: 16px;
+$feature-content-mobile-margin-right: 16px;
+
+.ms-content-block {
+&[data-m-layout='left-right'] {
+  .ms-content-block__image {
+    width: 100%;
+  }
+
+  .ms-content-block__details {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .msc-cta__primary {
+    @include vfi();
+    background: $msv-primary;
+    color: $msv-white;
+    font-size: $feature-cta-font-size;
+    line-height: $feature-cta-line-height;
+    padding-bottom: $feature-link-to-link-spacing / 2;
+    padding-left: $feature-link-to-link-spacing;
+    padding-right: $feature-link-to-link-spacing;
+    padding-top: $feature-link-to-link-spacing / 2;
+  }
+
+  .ms-content-block__title {
+    color: $feature-heading-color;
+    font-weight: $feature-heading-font-weight;
+    font-size: $feature-heading-font-size;
+    line-height: $feature-heading-line-height;
+  }
+
+  .ms-content-block__text {
+    color: $feature-body-color;
+    font-size: $feature-content-font-size;
+    line-height: $feature-content-line-height;
+  }
+
+  .ms-content-block__cta {
+    border-radius: 2px;
+    min-width: 164px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &.textplacement__left {
+    .ms-content-block__details {    
+      text-align: left;    
+      .card-cta {
+        justify-content: flex-start;
+      }
+    }    
+  }
+
+  &.textplacement__right {
+    .ms-content-block__details {  
+      text-align: right;
+      .card-cta {
+        justify-content: flex-end;
+      }
+    }    
+  }
+
+  &.textplacement__center {
+    .ms-content-block__details {  
+      text-align: center;      
+      .card-cta {
+        justify-content: center;
+      }
+    }    
+  }
+
+  .ms-content-block__image img {
+    width: 100%;
+  }
+
+  /* body should have top margin only when there's something above it */
+  * + .ms-content-block__text {
+    margin-top: $feature-content-text-margin-top;
+  }
+
+  /* links should have top margin only when there's something above it */
+  * + .ms-content-block__cta {
+    margin-top: $feature-content-button-margin-top;
+  }
+
+  @media screen and (min-width: $msv-breakpoint-m) {
+    &.textplacement__left,
+    &.textplacement__right {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto;
+      
+      .ms-content-block__details {        
+        margin-left: $feature-content-margin-left;
+        margin-right: $feature-content-margin-right;
+      }
+    }
+
+    &.textplacement__center {
+      .ms-content-block__details {
+        align-items: center;
+        text-align: center;
+      }
+      .ms-content-block__image img {
+        width: 100%;
+      }
+    }
+
+    &.textplacement__left {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
+
+      .ms-content-block__image {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+        margin-bottom: auto;
+        margin-top: auto;
+      }
+
+      .ms-content-block__details {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+      }
+    }
+  }
+
+  @media screen and (max-width: $msv-breakpoint-m) {
+    .ms-content-block__details {
+      margin-top: $feature-content-mobile-margin-top;
+    }
+
+    .ms-content-block__image img {
+      width: 100%;
+    }
+
+    &.textplacement__left {
+      .ms-content-block__details {       
+        margin-left: $feature-content-mobile-margin-left;
+        margin-right: $feature-content-mobile-margin-right;
+      }
+    }
+
+    &.textplacement__right {
+      .ms-content-block__details {
+        margin-left: $feature-content-mobile-margin-right;
+        margin-right: $feature-content-mobile-margin-left;
+      }
+    }
+  }
+}
+}

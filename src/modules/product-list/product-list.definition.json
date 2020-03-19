@@ -1,0 +1,29 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "product-list",
+    "name": "product-list",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["product-list"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {      
+        "products": {
+            "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products",
+            "runOn": "server"
+        }    
+    },    
+    "config": {
+        "productIds": {
+            "friendlyName": "productId",
+            "description": "productId",
+            "type": "string",
+            "default": "68719498121",
+            "scope": "module"
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

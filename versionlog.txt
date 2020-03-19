@@ -1,0 +1,99 @@
+1.0.3.12
+ - Added new dimensions configuration
+ - Quantity with selectors
+ - issues fixed for rating on PDP
+1.0.3.11
+ - Tabs with slots for products collection with mock 
+ - Added reactstrap@6.4.3 to dependencies
+1.0.3.10
+ - Removed reactstrap code and its relevant module
+ - Modified the semver version in package.json as instructed by Microsoft
+ - Added minor CSS changes for featured-layout module
+1.0.3.9
+ - Tabs container for product collection modules
+1.0.3.8
+ - Updated rating badge show on rating above 4.3
+ - PLP Layout changed
+ - Carbon theming added including basic cart and checkout
+ -feature categories style added
+
+1.0.3.7
+ - Three category module CSS classes updated
+ - Featured layout and item module CSS classes updated
+ - Fixed TS errors
+1.0.3.6
+ - Badges for PDP (Discount and Rating)
+ - Badges for PLP (Discount and Rating)
+1.0.3.5
+ - Updated starter-pack version 2.2.0-rc.20452436.0 -> 2.2.0-rc.20708541.0
+ - Updated the code of buybox-product-configure, dropdown and label according to new changes in package
+ - Tested size, color and style swatches
+1.0.2.4
+ - Swatches added
+ - Carbon theme updated
+
+1.0.2.3
+ - Custom component added for product dimensions
+1.0.2.2
+ - Carbon themeing
+ - Header and navigation structure change
+ - Added modules for homepage featured-category, featured-layout, featured-layout-item
+1.0.2.1
+ - Venedor theme overall changed
+ - Outfitter theme navigation updated
+
+1.0.2.0
+ - Updated package.json with SDK version moved 1.8.5 -> 1.8.6
+1.0.1.5
+ - New theme with base added named Carbon
+ - some updates in outfitters theme header 
+
+1.0.1.4
+ - Outfitter theme base added with some modifications 
+
+1.0.1.3
+ - Venedor Theme changes PLP
+ - homepage responsiveness added
+1.0.1.2 - 202001021524
+	- npmrc was ignored, added it for allowing of node_modules to be loaded.
+1.0.1.1 - 202001021524
+	- This contains new Release from Microsoft
+	- Added .npmrc file provided from Microsoft
+	- Updated the package.json file with one provided from Microsoft
+	- Updated import path of buybox modules according to new path in node_modules folder
+1.0.0.1 - 202001020225
+	- Fixed minor linting issues
+	- Fixed import of view props interfaces in view extension files
+1.0.0.0 - 202001011900
+	- added base code of GA release 2.1.rc of Microsoft
+	- added version.txt.
+	- added versionlog.txt.
+Note :
+1. Please DO NOT run `yarn` on this repo, the required node_modules folder can be received from Skype: live:haseeb293. In future this will be provided on shared drive.
+
+Prescribed process :
+1.	Release should always be deployed from 
+	a.	main repository  e.g. >> dev-2.1.rc
+2.	All changes customization by individuals should be done in their separate respective branch
+	a.	Like >>dev-2.1.rc/<Your branch name>
+3.	No stable code in main repository no release deployed, Code in main repository should be stable
+4.	No pull request no code pushes to main repository
+5.	Two files would  be added in root. Sample files are attached
+	a.	version.txt
+	b.	versionlog.txt
+6.	No change in above two files would cause pull request rejection right away.
+	a.	The ideology behind above files is to capture the code context/completeness that is being added/changed.
+
+Improvements/Suggestions : 
+1.	Always create your local branch before starting any change/development and maintain code there until done/complete.
+2.	Do not push your code to main or any shared branch until it builds with 0 bugs and is stable.
+
+
+Following are the code versioning guidelines
+
+1.	Version format = Major.Minor.Patch.Build e.g. 2.1.5.3
+�	Major : Major release, Architecture level changes, New modules added, Major product enhancement or changes, Marketing strategy, RetailSDK Major version changes.
+�	Minor : Minor feature is introduced, Set of smaller features were rolled out, a smaller module is added. Several mid to high level bugs fixed
+�	Patch : Bug fixes, patches, performance enhancements, It might represent a change set transition in TV Context
+�	Build/Release No :  On Every stable check in to version control system to main branch, Insignificant.
+_________________________________________________

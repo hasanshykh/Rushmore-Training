@@ -1,0 +1,7 @@
+{
+  "id": "vsi-products-container-mock",
+  "config": {
+    "showText": "Example Config Value"
+  },
+  "typeName": "vsi-products-container"
+}
