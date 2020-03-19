@@ -1,6 +1,8 @@
 import { getProductPageUrlSync } from '@msdyn365-commerce-modules/retail-actions';
 import { format } from '@msdyn365-commerce-modules/utilities';
 import { PriceComponent, RatingComponent } from '@msdyn365-commerce/components';
+import Price from './price.component';
+
 // tslint:disable-next-line: no-duplicate-imports
 import { IComponent, IComponentProps, ICoreContext, IGridSettings, IImageData, IImageSettings, Image, msdyn365Commerce } from '@msdyn365-commerce/core';
 import { ProductPrice, ProductSearchResult } from '@msdyn365-commerce/retail-proxy';
@@ -108,7 +110,16 @@ function renderPrice(context: ICoreContext, typeName: string, id: string, basePr
         CustomerContextualPrice: adjustedPrice
     };
     return (
-        <PriceComponent
+        // <PriceComponent
+        //     context={context}
+        //     id={id}
+        //     typeName={typeName}
+        //     data={{ price: price }}
+        //     savingsText={savingsText}
+        //     freePriceText={freePriceText}
+        //     originalPriceText={originalPriceText}
+        // />
+        <Price
             context={context}
             id={id}
             typeName={typeName}
