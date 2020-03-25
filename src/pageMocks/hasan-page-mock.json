@@ -44,6 +44,18 @@
                                     "productIds": "68719498121"
                                 }
                             }
+                        ],
+                        "slot4": [
+                            {
+                                "id": "ProductFeature__3",
+                                "typeName": "sample-message"
+                            }
+                        ],
+                        "slot5": [
+                            {
+                                "id": "ProductFeature__4",
+                                "typeName": "sample-button"
+                            }
                         ]
                     }
                 }

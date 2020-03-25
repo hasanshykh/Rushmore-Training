@@ -23,6 +23,11 @@ export default class ProductContainer extends React.PureComponent<IProductContai
                 {slots.slot1[0]}
                 {slots.slot2[0]}
                 {slots.slot3[0]}
+                <br/>
+                <br/>
+                <br/>
+                {slots.slot4[0]}
+                {slots.slot5[0]}
             </div>
         );
     }

@@ -30,6 +30,20 @@
             "allowedTypes": ["product-list"],
             "max": 1,
             "min": 0
+        },
+        "slot4": {
+            "friendlyName": "Content Slot 3",
+            "description": "Content to be rendered in container. Max 1",
+            "allowedTypes": "*",
+            "max": 1,
+            "min": 0
+        },
+        "slot5": {
+            "friendlyName": "Content Slot 3",
+            "description": "Content to be rendered in container. Max 1",
+            "allowedTypes": "*",
+            "max": 1,
+            "min": 0
         }
     },
     "resources": {
